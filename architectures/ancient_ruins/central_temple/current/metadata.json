@@ -24,246 +24,246 @@
       "name": "south",
       "type": "exterior",
       "camera_position": {
-        "z": 16487.666946167177,
         "y": 49.66673654179437,
-        "x": 16424.0
+        "x": 16424.0,
+        "z": 16487.666946167177
       },
       "camera_rotation": {
-        "yaw": -180.0,
-        "pitch": 14.036243
+        "pitch": 14.036243,
+        "yaw": -180.0
       },
       "fov": 60.0,
       "screenshot_filename": "south.png",
       "visibility": "review_daylight",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:24.922264300Z",
-      "sha256": "5a45d74cab7f1a1ef030363eb46bc696e1f03476c0d854f71640d1ad1fa06310"
+      "captured_at": "2026-10-06T06:00:37.610240200Z",
+      "sha256": "fc8728f39695393bc0817091df142eeb5c0d2c15f6ee74e59fa4bce4eaf72d85"
     },
     {
       "name": "north",
       "type": "exterior",
       "camera_position": {
-        "z": 16282.333053832823,
         "y": 49.66673654179437,
-        "x": 16424.0
+        "x": 16424.0,
+        "z": 16282.333053832823
       },
       "camera_rotation": {
-        "yaw": -0.0,
-        "pitch": 14.036243
+        "pitch": 14.036243,
+        "yaw": -0.0
       },
       "fov": 60.0,
       "screenshot_filename": "north.png",
       "visibility": "review_daylight",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:28.005858400Z",
-      "sha256": "668aa72bb8cd332bdcbaac0e4d8d2404f8519ff0ca94e78e91be684529bef83e"
+      "captured_at": "2026-10-06T06:00:40.694411400Z",
+      "sha256": "019fba86c3e23162d268566707d0b30083f0467b0bac9d3c226cc4e8a743ebc1"
     },
     {
       "name": "east",
       "type": "exterior",
       "camera_position": {
-        "z": 16385.0,
         "y": 49.66673654179437,
-        "x": 16526.666946167177
+        "x": 16526.666946167177,
+        "z": 16385.0
       },
       "camera_rotation": {
-        "yaw": 90.0,
-        "pitch": 14.036243
+        "pitch": 14.036243,
+        "yaw": 90.0
       },
       "fov": 60.0,
       "screenshot_filename": "east.png",
       "visibility": "review_daylight",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:31.090438500Z",
-      "sha256": "aac0e94401c2c9ab2dad12efe1aabf96cfa6ee27badf2b85290a679efc3b78c7"
+      "captured_at": "2026-10-06T06:00:43.777071400Z",
+      "sha256": "19f33a537c6e3418b3b296944cad3557b69d808e7c035330a2dd4b3bc6b01bcb"
     },
     {
       "name": "west",
       "type": "exterior",
       "camera_position": {
-        "z": 16385.0,
         "y": 49.66673654179437,
-        "x": 16321.333053832823
+        "x": 16321.333053832823,
+        "z": 16385.0
       },
       "camera_rotation": {
-        "yaw": -90.0,
-        "pitch": 14.036243
+        "pitch": 14.036243,
+        "yaw": -90.0
       },
       "fov": 60.0,
       "screenshot_filename": "west.png",
       "visibility": "review_daylight",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:34.173219600Z",
+      "captured_at": "2026-10-06T06:00:46.860271400Z",
       "sha256": "c91a49e93aa04cbbe8e33f9bd660e243c74a6b9041111e156cbf03308bdc43a7"
     },
     {
       "name": "top",
       "type": "exterior",
       "camera_position": {
-        "z": 16385.0,
         "y": 129.82666582671874,
-        "x": 16424.0
+        "x": 16424.0,
+        "z": 16385.0
       },
       "camera_rotation": {
-        "yaw": -0.0,
-        "pitch": 90.0
+        "pitch": 90.0,
+        "yaw": -0.0
       },
       "fov": 60.0,
       "screenshot_filename": "top.png",
       "visibility": "review_daylight",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:37.275581600Z",
-      "sha256": "53d0eece1d327da52659d77e2d1daba57a0568c88f93343a1a362674e1cf84a7"
+      "captured_at": "2026-10-06T06:00:49.962060400Z",
+      "sha256": "143575c8800afa74b94e164c398bee16350d9fe079583e37434d883a2e9d8317"
     },
     {
       "name": "great_hall_south",
       "type": "interior",
       "camera_position": {
-        "z": 16384.5,
         "y": 11.0,
-        "x": 16400.0
+        "x": 16400.0,
+        "z": 16384.5
       },
       "camera_rotation": {
-        "yaw": -90.0,
-        "pitch": -6.5819445
+        "pitch": -6.5819445,
+        "yaw": -90.0
       },
       "fov": 85.0,
       "screenshot_filename": "great_hall_south.png",
       "visibility": "review_night_vision",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:40.449930300Z",
-      "sha256": "a07780e089dc55404bf8bc6a5725f968e6a2dd734138de2da7e837b2896ef7f5"
+      "captured_at": "2026-10-06T06:00:53.137358700Z",
+      "sha256": "0b78b50e790f68f807ee1ec0e2089da25ed53500f9f822fafd30d0b0f7305078"
     },
     {
       "name": "great_hall_north",
       "type": "interior",
       "camera_position": {
-        "z": 16384.5,
         "y": 12.0,
-        "x": 16435.0
+        "x": 16435.0,
+        "z": 16384.5
       },
       "camera_rotation": {
-        "yaw": 90.0,
-        "pitch": -3.9451861
+        "pitch": -3.9451861,
+        "yaw": 90.0
       },
       "fov": 85.0,
       "screenshot_filename": "great_hall_north.png",
       "visibility": "review_night_vision",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:43.625623900Z",
+      "captured_at": "2026-10-06T06:00:56.309256800Z",
       "sha256": "e5cde6175a44f37e0d080a75e495d26ba82e80b0e3de7af9c332b168bc913dee"
     },
     {
       "name": "roof_interior",
       "type": "interior",
       "camera_position": {
-        "z": 16384.5,
         "y": 24.5,
-        "x": 16403.0
+        "x": 16403.0,
+        "z": 16384.5
       },
       "camera_rotation": {
-        "yaw": -90.0,
-        "pitch": -7.125016
+        "pitch": -7.125016,
+        "yaw": -90.0
       },
       "fov": 90.0,
       "screenshot_filename": "roof_interior.png",
       "visibility": "review_night_vision",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:46.765493800Z",
+      "captured_at": "2026-10-06T06:00:59.451442200Z",
       "sha256": "3a40a5d9bd51ae181761ca200cc1cc9e7200a142ac43083a64efeea6401ec0ce"
     },
     {
       "name": "b1_overview",
       "type": "interior",
       "camera_position": {
-        "z": 16388.5,
         "y": -1.0,
-        "x": 16407.0
+        "x": 16407.0,
+        "z": 16388.5
       },
       "camera_rotation": {
-        "yaw": -104.03625,
-        "pitch": 10.003476
+        "pitch": 10.003476,
+        "yaw": -104.03625
       },
       "fov": 95.0,
       "screenshot_filename": "b1_overview.png",
       "visibility": "review_night_vision",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:49.942002500Z",
+      "captured_at": "2026-10-06T06:01:02.630251100Z",
       "sha256": "4494074ccda331766360f8e19e0a8a1b3ed4f38626e8e3cbe6420827d64b8efc"
     },
     {
       "name": "b2_overview",
       "type": "interior",
       "camera_position": {
-        "z": 16384.5,
         "y": -13.0,
-        "x": 16416.0
+        "x": 16416.0,
+        "z": 16384.5
       },
       "camera_rotation": {
-        "yaw": -90.0,
-        "pitch": 5.52754
+        "pitch": 5.52754,
+        "yaw": -90.0
       },
       "fov": 90.0,
       "screenshot_filename": "b2_overview.png",
       "visibility": "review_night_vision",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:53.116740700Z",
-      "sha256": "f269a2a265087295fb8803bce579d7ef30f785bdbb811b5a74d06b455629f37c"
+      "captured_at": "2026-10-06T06:01:05.803678100Z",
+      "sha256": "a45e48ba166428de20b638fb7f7122526e8152981182e82b9f71547c8a4f4b6d"
     },
     {
       "name": "altar",
       "type": "interior",
       "camera_position": {
-        "z": 16384.5,
         "y": -14.5,
-        "x": 16438.0
+        "x": 16438.0,
+        "z": 16384.5
       },
       "camera_rotation": {
-        "yaw": -90.0,
-        "pitch": 11.768289
+        "pitch": 11.768289,
+        "yaw": -90.0
       },
       "fov": 75.0,
       "screenshot_filename": "altar.png",
       "visibility": "review_night_vision",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:56.261597200Z",
-      "sha256": "8ead6aa53d3a1d4a040a93ec71d89d573c02f32054aa775b4ef815c07088978f"
+      "captured_at": "2026-10-06T06:01:08.948729800Z",
+      "sha256": "cbeb2ec5ec05a97b5b9e58ec69babc4399992a714d7eb97663c2f33c527dc798"
     },
     {
       "name": "boss_arena",
       "type": "interior",
       "camera_position": {
-        "z": 16398.5,
         "y": -13.0,
-        "x": 16441.5
+        "x": 16441.5,
+        "z": 16398.5
       },
       "camera_rotation": {
-        "yaw": -168.17851,
-        "pitch": 10.320508
+        "pitch": 10.320508,
+        "yaw": -168.17851
       },
       "fov": 100.0,
       "screenshot_filename": "boss_arena.png",
       "visibility": "review_night_vision",
       "width": 1280,
       "height": 720,
-      "captured_at": "2026-10-06T05:41:59.437478200Z",
-      "sha256": "92a619f0adfea0bd68eca3323c1546a674674af1f79ae57e8d99c0599ba7caa7"
+      "captured_at": "2026-10-06T06:01:12.123978100Z",
+      "sha256": "e349cc1ec65f0b705314d149c5206f7139a5d59d075e449997c78c4153ccc6bb"
     }
   ],
   "status": "complete",
-  "started_at": "2026-10-06T05:41:21.786401900Z",
-  "updated_at": "2026-10-06T05:41:59.437478200Z",
+  "started_at": "2026-10-06T06:00:34.475092700Z",
+  "updated_at": "2026-10-06T06:01:12.123978100Z",
   "target": {
     "id": "central_temple",
     "dimension": "minecraft:overworld",
