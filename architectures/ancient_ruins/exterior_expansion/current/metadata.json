@@ -1,0 +1,821 @@
+{
+  "schema_version": 2,
+  "architecture_id": "ancient_ruins_exterior_expansion",
+  "architecture_anchor": {
+    "x": 82000,
+    "y": 18,
+    "z": 81840
+  },
+  "architecture_bounds": {
+    "minX": -127,
+    "minY": -21,
+    "minZ": -105,
+    "maxX": 66,
+    "maxY": 45,
+    "maxZ": 105
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "night_vision": true,
+  "source_evidence": {
+    "layout": "Human-approved Expansion Layout v2",
+    "base": "saved Gatehouse and Fountain NBT; pinned Temple gameplay candidate",
+    "architecture_id": "ancient_ruins/exterior_expansion"
+  },
+  "visual_settings": {
+    "night_vision_forced_off": false,
+    "weather_rendering_suppressed": true,
+    "camera_fov_default": 60,
+    "gamma": 1.0,
+    "lightmap_brightening": true,
+    "hud_hidden": true
+  },
+  "world_game_time": 1057928,
+  "world_rain_level": 0.0,
+  "views": [
+    {
+      "name": "site_oblique",
+      "type": "exterior",
+      "camera_position": {
+        "y": 76.0,
+        "x": 81874.0,
+        "z": 81966.0
+      },
+      "camera_rotation": {
+        "pitch": 20.991503,
+        "yaw": -145.7843
+      },
+      "fov": 90.0,
+      "screenshot_filename": "site_oblique.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:03:59.441550900Z",
+      "sha256": "01d4b72a12c93b9da30a1a677ec357da13e7c39cac61b30fa24c016ff582e162"
+    },
+    {
+      "name": "approach_overview",
+      "type": "exterior",
+      "camera_position": {
+        "y": 46.0,
+        "x": 81850.0,
+        "z": 81841.0
+      },
+      "camera_rotation": {
+        "pitch": 19.515873,
+        "yaw": -90.0
+      },
+      "fov": 85.0,
+      "screenshot_filename": "approach_overview.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:02.538359600Z",
+      "sha256": "4a98bac2c5f6ff6629304b2deef562389d272dbbe14eb07dccc9ee74961f8e19"
+    },
+    {
+      "name": "east_district_overview",
+      "type": "exterior",
+      "camera_position": {
+        "y": 41.0,
+        "x": 81896.0,
+        "z": 81725.0
+      },
+      "camera_rotation": {
+        "pitch": 30.996887,
+        "yaw": -50.332157
+      },
+      "fov": 82.0,
+      "screenshot_filename": "east_district_overview.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:05.662615200Z",
+      "sha256": "3fb3d6e2909274a0ec08fb001694fdc083b41269f3369702f281b32f9353f9f8"
+    },
+    {
+      "name": "west_district_overview",
+      "type": "exterior",
+      "camera_position": {
+        "y": 41.0,
+        "x": 81897.0,
+        "z": 81957.0
+      },
+      "camera_rotation": {
+        "pitch": 30.340927,
+        "yaw": -129.80557
+      },
+      "fov": 82.0,
+      "screenshot_filename": "west_district_overview.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:08.783094100Z",
+      "sha256": "8f9df77c3b94c776cc6359d10d3fafc17c984eb6fe25beb2439bd34ae5f8360d"
+    },
+    {
+      "name": "east_tower",
+      "type": "exterior",
+      "camera_position": {
+        "y": 22.0,
+        "x": 81887.0,
+        "z": 81733.0
+      },
+      "camera_rotation": {
+        "pitch": 27.53063,
+        "yaw": -34.380344
+      },
+      "fov": 70.0,
+      "screenshot_filename": "east_tower.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:11.942597500Z",
+      "sha256": "0821a0713cacdc4d5e4b56c8635c5dce98ab348cc04abb76c7c4be2e3dda16b7"
+    },
+    {
+      "name": "west_tower",
+      "type": "exterior",
+      "camera_position": {
+        "y": 22.0,
+        "x": 81887.0,
+        "z": 81949.0
+      },
+      "camera_rotation": {
+        "pitch": 29.452719,
+        "yaw": -145.61966
+      },
+      "fov": 70.0,
+      "screenshot_filename": "west_tower.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:15.094119400Z",
+      "sha256": "6f6fa44b19cf3b46df55c0514b4787b64015d3d50144b457c2ea03b75154f7e5"
+    },
+    {
+      "name": "east_corridor",
+      "type": "exterior",
+      "camera_position": {
+        "y": 8.0,
+        "x": 81906.0,
+        "z": 81763.0
+      },
+      "camera_rotation": {
+        "pitch": -1.636577,
+        "yaw": -90.0
+      },
+      "fov": 70.0,
+      "screenshot_filename": "east_corridor.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:18.192672700Z",
+      "sha256": "5ab7611b4066be74b0a333e2d45e65260a121438b367d52faf9e988759f4ca7a"
+    },
+    {
+      "name": "east_chapel_archive",
+      "type": "exterior",
+      "camera_position": {
+        "y": 25.0,
+        "x": 81938.0,
+        "z": 81730.0
+      },
+      "camera_rotation": {
+        "pitch": 33.90047,
+        "yaw": -18.434948
+      },
+      "fov": 75.0,
+      "screenshot_filename": "east_chapel_archive.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:21.337958500Z",
+      "sha256": "3f0d776838378c491546ac4cc311ebdfd9cff159555917e2cda20beeb6fb516a"
+    },
+    {
+      "name": "west_collapsed",
+      "type": "exterior",
+      "camera_position": {
+        "y": 25.0,
+        "x": 81927.0,
+        "z": 81950.0
+      },
+      "camera_rotation": {
+        "pitch": 37.89635,
+        "yaw": -164.05461
+      },
+      "fov": 75.0,
+      "screenshot_filename": "west_collapsed.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:24.496217800Z",
+      "sha256": "0dd276e8a5138c9e328dd859a129425e404f31fb54b461a2606d09d5c74a2905"
+    },
+    {
+      "name": "west_semi_underground",
+      "type": "exterior",
+      "camera_position": {
+        "y": 8.0,
+        "x": 81956.0,
+        "z": 81919.0
+      },
+      "camera_rotation": {
+        "pitch": 25.201124,
+        "yaw": -90.0
+      },
+      "fov": 72.0,
+      "screenshot_filename": "west_semi_underground.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:27.596475200Z",
+      "sha256": "9801644ab03b94ece31f3fc148b808d2eacf48da88d32dc215aa1d297006e7a4"
+    },
+    {
+      "name": "west_semi_interior",
+      "type": "interior",
+      "camera_position": {
+        "y": 1.0,
+        "x": 81975.0,
+        "z": 81918.0
+      },
+      "camera_rotation": {
+        "pitch": 8.478713,
+        "yaw": 26.565052
+      },
+      "fov": 70.0,
+      "screenshot_filename": "west_semi_interior.png",
+      "visibility": "review_night_vision",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:30.673451700Z",
+      "sha256": "688ec703bb30b2a46b259b6b0793bcb067c2e555cd35ea2d9ab8edab012fffa6"
+    },
+    {
+      "name": "east_lower_connection",
+      "type": "exterior",
+      "camera_position": {
+        "y": 12.0,
+        "x": 81902.0,
+        "z": 81799.0
+      },
+      "camera_rotation": {
+        "pitch": 15.823881,
+        "yaw": -158.62938
+      },
+      "fov": 75.0,
+      "screenshot_filename": "east_lower_connection.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:33.788219Z",
+      "sha256": "e470925018b88855cb6dcc802cce9f7bce772634bfd8eadf273d8bfe91c0838d"
+    },
+    {
+      "name": "west_lower_connection",
+      "type": "exterior",
+      "camera_position": {
+        "y": 12.0,
+        "x": 81902.0,
+        "z": 81883.0
+      },
+      "camera_rotation": {
+        "pitch": 15.823881,
+        "yaw": -21.370623
+      },
+      "fov": 75.0,
+      "screenshot_filename": "west_lower_connection.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:36.903255900Z",
+      "sha256": "fc8da5a6190102117fad8a8a8efa7745fe57975b392f0293efea4136c1cf4957"
+    },
+    {
+      "name": "east_upper_connection",
+      "type": "exterior",
+      "camera_position": {
+        "y": 18.0,
+        "x": 81950.0,
+        "z": 81797.0
+      },
+      "camera_rotation": {
+        "pitch": 27.140339,
+        "yaw": -160.01689
+      },
+      "fov": 75.0,
+      "screenshot_filename": "east_upper_connection.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:40.034264900Z",
+      "sha256": "cb3559bad1537542e5151a007f210f7ca2f79a35e9ad0678127567afad1d73e7"
+    },
+    {
+      "name": "west_upper_connection",
+      "type": "exterior",
+      "camera_position": {
+        "y": 18.0,
+        "x": 81950.0,
+        "z": 81885.0
+      },
+      "camera_rotation": {
+        "pitch": 28.101904,
+        "yaw": -20.854458
+      },
+      "fov": 75.0,
+      "screenshot_filename": "west_upper_connection.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:43.167110700Z",
+      "sha256": "3bbb8213c7b118404f004c72eb67a6e62f2041d713674d286b715fc56c492cdb"
+    },
+    {
+      "name": "outer_wall",
+      "type": "exterior",
+      "camera_position": {
+        "y": 35.0,
+        "x": 81908.0,
+        "z": 81719.0
+      },
+      "camera_rotation": {
+        "pitch": 46.932125,
+        "yaw": -43.451843
+      },
+      "fov": 76.0,
+      "screenshot_filename": "outer_wall.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-08T08:04:46.323652300Z",
+      "sha256": "276891eaa5f67ea6a89917111c5c1dca8d3b1e33536fb7d533c9da558421882b"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-08T08:03:56.297235100Z",
+  "updated_at": "2026-10-08T08:04:46.324652400Z",
+  "target": {
+    "id": "ancient_ruins_exterior_expansion",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 82000,
+      "y": 18,
+      "z": 81840
+    },
+    "bounds": {
+      "minX": -127,
+      "minY": -21,
+      "minZ": -105,
+      "maxX": 66,
+      "maxY": 45,
+      "maxZ": 105
+    },
+    "rotation": "CLOCKWISE_90",
+    "interiorViews": [
+      {
+        "name": "site_oblique",
+        "position": {
+          "x": -125.0,
+          "y": 58.0,
+          "z": -126.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -41.0
+        },
+        "fov": 90,
+        "type": "exterior"
+      },
+      {
+        "name": "approach_overview",
+        "position": {
+          "x": 0.0,
+          "y": 28.0,
+          "z": -150.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -71.0
+        },
+        "fov": 85,
+        "type": "exterior"
+      },
+      {
+        "name": "east_district_overview",
+        "position": {
+          "x": 116.0,
+          "y": 23.0,
+          "z": -104.0
+        },
+        "lookTarget": {
+          "x": 82.0,
+          "y": -9.0,
+          "z": -63.0
+        },
+        "fov": 82,
+        "type": "exterior"
+      },
+      {
+        "name": "west_district_overview",
+        "position": {
+          "x": -116.0,
+          "y": 23.0,
+          "z": -103.0
+        },
+        "lookTarget": {
+          "x": -81.0,
+          "y": -9.0,
+          "z": -61.0
+        },
+        "fov": 82,
+        "type": "exterior"
+      },
+      {
+        "name": "east_tower",
+        "position": {
+          "x": 108.0,
+          "y": 4.0,
+          "z": -113.0
+        },
+        "lookTarget": {
+          "x": 89.0,
+          "y": -8.0,
+          "z": -100.0
+        },
+        "fov": 70,
+        "type": "exterior"
+      },
+      {
+        "name": "west_tower",
+        "position": {
+          "x": -108.0,
+          "y": 4.0,
+          "z": -113.0
+        },
+        "lookTarget": {
+          "x": -89.0,
+          "y": -9.0,
+          "z": -100.0
+        },
+        "fov": 70,
+        "type": "exterior"
+      },
+      {
+        "name": "east_corridor",
+        "position": {
+          "x": 78.0,
+          "y": -10.0,
+          "z": -94.0
+        },
+        "lookTarget": {
+          "x": 78.0,
+          "y": -9.0,
+          "z": -59.0
+        },
+        "fov": 70,
+        "type": "exterior"
+      },
+      {
+        "name": "east_chapel_archive",
+        "position": {
+          "x": 111.0,
+          "y": 7.0,
+          "z": -62.0
+        },
+        "lookTarget": {
+          "x": 87.0,
+          "y": -10.0,
+          "z": -54.0
+        },
+        "fov": 75,
+        "type": "exterior"
+      },
+      {
+        "name": "west_collapsed",
+        "position": {
+          "x": -109.0,
+          "y": 7.0,
+          "z": -73.0
+        },
+        "lookTarget": {
+          "x": -88.0,
+          "y": -10.0,
+          "z": -67.0
+        },
+        "fov": 75,
+        "type": "exterior"
+      },
+      {
+        "name": "west_semi_underground",
+        "position": {
+          "x": -78.0,
+          "y": -10.0,
+          "z": -44.0
+        },
+        "lookTarget": {
+          "x": -78.0,
+          "y": -18.0,
+          "z": -27.0
+        },
+        "fov": 72,
+        "type": "exterior"
+      },
+      {
+        "name": "west_semi_interior",
+        "position": {
+          "x": -77.0,
+          "y": -17.0,
+          "z": -25.0
+        },
+        "lookTarget": {
+          "x": -83.0,
+          "y": -18.0,
+          "z": -28.0
+        },
+        "fov": 70,
+        "type": "interior"
+      },
+      {
+        "name": "east_lower_connection",
+        "position": {
+          "x": 42.0,
+          "y": -6.0,
+          "z": -98.0
+        },
+        "lookTarget": {
+          "x": 65.0,
+          "y": -13.0,
+          "z": -89.0
+        },
+        "fov": 75,
+        "type": "exterior"
+      },
+      {
+        "name": "west_lower_connection",
+        "position": {
+          "x": -42.0,
+          "y": -6.0,
+          "z": -98.0
+        },
+        "lookTarget": {
+          "x": -65.0,
+          "y": -13.0,
+          "z": -89.0
+        },
+        "fov": 75,
+        "type": "exterior"
+      },
+      {
+        "name": "east_upper_connection",
+        "position": {
+          "x": 44.0,
+          "y": 0.0,
+          "z": -50.0
+        },
+        "lookTarget": {
+          "x": 66.0,
+          "y": -12.0,
+          "z": -42.0
+        },
+        "fov": 75,
+        "type": "exterior"
+      },
+      {
+        "name": "west_upper_connection",
+        "position": {
+          "x": -44.0,
+          "y": 0.0,
+          "z": -50.0
+        },
+        "lookTarget": {
+          "x": -65.0,
+          "y": -12.0,
+          "z": -42.0
+        },
+        "fov": 75,
+        "type": "exterior"
+      },
+      {
+        "name": "outer_wall",
+        "position": {
+          "x": 122.0,
+          "y": 17.0,
+          "z": -92.0
+        },
+        "lookTarget": {
+          "x": 103.0,
+          "y": -11.0,
+          "z": -74.0
+        },
+        "fov": 76,
+        "type": "exterior"
+      }
+    ],
+    "architectureBounds": {
+      "minX": -127,
+      "minY": -21,
+      "minZ": -105,
+      "maxX": 66,
+      "maxY": 45,
+      "maxZ": 105
+    },
+    "evidence": {
+      "layout": "Human-approved Expansion Layout v2",
+      "base": "saved Gatehouse and Fountain NBT; pinned Temple gameplay candidate",
+      "architecture_id": "ancient_ruins/exterior_expansion"
+    },
+    "autoExteriorViews": false
+  },
+  "viewpoints": [
+    {
+      "name": "site_oblique",
+      "type": "exterior",
+      "x": 81874.0,
+      "y": 76.0,
+      "z": 81966.0,
+      "yaw": -145.7843,
+      "pitch": 20.991503,
+      "fov": 90.0
+    },
+    {
+      "name": "approach_overview",
+      "type": "exterior",
+      "x": 81850.0,
+      "y": 46.0,
+      "z": 81841.0,
+      "yaw": -90.0,
+      "pitch": 19.515873,
+      "fov": 85.0
+    },
+    {
+      "name": "east_district_overview",
+      "type": "exterior",
+      "x": 81896.0,
+      "y": 41.0,
+      "z": 81725.0,
+      "yaw": -50.332157,
+      "pitch": 30.996887,
+      "fov": 82.0
+    },
+    {
+      "name": "west_district_overview",
+      "type": "exterior",
+      "x": 81897.0,
+      "y": 41.0,
+      "z": 81957.0,
+      "yaw": -129.80557,
+      "pitch": 30.340927,
+      "fov": 82.0
+    },
+    {
+      "name": "east_tower",
+      "type": "exterior",
+      "x": 81887.0,
+      "y": 22.0,
+      "z": 81733.0,
+      "yaw": -34.380344,
+      "pitch": 27.53063,
+      "fov": 70.0
+    },
+    {
+      "name": "west_tower",
+      "type": "exterior",
+      "x": 81887.0,
+      "y": 22.0,
+      "z": 81949.0,
+      "yaw": -145.61966,
+      "pitch": 29.452719,
+      "fov": 70.0
+    },
+    {
+      "name": "east_corridor",
+      "type": "exterior",
+      "x": 81906.0,
+      "y": 8.0,
+      "z": 81763.0,
+      "yaw": -90.0,
+      "pitch": -1.636577,
+      "fov": 70.0
+    },
+    {
+      "name": "east_chapel_archive",
+      "type": "exterior",
+      "x": 81938.0,
+      "y": 25.0,
+      "z": 81730.0,
+      "yaw": -18.434948,
+      "pitch": 33.90047,
+      "fov": 75.0
+    },
+    {
+      "name": "west_collapsed",
+      "type": "exterior",
+      "x": 81927.0,
+      "y": 25.0,
+      "z": 81950.0,
+      "yaw": -164.05461,
+      "pitch": 37.89635,
+      "fov": 75.0
+    },
+    {
+      "name": "west_semi_underground",
+      "type": "exterior",
+      "x": 81956.0,
+      "y": 8.0,
+      "z": 81919.0,
+      "yaw": -90.0,
+      "pitch": 25.201124,
+      "fov": 72.0
+    },
+    {
+      "name": "west_semi_interior",
+      "type": "interior",
+      "x": 81975.0,
+      "y": 1.0,
+      "z": 81918.0,
+      "yaw": 26.565052,
+      "pitch": 8.478713,
+      "fov": 70.0
+    },
+    {
+      "name": "east_lower_connection",
+      "type": "exterior",
+      "x": 81902.0,
+      "y": 12.0,
+      "z": 81799.0,
+      "yaw": -158.62938,
+      "pitch": 15.823881,
+      "fov": 75.0
+    },
+    {
+      "name": "west_lower_connection",
+      "type": "exterior",
+      "x": 81902.0,
+      "y": 12.0,
+      "z": 81883.0,
+      "yaw": -21.370623,
+      "pitch": 15.823881,
+      "fov": 75.0
+    },
+    {
+      "name": "east_upper_connection",
+      "type": "exterior",
+      "x": 81950.0,
+      "y": 18.0,
+      "z": 81797.0,
+      "yaw": -160.01689,
+      "pitch": 27.140339,
+      "fov": 75.0
+    },
+    {
+      "name": "west_upper_connection",
+      "type": "exterior",
+      "x": 81950.0,
+      "y": 18.0,
+      "z": 81885.0,
+      "yaw": -20.854458,
+      "pitch": 28.101904,
+      "fov": 75.0
+    },
+    {
+      "name": "outer_wall",
+      "type": "exterior",
+      "x": 81908.0,
+      "y": 35.0,
+      "z": 81719.0,
+      "yaw": -43.451843,
+      "pitch": 46.932125,
+      "fov": 76.0
+    }
+  ],
+  "fov": 60,
+  "width": 1280,
+  "height": 720,
+  "completed_images": [
+    "site_oblique.png",
+    "approach_overview.png",
+    "east_district_overview.png",
+    "west_district_overview.png",
+    "east_tower.png",
+    "west_tower.png",
+    "east_corridor.png",
+    "east_chapel_archive.png",
+    "west_collapsed.png",
+    "west_semi_underground.png",
+    "west_semi_interior.png",
+    "east_lower_connection.png",
+    "west_lower_connection.png",
+    "east_upper_connection.png",
+    "west_upper_connection.png",
+    "outer_wall.png"
+  ],
+  "player_position_unchanged": true
+}
