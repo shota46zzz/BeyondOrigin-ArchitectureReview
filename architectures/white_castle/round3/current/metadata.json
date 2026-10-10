@@ -1,0 +1,867 @@
+{
+  "schema_version": 2,
+  "architecture_id": "white_castle_round3",
+  "architecture_anchor": {
+    "x": 500000,
+    "y": 4,
+    "z": 500000
+  },
+  "architecture_bounds": {
+    "minX": -35,
+    "minY": -1,
+    "minZ": -55,
+    "maxX": 36,
+    "maxY": 35,
+    "maxZ": 75
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "night_vision": true,
+  "source_evidence": {
+    "architecture_id": "white_castle/round1_central_axis",
+    "state": "DRAFT_BUILD_ONLY",
+    "source": "WhiteCastleRound3Plan"
+  },
+  "visual_settings": {
+    "night_vision_forced_off": false,
+    "hud_hidden": true,
+    "lightmap_brightening": true,
+    "gamma": 1.0,
+    "camera_fov_default": 60,
+    "weather_rendering_suppressed": true
+  },
+  "world_game_time": 23857,
+  "world_rain_level": 0.0,
+  "views": [
+    {
+      "name": "front_overview",
+      "type": "exterior",
+      "camera_position": {
+        "z": 499885.0,
+        "x": 500000.0,
+        "y": 40.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 10.265141
+      },
+      "fov": 85.0,
+      "screenshot_filename": "front_overview.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:04.481959100Z",
+      "sha256": "242023cc747e8b250d7c32680c3c3b78deb5bd3fdf2d0577bfac79e92c7d6ac3"
+    },
+    {
+      "name": "gate_front",
+      "type": "exterior",
+      "camera_position": {
+        "z": 499932.0,
+        "x": 500000.0,
+        "y": 11.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 4.573921
+      },
+      "fov": 75.0,
+      "screenshot_filename": "gate_front.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:07.573906200Z",
+      "sha256": "1ea7b4121da32e306e4079e4fc278ab203da17a099b1def6a710e14d0a8213f7"
+    },
+    {
+      "name": "gate_interior",
+      "type": "interior",
+      "camera_position": {
+        "z": 499952.0,
+        "x": 500000.0,
+        "y": 7.0
+      },
+      "camera_rotation": {
+        "yaw": 72.89727,
+        "pitch": -4.204904
+      },
+      "fov": 75.0,
+      "screenshot_filename": "gate_interior.png",
+      "visibility": "review_night_vision",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:10.679903400Z",
+      "sha256": "d2a2c279b24e0e8c85a4366fb3c95acaaf29b072346cf90749f534ddcc303f39"
+    },
+    {
+      "name": "courtyard",
+      "type": "exterior",
+      "camera_position": {
+        "z": 499971.0,
+        "x": 500000.0,
+        "y": 8.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -8.471145
+      },
+      "fov": 85.0,
+      "screenshot_filename": "courtyard.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:13.770315200Z",
+      "sha256": "1bfce82c766f3a6c8a3788407bff3df0f61ecdb2830375a3e4db1e7f2fc62322"
+    },
+    {
+      "name": "main_stair",
+      "type": "exterior",
+      "camera_position": {
+        "z": 499999.0,
+        "x": 500000.0,
+        "y": 7.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -18.434948
+      },
+      "fov": 80.0,
+      "screenshot_filename": "main_stair.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:16.861224Z",
+      "sha256": "347d4a30bbcfce6e392d8885a9b579bf8ca24b6a62734a190837fdc3097f172e"
+    },
+    {
+      "name": "keep_exterior",
+      "type": "exterior",
+      "camera_position": {
+        "z": 499999.0,
+        "x": 500044.0,
+        "y": 33.0
+      },
+      "camera_rotation": {
+        "yaw": 43.72697,
+        "pitch": 10.675839
+      },
+      "fov": 82.0,
+      "screenshot_filename": "keep_exterior.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:19.978251200Z",
+      "sha256": "365d2df5b0f7f5587b30d2ba090c9e5cc89696382588120f1ed4db3022489f80"
+    },
+    {
+      "name": "great_hall",
+      "type": "interior",
+      "camera_position": {
+        "z": 500018.0,
+        "x": 500000.0,
+        "y": 15.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -0.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "great_hall.png",
+      "visibility": "review_night_vision",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:23.076137600Z",
+      "sha256": "e2be691dc8885a15b791fb88b0a5e0aa8a632ff5e12cdc4630a1f155c2243f95"
+    },
+    {
+      "name": "royal_threshold",
+      "type": "interior",
+      "camera_position": {
+        "z": 500037.0,
+        "x": 500000.0,
+        "y": 15.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -0.0
+      },
+      "fov": 70.0,
+      "screenshot_filename": "royal_threshold.png",
+      "visibility": "review_night_vision",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:26.162095400Z",
+      "sha256": "3c18b80b9987cbeb1aa29404d115dc6f7dd1f3acec7febb578333921d65187ba"
+    },
+    {
+      "name": "throne_arena",
+      "type": "interior",
+      "camera_position": {
+        "z": 500051.0,
+        "x": 500000.0,
+        "y": 15.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -5.710593
+      },
+      "fov": 82.0,
+      "screenshot_filename": "throne_arena.png",
+      "visibility": "review_night_vision",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:29.294916200Z",
+      "sha256": "4490ddd2bca1d5836fa3d0c7d8f411ba11aa019646251b400cf24838417cbf63"
+    },
+    {
+      "name": "upper_gallery",
+      "type": "interior",
+      "camera_position": {
+        "z": 500056.0,
+        "x": 499977.0,
+        "y": 18.0
+      },
+      "camera_rotation": {
+        "yaw": -80.13419,
+        "pitch": 12.088773
+      },
+      "fov": 80.0,
+      "screenshot_filename": "upper_gallery.png",
+      "visibility": "review_night_vision",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:32.423832300Z",
+      "sha256": "ac5bd07676d6e9d66deca8e2d4007283fbc4483ca201509c735dfbdf48433ffc"
+    },
+    {
+      "name": "upper_rooms",
+      "type": "interior",
+      "camera_position": {
+        "z": 500024.0,
+        "x": 499985.0,
+        "y": 23.0
+      },
+      "camera_rotation": {
+        "yaw": -51.34019,
+        "pitch": 2.980009
+      },
+      "fov": 77.0,
+      "screenshot_filename": "upper_rooms.png",
+      "visibility": "review_night_vision",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:35.510749900Z",
+      "sha256": "08281880da670e44c7e09f315d7ff626d9165a2eb1c06e4ba84dd47a25211fc8"
+    },
+    {
+      "name": "court_to_keep",
+      "type": "exterior",
+      "camera_position": {
+        "z": 500004.0,
+        "x": 499983.0,
+        "y": 8.0
+      },
+      "camera_rotation": {
+        "yaw": -46.735706,
+        "pitch": -16.691204
+      },
+      "fov": 80.0,
+      "screenshot_filename": "court_to_keep.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:38.653219800Z",
+      "sha256": "d8fb34e49bb7116a570b1c36738b5af23e1edfc0dd6bfd894da7eda585dae0d9"
+    },
+    {
+      "name": "future_wing_socket",
+      "type": "exterior",
+      "camera_position": {
+        "z": 499985.0,
+        "x": 500032.0,
+        "y": 8.0
+      },
+      "camera_rotation": {
+        "yaw": -20.556046,
+        "pitch": 19.34737
+      },
+      "fov": 70.0,
+      "screenshot_filename": "future_wing_socket.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:41.827074800Z",
+      "sha256": "8cae51b5b64db97948c1f941bb8671c992028fe16dafc3e043f4dd87cea98c26"
+    },
+    {
+      "name": "future_undercroft",
+      "type": "interior",
+      "camera_position": {
+        "z": 500025.0,
+        "x": 499978.0,
+        "y": 8.0
+      },
+      "camera_rotation": {
+        "yaw": -11.309933,
+        "pitch": 38.112926
+      },
+      "fov": 70.0,
+      "screenshot_filename": "future_undercroft.png",
+      "visibility": "review_night_vision",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:45.003206800Z",
+      "sha256": "85b75ee3a59382ee4935b59faf580a74ebb8a9cd7fe3f44876adc0a7302b34cf"
+    },
+    {
+      "name": "keep_roof",
+      "type": "exterior",
+      "camera_position": {
+        "z": 500004.0,
+        "x": 500039.0,
+        "y": 53.0
+      },
+      "camera_rotation": {
+        "yaw": 44.274776,
+        "pitch": 19.69737
+      },
+      "fov": 78.0,
+      "screenshot_filename": "keep_roof.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:48.174105900Z",
+      "sha256": "3c9517c6f64119fc947345ff1b142bf90f3e015b2ae10b987a0ebb4e38194336"
+    },
+    {
+      "name": "keep_west_facade",
+      "type": "exterior",
+      "camera_position": {
+        "z": 500047.0,
+        "x": 499945.0,
+        "y": 29.0
+      },
+      "camera_rotation": {
+        "yaw": -93.94518,
+        "pitch": 15.38735
+      },
+      "fov": 77.0,
+      "screenshot_filename": "keep_west_facade.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:51.384220200Z",
+      "sha256": "650cb54510ce6ca345401f69dfc17a94d8ba637f66f5af8eb336de4befdd0c41"
+    },
+    {
+      "name": "upper_entrance_detail",
+      "type": "exterior",
+      "camera_position": {
+        "z": 499995.0,
+        "x": 500000.0,
+        "y": 9.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -22.833654
+      },
+      "fov": 68.0,
+      "screenshot_filename": "upper_entrance_detail.png",
+      "visibility": "review_daylight",
+      "width": 1280,
+      "height": 720,
+      "captured_at": "2026-10-10T08:52:54.559544100Z",
+      "sha256": "1de38fc67914e8c01d1482a53fff8133e9b8c8153ff092d80d508a740243fc0f"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-10T08:52:01.223089100Z",
+  "updated_at": "2026-10-10T08:52:54.559544100Z",
+  "target": {
+    "id": "white_castle_round3",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 500000,
+      "y": 4,
+      "z": 500000
+    },
+    "bounds": {
+      "minX": -35,
+      "minY": -1,
+      "minZ": -55,
+      "maxX": 36,
+      "maxY": 35,
+      "maxZ": 75
+    },
+    "rotation": "NONE",
+    "interiorViews": [
+      {
+        "name": "front_overview",
+        "position": {
+          "x": 0.0,
+          "y": 36.0,
+          "z": -115.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 13.0,
+          "z": 12.0
+        },
+        "fov": 85,
+        "type": "exterior"
+      },
+      {
+        "name": "gate_front",
+        "position": {
+          "x": 0.0,
+          "y": 7.0,
+          "z": -68.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 5.0,
+          "z": -43.0
+        },
+        "fov": 75,
+        "type": "exterior"
+      },
+      {
+        "name": "gate_interior",
+        "position": {
+          "x": 0.0,
+          "y": 3.0,
+          "z": -48.0
+        },
+        "lookTarget": {
+          "x": -13.0,
+          "y": 4.0,
+          "z": -44.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "courtyard",
+        "position": {
+          "x": 0.0,
+          "y": 4.0,
+          "z": -29.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 11.0,
+          "z": 18.0
+        },
+        "fov": 85,
+        "type": "exterior"
+      },
+      {
+        "name": "main_stair",
+        "position": {
+          "x": 0.0,
+          "y": 3.0,
+          "z": -1.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 9.0,
+          "z": 17.0
+        },
+        "fov": 80,
+        "type": "exterior"
+      },
+      {
+        "name": "keep_exterior",
+        "position": {
+          "x": 44.0,
+          "y": 29.0,
+          "z": -1.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 17.0,
+          "z": 45.0
+        },
+        "fov": 82,
+        "type": "exterior"
+      },
+      {
+        "name": "great_hall",
+        "position": {
+          "x": 0.0,
+          "y": 11.0,
+          "z": 18.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 11.0,
+          "z": 35.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "royal_threshold",
+        "position": {
+          "x": 0.0,
+          "y": 11.0,
+          "z": 37.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 11.0,
+          "z": 47.0
+        },
+        "fov": 70,
+        "type": "interior"
+      },
+      {
+        "name": "throne_arena",
+        "position": {
+          "x": 0.0,
+          "y": 11.0,
+          "z": 51.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 13.0,
+          "z": 71.0
+        },
+        "fov": 82,
+        "type": "interior"
+      },
+      {
+        "name": "upper_gallery",
+        "position": {
+          "x": -23.0,
+          "y": 14.0,
+          "z": 56.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 9.0,
+          "z": 60.0
+        },
+        "fov": 80,
+        "type": "interior"
+      },
+      {
+        "name": "upper_rooms",
+        "position": {
+          "x": -15.0,
+          "y": 19.0,
+          "z": 24.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 18.0,
+          "z": 36.0
+        },
+        "fov": 77,
+        "type": "interior"
+      },
+      {
+        "name": "court_to_keep",
+        "position": {
+          "x": -17.0,
+          "y": 4.0,
+          "z": 4.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 11.0,
+          "z": 20.0
+        },
+        "fov": 80,
+        "type": "exterior"
+      },
+      {
+        "name": "future_wing_socket",
+        "position": {
+          "x": 32.0,
+          "y": 4.0,
+          "z": -15.0
+        },
+        "lookTarget": {
+          "x": 35.0,
+          "y": 1.0,
+          "z": -7.0
+        },
+        "fov": 70,
+        "type": "exterior"
+      },
+      {
+        "name": "future_undercroft",
+        "position": {
+          "x": -22.0,
+          "y": 4.0,
+          "z": 25.0
+        },
+        "lookTarget": {
+          "x": -21.0,
+          "y": 0.0,
+          "z": 30.0
+        },
+        "fov": 70,
+        "type": "interior"
+      },
+      {
+        "name": "keep_roof",
+        "position": {
+          "x": 39.0,
+          "y": 49.0,
+          "z": 4.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 29.0,
+          "z": 44.0
+        },
+        "fov": 78,
+        "type": "exterior"
+      },
+      {
+        "name": "keep_west_facade",
+        "position": {
+          "x": -55.0,
+          "y": 25.0,
+          "z": 47.0
+        },
+        "lookTarget": {
+          "x": -26.0,
+          "y": 17.0,
+          "z": 45.0
+        },
+        "fov": 77,
+        "type": "exterior"
+      },
+      {
+        "name": "upper_entrance_detail",
+        "position": {
+          "x": 0.0,
+          "y": 5.0,
+          "z": -5.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 13.0,
+          "z": 14.0
+        },
+        "fov": 68,
+        "type": "exterior"
+      }
+    ],
+    "architectureBounds": {
+      "minX": -35,
+      "minY": -1,
+      "minZ": -55,
+      "maxX": 36,
+      "maxY": 35,
+      "maxZ": 75
+    },
+    "evidence": {
+      "architecture_id": "white_castle/round1_central_axis",
+      "state": "DRAFT_BUILD_ONLY",
+      "source": "WhiteCastleRound3Plan"
+    },
+    "autoExteriorViews": false
+  },
+  "viewpoints": [
+    {
+      "name": "front_overview",
+      "type": "exterior",
+      "x": 500000.0,
+      "y": 40.0,
+      "z": 499885.0,
+      "yaw": -0.0,
+      "pitch": 10.265141,
+      "fov": 85.0
+    },
+    {
+      "name": "gate_front",
+      "type": "exterior",
+      "x": 500000.0,
+      "y": 11.0,
+      "z": 499932.0,
+      "yaw": -0.0,
+      "pitch": 4.573921,
+      "fov": 75.0
+    },
+    {
+      "name": "gate_interior",
+      "type": "interior",
+      "x": 500000.0,
+      "y": 7.0,
+      "z": 499952.0,
+      "yaw": 72.89727,
+      "pitch": -4.204904,
+      "fov": 75.0
+    },
+    {
+      "name": "courtyard",
+      "type": "exterior",
+      "x": 500000.0,
+      "y": 8.0,
+      "z": 499971.0,
+      "yaw": -0.0,
+      "pitch": -8.471145,
+      "fov": 85.0
+    },
+    {
+      "name": "main_stair",
+      "type": "exterior",
+      "x": 500000.0,
+      "y": 7.0,
+      "z": 499999.0,
+      "yaw": -0.0,
+      "pitch": -18.434948,
+      "fov": 80.0
+    },
+    {
+      "name": "keep_exterior",
+      "type": "exterior",
+      "x": 500044.0,
+      "y": 33.0,
+      "z": 499999.0,
+      "yaw": 43.72697,
+      "pitch": 10.675839,
+      "fov": 82.0
+    },
+    {
+      "name": "great_hall",
+      "type": "interior",
+      "x": 500000.0,
+      "y": 15.0,
+      "z": 500018.0,
+      "yaw": -0.0,
+      "pitch": -0.0,
+      "fov": 75.0
+    },
+    {
+      "name": "royal_threshold",
+      "type": "interior",
+      "x": 500000.0,
+      "y": 15.0,
+      "z": 500037.0,
+      "yaw": -0.0,
+      "pitch": -0.0,
+      "fov": 70.0
+    },
+    {
+      "name": "throne_arena",
+      "type": "interior",
+      "x": 500000.0,
+      "y": 15.0,
+      "z": 500051.0,
+      "yaw": -0.0,
+      "pitch": -5.710593,
+      "fov": 82.0
+    },
+    {
+      "name": "upper_gallery",
+      "type": "interior",
+      "x": 499977.0,
+      "y": 18.0,
+      "z": 500056.0,
+      "yaw": -80.13419,
+      "pitch": 12.088773,
+      "fov": 80.0
+    },
+    {
+      "name": "upper_rooms",
+      "type": "interior",
+      "x": 499985.0,
+      "y": 23.0,
+      "z": 500024.0,
+      "yaw": -51.34019,
+      "pitch": 2.980009,
+      "fov": 77.0
+    },
+    {
+      "name": "court_to_keep",
+      "type": "exterior",
+      "x": 499983.0,
+      "y": 8.0,
+      "z": 500004.0,
+      "yaw": -46.735706,
+      "pitch": -16.691204,
+      "fov": 80.0
+    },
+    {
+      "name": "future_wing_socket",
+      "type": "exterior",
+      "x": 500032.0,
+      "y": 8.0,
+      "z": 499985.0,
+      "yaw": -20.556046,
+      "pitch": 19.34737,
+      "fov": 70.0
+    },
+    {
+      "name": "future_undercroft",
+      "type": "interior",
+      "x": 499978.0,
+      "y": 8.0,
+      "z": 500025.0,
+      "yaw": -11.309933,
+      "pitch": 38.112926,
+      "fov": 70.0
+    },
+    {
+      "name": "keep_roof",
+      "type": "exterior",
+      "x": 500039.0,
+      "y": 53.0,
+      "z": 500004.0,
+      "yaw": 44.274776,
+      "pitch": 19.69737,
+      "fov": 78.0
+    },
+    {
+      "name": "keep_west_facade",
+      "type": "exterior",
+      "x": 499945.0,
+      "y": 29.0,
+      "z": 500047.0,
+      "yaw": -93.94518,
+      "pitch": 15.38735,
+      "fov": 77.0
+    },
+    {
+      "name": "upper_entrance_detail",
+      "type": "exterior",
+      "x": 500000.0,
+      "y": 9.0,
+      "z": 499995.0,
+      "yaw": -0.0,
+      "pitch": -22.833654,
+      "fov": 68.0
+    }
+  ],
+  "fov": 60,
+  "width": 1280,
+  "height": 720,
+  "completed_images": [
+    "front_overview.png",
+    "gate_front.png",
+    "gate_interior.png",
+    "courtyard.png",
+    "main_stair.png",
+    "keep_exterior.png",
+    "great_hall.png",
+    "royal_threshold.png",
+    "throne_arena.png",
+    "upper_gallery.png",
+    "upper_rooms.png",
+    "court_to_keep.png",
+    "future_wing_socket.png",
+    "future_undercroft.png",
+    "keep_roof.png",
+    "keep_west_facade.png",
+    "upper_entrance_detail.png"
+  ],
+  "player_position_unchanged": true
+}
