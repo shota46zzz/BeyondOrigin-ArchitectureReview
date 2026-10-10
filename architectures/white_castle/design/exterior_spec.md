@@ -1,7 +1,7 @@
 # White Castle — Exterior Redesign (Design Draft)
 
-Status: DESIGN_ONLY / NOT APPROVED FOR BUILD.
-Reference image: `architectures/white_castle/references/exterior_target.png` (PENDING UPLOAD; do not claim image inspected until present).
+Status: DESIGN_ONLY / NOT APPROVED FOR BUILD. Phase 1 Revision supersedes this file's preliminary massing table for coordinate decisions. The sole current proposal is `exterior_layout.md`, `elevation_plan.md`, `tower_roof_spec.md`, `window_facade_spec.md`, `interior_allocation.md`, `reference_comparison.md`, and `phase1_revision_sections.md` together.
+Reference set: `architectures/white_castle/references/manifest.json` and its eight PNGs. `07_main_exterior_target.png` is primary; all 8 local PNGs were visually opened and their SHA-256 values matched manifest 8/8 on 2026-10-10.
 
 ## Goal
 Rebuild the exterior design around the supplied white Gothic fantasy castle reference: a dramatically tall central spire, layered side towers, steep dark roofs, ornate vertical windows, and terraced approach. Do not prioritize fitting exterior to existing room dimensions. White Castle is intended to be larger than Ancient Ruins.
@@ -11,7 +11,7 @@ Rebuild the exterior design around the supplied white Gothic fantasy castle refe
 - Preserve coordinate convention: anchor (500000,4,500000), X=0 central axis, +Z toward Keep, local Y=0 ground.
 - Site footprint is agreed; individual buildings below are preliminary, not approved implementation coordinates.
 
-## Preliminary massing (relative heights above ground, roof included)
+## Superseded preliminary massing (historical only; DO NOT BUILD FROM THIS TABLE)
 | Feature | Width x depth | Top Y | Center (X,Z) |
 |---|---|---|---|
 | Main palace / Keep | 100 x 90 | 55 | (0,105) |
@@ -26,7 +26,7 @@ Rebuild the exterior design around the supplied white Gothic fantasy castle refe
 | Gate towers | 17 x 17 | 48 | (+/-32,-65) |
 | Outer walls | 5-7 thick | 22-30 | site perimeter |
 
-Resolve overlap, geometry, and exact local bounds in design review before any build.
+The values above were an initial brainstorming envelope. In particular, the palace roof height, rear-tower X positions and corner-turret count differ from the active Phase 1 Revision. Resolve any implementation from `exterior_layout.md` and `phase1_revision_sections.md`, never this table. Human approval is still required before a build.
 
 ## Architectural requirements
 - White concrete, quartz bricks and polished diorite as main wall palette.
@@ -41,7 +41,7 @@ Resolve overlap, geometry, and exact local bounds in design review before any bu
 - Upper spire interiors may be decorative and inaccessible.
 
 ## Workflow gates
-1. Place the original reference PNG into references and verify it is readable by Codex.
+1. Verify the eight original reference PNGs under `references/` against `manifest.json` and inspect them visually. Completed for the Phase 1 design pass; any later revision should use the same evidence set.
 2. Produce exterior silhouette, massing, elevations, and overlap/bounds plan, comparing explicitly against the reference.
 3. AI design review and human approval.
 4. Only then create a separate Draft Build; review its exterior against the reference before interior completion.

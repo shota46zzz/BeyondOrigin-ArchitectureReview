@@ -19,10 +19,10 @@ Status: `DESIGN_REVIEW_PENDING`; coordinates are design cells, not placed blocks
 | P0 main palace | [-50,50) | [65,155) | base 26, eave 50, roof ridge 68 | 100×90 shell, front great-hall volume and rear throne volume; roof is deliberately taller than preliminary top 55. |
 | W-W / W-E palace wings | [-88,-50) / [50,88) | [71,145) | base 24, eave 40, ridge 56 | 38×74 each. Their inner faces meet P0 exactly at X=-50 and X=50; crossing via authored 5-wide openings. |
 | FT-W / FT-E forward towers | [-77,-58) / [58,77) | [82,101) | base 24, top 85 / 89 | 19×19. Embedded in wing footprints with tower ownership at shared cells, not duplicate construction. |
-| RT-W / RT-E rear towers | [-77,-58) / [58,77) | [126,145) | base 24, top 93 / 95 | 19×19; unequal heights reinforce depth while remaining below spire. |
-| CS main tower/spire | [-13,13) | [125,151) | base 54, finial cell Y=120 | 26×26 tower volume over the rear palace. Transfer/buttress loads go to outer arena walls; its ground-level footprint is **not** a solid arena obstruction. |
+| RT-W / RT-E rear towers | [-42,-23) / [23,42) | [126,145) | base 26, top 93 / 95 | 19×19, integrated into the rear palace, **not** the wings. Their front-projection intervals separate from the forward pair by 16 X cells. |
+| CS main tower/spire | [-13,13) | [125,151) | transfer base 54, shell 60, finial cell Y=120 | 26×26 tower volume over the rear palace. Transfer/buttress loads go to outer arena walls; its ground-level footprint is **not** a solid arena obstruction. |
 | CT-W / CT-E front corner turrets | [-52,-39) / [39,52) | [59,72) | top 65 | 13×13; T0/P0 transition, thin in silhouette. |
-| CT-RW / CT-RE rear corner turrets | [-52,-39) / [39,52) | [143,156) | top 64 / 67 | Rear palace termination; 2-cell site margin to rear curtain. |
+| Rear micro-turrets | — | — | — | Removed from the Phase 1 massing: they collided visually and spatially with the inward-shifted rear tower pair. Rear cornices remain. |
 | OW-W / OW-E curtain lines | [-104,-98) / [98,104) | [-56,123) | top 22..30 | 6-thick perimeter line; project inward at north ends toward wings, not a rigid closed rectangle. |
 | OW-R rear broken line | [-98,98) | [158,164) | top 18..24 | Broken at X[-15,16) and at two side view slots. Avoids an opaque wall behind the palace. |
 
@@ -37,8 +37,9 @@ All primary masses stay inside the site: extreme designed X is ±104 within `[-1
 | Court ↔ S0 ↔ garden | S0 is the sole owner of treads in its 11-wide strip. C0/T0 omit their generic paving there. | No mandatory jump; detailed tread/landing schedule in `elevation_plan.md`. |
 | Garden ↔ palace threshold | S1 is sole tread owner; T0/P0 omit generic floor within it. | Garden's side walk remains open beside the stair. |
 | Wings ↔ P0 | Faces meet at X=±50; no air gap. Five-wide doorways proposed around Z84..89 and Z120..125; actual room-side stairs are pending. | Side loops return to main palace, without forcing a tower climb into the axial route. |
-| Towers ↔ wings | Tower volumes are embedded, not freestanding collision-free boxes. Each tower owns its 19×19 footprint; wing roof and floor are clipped to tower shell. | Stairs live within towers; final walkability is Human/Minecraft review, not assumed here. |
-| CS ↔ throne volume | Tower begins at Y54, above the arena ceiling line; its supporting piers are outside the 35×28 combat clearance. | View from throne to spire base is possible; support and lighting remain engineering review items. |
+| Forward towers ↔ wings | FT volumes are embedded in wings. FT owns its 19×19 footprint; wing roof and floor clip to tower shell. | Stairs live within FT; final walkability remains a later review item. |
+| Rear towers ↔ palace | RT volumes are embedded in the rear P0 side bands at X[-42,-23) and [23,42). P0 owns the arena; RT owns its above-grade shell outside the arena clear X range. | Rear towers remain distinct from FT in front projection. |
+| CS ↔ throne volume | Tower shell begins at Y60. A transfer deck at Y54..59 rests on side/rear pier bands entirely outside the protected 35×28×24 clear volume. | Exact coordinate section and block-owner precedence: `phase1_revision_sections.md`. This is design geometry, not a physical load test. |
 | Rear wall ↔ palace | 3-block minimum visible separation between P0 rear Z155 and rear line Z158. Broken center line avoids a dead-end vista. | No claimed playable rear exit yet. |
 
 ## Plan view (symbolic, not to scale)

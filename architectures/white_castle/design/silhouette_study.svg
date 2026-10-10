@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 270" role="img" aria-label="White Castle front and oblique silhouette planning projections">
+<rect width="1320" height="270" fill="#eff4fa"/>
+<style>text{font-family:Arial,sans-serif;fill:#253446} .title{font-size:17px;font-weight:bold} .note{font-size:11px} .tower{fill:#f9fbff;stroke:#6b7d91;stroke-width:2} .roof{fill:#263644;stroke:#1c2935;stroke-width:2} .body{fill:#e5ebf2;stroke:#6b7d91;stroke-width:2}</style>
+<rect x="5" y="5" width="430" height="260" rx="8" fill="white" stroke="#b8c5d2"/>
+<text x="20" y="30" class="title">Front / -Z</text>
+<line x1="20" y1="224" x2="420" y2="224" stroke="#91a4b8" stroke-width="2"/>
+<path d="M120 224 L120 181 L156 169 L170 155 L270 155 L284 169 L320 181 L320 224 Z" class="body"/>
+<rect x="196.6" y="97.2" width="46.8" height="126.8" class="tower"/>
+<path d="M193.6 97.2 L220.0 75.2 L246.4 97.2 Z" class="roof"/>
+<text x="220.0" y="70.2" text-anchor="middle" class="note">CS 120</text>
+<rect x="144.4" y="130.7" width="34.2" height="93.3" class="tower"/>
+<path d="M141.4 130.7 L161.5 108.7 L181.6 130.7 Z" class="roof"/>
+<text x="161.5" y="103.7" text-anchor="middle" class="note">RT-W 93</text>
+<rect x="261.4" y="128.2" width="34.2" height="95.8" class="tower"/>
+<path d="M258.4 128.2 L278.5 106.2 L298.6 128.2 Z" class="roof"/>
+<text x="278.5" y="101.2" text-anchor="middle" class="note">RT-E 95</text>
+<rect x="81.4" y="140.6" width="34.2" height="83.4" class="tower"/>
+<path d="M78.4 140.6 L98.5 118.6 L118.6 140.6 Z" class="roof"/>
+<text x="98.5" y="113.6" text-anchor="middle" class="note">FT-W 85</text>
+<rect x="324.4" y="135.6" width="34.2" height="88.4" class="tower"/>
+<path d="M321.4 135.6 L341.5 113.6 L361.6 135.6 Z" class="roof"/>
+<text x="341.5" y="108.6" text-anchor="middle" class="note">FT-E 89</text>
+<text x="20" y="251" class="note">Orthographic planning proxy; actual Minecraft perspective pending.</text>
+<rect x="445" y="5" width="430" height="260" rx="8" fill="white" stroke="#b8c5d2"/>
+<text x="460" y="30" class="title">Left oblique / +0.35</text>
+<line x1="460" y1="224" x2="860" y2="224" stroke="#91a4b8" stroke-width="2"/>
+<path d="M560 224 L560 181 L596 169 L610 155 L710 155 L724 169 L760 181 L760 224 Z" class="body"/>
+<rect x="660.5" y="97.2" width="46.8" height="126.8" class="tower"/>
+<path d="M657.5 97.2 L683.9 75.2 L710.3 97.2 Z" class="roof"/>
+<text x="683.9" y="70.2" text-anchor="middle" class="note">CS 120</text>
+<rect x="606.8" y="130.7" width="34.2" height="93.3" class="tower"/>
+<path d="M603.8 130.7 L623.9 108.7 L644.0 130.7 Z" class="roof"/>
+<text x="623.9" y="103.7" text-anchor="middle" class="note">RT-W 93</text>
+<rect x="723.8" y="128.2" width="34.2" height="95.8" class="tower"/>
+<path d="M720.8 128.2 L740.9 106.2 L761.0 128.2 Z" class="roof"/>
+<text x="740.9" y="101.2" text-anchor="middle" class="note">RT-E 95</text>
+<rect x="516.0" y="140.6" width="34.2" height="83.4" class="tower"/>
+<path d="M513.0 140.6 L533.1 118.6 L553.2 140.6 Z" class="roof"/>
+<text x="533.1" y="113.6" text-anchor="middle" class="note">FT-W 85</text>
+<rect x="759.0" y="135.6" width="34.2" height="88.4" class="tower"/>
+<path d="M756.0 135.6 L776.1 113.6 L796.2 135.6 Z" class="roof"/>
+<text x="776.1" y="108.6" text-anchor="middle" class="note">FT-E 89</text>
+<text x="460" y="251" class="note">Orthographic planning proxy; actual Minecraft perspective pending.</text>
+<rect x="885" y="5" width="430" height="260" rx="8" fill="white" stroke="#b8c5d2"/>
+<text x="900" y="30" class="title">Right oblique / -0.35</text>
+<line x1="900" y1="224" x2="1300" y2="224" stroke="#91a4b8" stroke-width="2"/>
+<path d="M1000 224 L1000 181 L1036 169 L1050 155 L1150 155 L1164 169 L1200 181 L1200 224 Z" class="body"/>
+<rect x="1052.7" y="97.2" width="46.8" height="126.8" class="tower"/>
+<path d="M1049.7 97.2 L1076.1 75.2 L1102.5 97.2 Z" class="roof"/>
+<text x="1076.1" y="70.2" text-anchor="middle" class="note">CS 120</text>
+<rect x="1002.0" y="130.7" width="34.2" height="93.3" class="tower"/>
+<path d="M999.0 130.7 L1019.1 108.7 L1039.2 130.7 Z" class="roof"/>
+<text x="1019.1" y="103.7" text-anchor="middle" class="note">RT-W 93</text>
+<rect x="1119.0" y="128.2" width="34.2" height="95.8" class="tower"/>
+<path d="M1116.0 128.2 L1136.1 106.2 L1156.2 128.2 Z" class="roof"/>
+<text x="1136.1" y="101.2" text-anchor="middle" class="note">RT-E 95</text>
+<rect x="966.8" y="140.6" width="34.2" height="83.4" class="tower"/>
+<path d="M963.8 140.6 L983.9 118.6 L1004.0 140.6 Z" class="roof"/>
+<text x="983.9" y="113.6" text-anchor="middle" class="note">FT-W 85</text>
+<rect x="1209.8" y="135.6" width="34.2" height="88.4" class="tower"/>
+<path d="M1206.8 135.6 L1226.9 113.6 L1247.0 135.6 Z" class="roof"/>
+<text x="1226.9" y="108.6" text-anchor="middle" class="note">FT-E 89</text>
+<text x="900" y="251" class="note">Orthographic planning proxy; actual Minecraft perspective pending.</text>
+</svg>
