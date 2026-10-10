@@ -1,0 +1,54 @@
+{
+  "status": "DESIGN_REFERENCE_ONLY",
+  "priority": "07_main_exterior_target.png is PRIMARY. Extreme Gothic images are secondary and intentionally exaggerated.",
+  "images": [
+    {
+      "path": "architectures/white_castle/references/01_gothic_cathedral_extreme.png",
+      "sha256": "a86ce4e3f4c42d2f7e9f53ceed641560883f3c91589d1ac475a36667b07d8b6f",
+      "bytes": 804658,
+      "role": "Secondary / ornate Gothic density; do not reproduce literally"
+    },
+    {
+      "path": "architectures/white_castle/references/02_blue_rose_window_detail.png",
+      "sha256": "626050ac8f43b1ec17e7a000d9c67ef182a571591b0ccd1bce58c452354b8a42",
+      "bytes": 1598822,
+      "role": "Detail reference / blue stained-glass window and quartz framing"
+    },
+    {
+      "path": "architectures/white_castle/references/03_gothic_interior_windows.png",
+      "sha256": "927e761a1618fe2387db4e9760a7891cc8b985156670962c8711fb8046a112cc",
+      "bytes": 477689,
+      "role": "Interior reference / tall windows and stone arches"
+    },
+    {
+      "path": "architectures/white_castle/references/04_height_chart.png",
+      "sha256": "b510067f57eb1b0c7d05c00eb11d3862917d1c4c844c5543529bd4e34c7acf62",
+      "bytes": 28282,
+      "role": "Planning diagram / indicative heights, not an architectural render"
+    },
+    {
+      "path": "architectures/white_castle/references/05_site_plan.png",
+      "sha256": "4d5d86201a45616965c52a8c0633e587a62a2dd3e640874eb7eb0c1f0334c07a",
+      "bytes": 30685,
+      "role": "Planning diagram / indicative layout, coordinates in design spec take precedence"
+    },
+    {
+      "path": "architectures/white_castle/references/06_silhouette_diagram.png",
+      "sha256": "a0185711719263be65d179c2d7a422b540c4972b8da6cdf9e17d3f2094489376",
+      "bytes": 13881,
+      "role": "Planning diagram / massing only, not target detailing"
+    },
+    {
+      "path": "architectures/white_castle/references/07_main_exterior_target.png",
+      "sha256": "7c35386f8016d709af69580b8789e0cd55a23c1cc199835a60d7709ea9e293c1",
+      "bytes": 1859321,
+      "role": "PRIMARY exterior target / white palace, dark roofs, spires, terraces"
+    },
+    {
+      "path": "architectures/white_castle/references/08_gothic_castle_extreme.png",
+      "sha256": "e834ab629b04f10ea9e8b674cf9d1239d6337569e9bab29e333c3becd2fcf3ad",
+      "bytes": 1534903,
+      "role": "Secondary / extreme Gothic ornament, selectively borrow motifs"
+    }
+  ]
+}
