@@ -1,0 +1,67 @@
+name: OW-01 Fix Round 3 fixed evidence artifact
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish-fixed-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out fixed evidence commit
+        uses: actions/checkout@v4
+        with:
+          ref: 83391b3a20df2393fc19a20937b820367a9f3917
+          path: fixed-evidence
+          persist-credentials: false
+
+      - name: Verify commit, eight PNGs, and metadata SHA-256
+        shell: bash
+        run: |
+          test "$(git -C fixed-evidence rev-parse HEAD)" = "83391b3a20df2393fc19a20937b820367a9f3917"
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import pathlib
+          import struct
+
+          base = pathlib.Path('fixed-evidence/architectures/ow01_cave/fix_round3/current')
+          metadata = json.loads((base / 'metadata.json').read_text(encoding='utf-8'))
+          assert metadata['architecture_id'] == 'ow01_cave_fix_round3'
+          views = metadata['views']
+          assert len(views) == 8, f'Expected 8 metadata views, found {len(views)}'
+          pngs = sorted(base.glob('*.png'))
+          expected = {view['screenshot_filename'] for view in views}
+          assert len(pngs) == 8 and {path.name for path in pngs} == expected, 'PNG inventory mismatch'
+          for view in views:
+              data = (base / view['screenshot_filename']).read_bytes()
+              assert data[:8] == b'\x89PNG\r\n\x1a\n', f"Invalid PNG: {view['screenshot_filename']}"
+              assert struct.unpack('>II', data[16:24]) == (view['width'], view['height']), f"Dimensions mismatch: {view['screenshot_filename']}"
+              digest = hashlib.sha256(data).hexdigest()
+              assert digest == view['sha256'], f"SHA-256 mismatch: {view['screenshot_filename']}"
+              print(f"{view['screenshot_filename']}: {digest}")
+          PY
+
+      - name: Upload fixed evidence as GitHub ZIP artifact
+        id: upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: ow01-cave-fix-round3-83391b3
+          path: |
+            fixed-evidence/architectures/ow01_cave/fix_round3/current/*.png
+            fixed-evidence/architectures/ow01_cave/fix_round3/current/metadata.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Report immutable source and artifact identity
+        shell: bash
+        run: |
+          echo "Evidence commit: 83391b3a20df2393fc19a20937b820367a9f3917" >> "$GITHUB_STEP_SUMMARY"
+          echo "Evidence directory: architectures/ow01_cave/fix_round3/current/" >> "$GITHUB_STEP_SUMMARY"
+          echo "Run ID: ${{ github.run_id }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "Artifact ID: ${{ steps.upload.outputs.artifact-id }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "Artifact URL: ${{ steps.upload.outputs.artifact-url }}" >> "$GITHUB_STEP_SUMMARY"
+
+
