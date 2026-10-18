@@ -1,0 +1,796 @@
+{
+  "schema_version": 2,
+  "architecture_id": "ow04_underground_base_draft",
+  "architecture_anchor": {
+    "x": 700000,
+    "y": 4,
+    "z": 700000
+  },
+  "architecture_bounds": {
+    "minX": -42,
+    "minY": -31,
+    "minZ": -14,
+    "maxX": 43,
+    "maxY": 14,
+    "maxZ": 175
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "night_vision": true,
+  "source_evidence": {
+    "architecture_id": "overworld/ow04_underground_base/draft_v1",
+    "source": "UndergroundBaseDraftPlan",
+    "state": "DRAFT_BUILD_ONLY"
+  },
+  "visual_settings": {
+    "lightmap_brightening": true,
+    "hud_hidden": true,
+    "night_vision_forced_off": false,
+    "weather_rendering_suppressed": true,
+    "camera_fov_default": 60,
+    "gamma": 0.5
+  },
+  "world_game_time": 36117,
+  "world_rain_level": 0.0,
+  "views": [
+    {
+      "name": "surface_oblique",
+      "type": "interior",
+      "camera_position": {
+        "z": 699963.0,
+        "y": 26.0,
+        "x": 699951.0
+      },
+      "camera_rotation": {
+        "pitch": 16.561617,
+        "yaw": -50.07961
+      },
+      "fov": 75.0,
+      "screenshot_filename": "surface_oblique.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:16:54.127063300Z",
+      "sha256": "e936e7d227b82e97eed6e1952b7fada5966c8546617ac8a4f3ca90d0a549270c"
+    },
+    {
+      "name": "surface_west",
+      "type": "interior",
+      "camera_position": {
+        "z": 700004.0,
+        "y": 20.0,
+        "x": 699953.0
+      },
+      "camera_rotation": {
+        "pitch": 16.58734,
+        "yaw": -90.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "surface_west.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:16:57.209935700Z",
+      "sha256": "62df193a01696b4794b45f463997085847763a7429374bf69e3057fa303ded3a"
+    },
+    {
+      "name": "surface_top",
+      "type": "interior",
+      "camera_position": {
+        "z": 700004.0,
+        "y": 91.0,
+        "x": 700000.0
+      },
+      "camera_rotation": {
+        "pitch": 90.0,
+        "yaw": -0.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "surface_top.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:00.277417800Z",
+      "sha256": "5f4bf334ded4c83e76ad8da44dfa4b2b28d26a0905eef9a0f5f02b40309d03e1"
+    },
+    {
+      "name": "entrance",
+      "type": "interior",
+      "camera_position": {
+        "z": 699976.0,
+        "y": 9.0,
+        "x": 700000.0
+      },
+      "camera_rotation": {
+        "pitch": 4.0856166,
+        "yaw": -0.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "entrance.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:03.359965300Z",
+      "sha256": "9790044359f664475365cf1f99d3726f36456d17322096eb06d38f7b7ab3752f"
+    },
+    {
+      "name": "surface_east",
+      "type": "interior",
+      "camera_position": {
+        "z": 699988.0,
+        "y": 20.0,
+        "x": 700042.0
+      },
+      "camera_rotation": {
+        "pitch": 17.034105,
+        "yaw": 66.80141
+      },
+      "fov": 75.0,
+      "screenshot_filename": "surface_east.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:06.459731700Z",
+      "sha256": "3889624322c17b647075f20cb41de345c04255c260b67c98e7870255a258d5e9"
+    },
+    {
+      "name": "security_ramp",
+      "type": "interior",
+      "camera_position": {
+        "z": 700021.0,
+        "y": 6.0,
+        "x": 700000.0
+      },
+      "camera_rotation": {
+        "pitch": 36.027374,
+        "yaw": -0.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "security_ramp.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:09.54406Z",
+      "sha256": "5e3a5fc77c7be204f8d4510106d2b6f5bb5df93715eff205eef0882ec2368e5c"
+    },
+    {
+      "name": "security_spine",
+      "type": "interior",
+      "camera_position": {
+        "z": 700038.0,
+        "y": -3.0,
+        "x": 700000.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": -0.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "security_spine.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:12.626825300Z",
+      "sha256": "4dc32ce01251da989f26395e3592cc17fe950346d3fdac2051ff159864fcff12"
+    },
+    {
+      "name": "detention",
+      "type": "interior",
+      "camera_position": {
+        "z": 700052.0,
+        "y": -3.0,
+        "x": 699987.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": 86.63354
+      },
+      "fov": 75.0,
+      "screenshot_filename": "detention.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:15.710025700Z",
+      "sha256": "0029d86356d79f030115669b1e1b7433a7bb4d7369c03fc03b92e0f746e50ffa"
+    },
+    {
+      "name": "administration",
+      "type": "interior",
+      "camera_position": {
+        "z": 700060.0,
+        "y": -3.0,
+        "x": 700012.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": -90.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "administration.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:18.810001500Z",
+      "sha256": "89e499efff56bddeb51f1f017892cd2d9cb549a4ade6794a6a58a4b25954320f"
+    },
+    {
+      "name": "weapons",
+      "type": "interior",
+      "camera_position": {
+        "z": 700080.0,
+        "y": -3.0,
+        "x": 699988.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": 83.29016
+      },
+      "fov": 75.0,
+      "screenshot_filename": "weapons.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:21.910081Z",
+      "sha256": "7cfdb76b1cbdef3720225d22d32a14486bccfd3f71c232c7f485b4202de9313f"
+    },
+    {
+      "name": "laboratory",
+      "type": "interior",
+      "camera_position": {
+        "z": 700090.0,
+        "y": -3.0,
+        "x": 700012.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": -90.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "laboratory.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:25.013172100Z",
+      "sha256": "7b01cb8d1e2e41c10a4451ef5a46cab9ffd999aa20f5b9831aff04e287c36a40"
+    },
+    {
+      "name": "lower_ramp",
+      "type": "interior",
+      "camera_position": {
+        "z": 700099.0,
+        "y": -3.0,
+        "x": 700000.0
+      },
+      "camera_rotation": {
+        "pitch": 31.328693,
+        "yaw": -0.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "lower_ramp.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:28.123207200Z",
+      "sha256": "cfa2bb89f71eaf756d55bf44a06c64b904d0035c6acd91533161f6fed5ee0e49"
+    },
+    {
+      "name": "power_room",
+      "type": "interior",
+      "camera_position": {
+        "z": 700125.0,
+        "y": -16.0,
+        "x": 700026.0
+      },
+      "camera_rotation": {
+        "pitch": -4.075269,
+        "yaw": -4.0856166
+      },
+      "fov": 75.0,
+      "screenshot_filename": "power_room.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:31.233297500Z",
+      "sha256": "f3bea1decb13e7ef79d0519119d650f6793cd5c01b62fda660212cc5ab3c0305"
+    },
+    {
+      "name": "hangar_overlook",
+      "type": "interior",
+      "camera_position": {
+        "z": 700149.0,
+        "y": -13.0,
+        "x": 699979.0
+      },
+      "camera_rotation": {
+        "pitch": 15.50136,
+        "yaw": -56.309933
+      },
+      "fov": 75.0,
+      "screenshot_filename": "hangar_overlook.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:34.343349500Z",
+      "sha256": "031c35bb9995645912449916539d10e1a7b88a8109bada70d7ee25aebfa4256a"
+    },
+    {
+      "name": "hangar_floor",
+      "type": "interior",
+      "camera_position": {
+        "z": 700148.0,
+        "y": -22.0,
+        "x": 700000.0
+      },
+      "camera_rotation": {
+        "pitch": -6.709837,
+        "yaw": -0.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "hangar_floor.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:17:37.450714800Z",
+      "sha256": "3598bac0fb9a5e83ea0eb38f3ee82023287c3d7e458be3433f1998c4460bd3a1"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-18T01:16:51.010803600Z",
+  "updated_at": "2026-10-18T01:17:37.451707300Z",
+  "target": {
+    "id": "ow04_underground_base_draft",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 700000,
+      "y": 4,
+      "z": 700000
+    },
+    "bounds": {
+      "minX": -42,
+      "minY": -31,
+      "minZ": -14,
+      "maxX": 43,
+      "maxY": 14,
+      "maxZ": 175
+    },
+    "rotation": "NONE",
+    "interiorViews": [
+      {
+        "name": "surface_oblique",
+        "position": {
+          "x": -49.0,
+          "y": 22.0,
+          "z": -37.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 3.0,
+          "z": 4.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "surface_west",
+        "position": {
+          "x": -47.0,
+          "y": 16.0,
+          "z": 4.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 2.0,
+          "z": 4.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "surface_top",
+        "position": {
+          "x": 0.0,
+          "y": 87.0,
+          "z": 4.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 4.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "entrance",
+        "position": {
+          "x": 0.0,
+          "y": 5.0,
+          "z": -24.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 3.0,
+          "z": 4.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "surface_east",
+        "position": {
+          "x": 42.0,
+          "y": 16.0,
+          "z": -12.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 2.0,
+          "z": 6.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "security_ramp",
+        "position": {
+          "x": 0.0,
+          "y": 2.0,
+          "z": 21.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -6.0,
+          "z": 32.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "security_spine",
+        "position": {
+          "x": 0.0,
+          "y": -7.0,
+          "z": 38.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -7.0,
+          "z": 78.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "detention",
+        "position": {
+          "x": -13.0,
+          "y": -7.0,
+          "z": 52.0
+        },
+        "lookTarget": {
+          "x": -30.0,
+          "y": -7.0,
+          "z": 53.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "administration",
+        "position": {
+          "x": 12.0,
+          "y": -7.0,
+          "z": 60.0
+        },
+        "lookTarget": {
+          "x": 29.0,
+          "y": -7.0,
+          "z": 60.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "weapons",
+        "position": {
+          "x": -12.0,
+          "y": -7.0,
+          "z": 80.0
+        },
+        "lookTarget": {
+          "x": -29.0,
+          "y": -7.0,
+          "z": 82.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "laboratory",
+        "position": {
+          "x": 12.0,
+          "y": -7.0,
+          "z": 90.0
+        },
+        "lookTarget": {
+          "x": 32.0,
+          "y": -7.0,
+          "z": 90.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "lower_ramp",
+        "position": {
+          "x": 0.0,
+          "y": -7.0,
+          "z": 99.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -21.0,
+          "z": 122.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "power_room",
+        "position": {
+          "x": 26.0,
+          "y": -20.0,
+          "z": 125.0
+        },
+        "lookTarget": {
+          "x": 27.0,
+          "y": -19.0,
+          "z": 139.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "hangar_overlook",
+        "position": {
+          "x": -21.0,
+          "y": -17.0,
+          "z": 149.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -24.0,
+          "z": 163.0
+        },
+        "fov": 75,
+        "type": "interior"
+      },
+      {
+        "name": "hangar_floor",
+        "position": {
+          "x": 0.0,
+          "y": -26.0,
+          "z": 148.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -24.0,
+          "z": 165.0
+        },
+        "fov": 75,
+        "type": "interior"
+      }
+    ],
+    "architectureBounds": {
+      "minX": -42,
+      "minY": -31,
+      "minZ": -14,
+      "maxX": 43,
+      "maxY": 14,
+      "maxZ": 175
+    },
+    "evidence": {
+      "architecture_id": "overworld/ow04_underground_base/draft_v1",
+      "source": "UndergroundBaseDraftPlan",
+      "state": "DRAFT_BUILD_ONLY"
+    },
+    "autoExteriorViews": false
+  },
+  "viewpoints": [
+    {
+      "name": "surface_oblique",
+      "type": "interior",
+      "x": 699951.0,
+      "y": 26.0,
+      "z": 699963.0,
+      "yaw": -50.07961,
+      "pitch": 16.561617,
+      "fov": 75.0
+    },
+    {
+      "name": "surface_west",
+      "type": "interior",
+      "x": 699953.0,
+      "y": 20.0,
+      "z": 700004.0,
+      "yaw": -90.0,
+      "pitch": 16.58734,
+      "fov": 75.0
+    },
+    {
+      "name": "surface_top",
+      "type": "interior",
+      "x": 700000.0,
+      "y": 91.0,
+      "z": 700004.0,
+      "yaw": -0.0,
+      "pitch": 90.0,
+      "fov": 75.0
+    },
+    {
+      "name": "entrance",
+      "type": "interior",
+      "x": 700000.0,
+      "y": 9.0,
+      "z": 699976.0,
+      "yaw": -0.0,
+      "pitch": 4.0856166,
+      "fov": 75.0
+    },
+    {
+      "name": "surface_east",
+      "type": "interior",
+      "x": 700042.0,
+      "y": 20.0,
+      "z": 699988.0,
+      "yaw": 66.80141,
+      "pitch": 17.034105,
+      "fov": 75.0
+    },
+    {
+      "name": "security_ramp",
+      "type": "interior",
+      "x": 700000.0,
+      "y": 6.0,
+      "z": 700021.0,
+      "yaw": -0.0,
+      "pitch": 36.027374,
+      "fov": 75.0
+    },
+    {
+      "name": "security_spine",
+      "type": "interior",
+      "x": 700000.0,
+      "y": -3.0,
+      "z": 700038.0,
+      "yaw": -0.0,
+      "pitch": -0.0,
+      "fov": 75.0
+    },
+    {
+      "name": "detention",
+      "type": "interior",
+      "x": 699987.0,
+      "y": -3.0,
+      "z": 700052.0,
+      "yaw": 86.63354,
+      "pitch": -0.0,
+      "fov": 75.0
+    },
+    {
+      "name": "administration",
+      "type": "interior",
+      "x": 700012.0,
+      "y": -3.0,
+      "z": 700060.0,
+      "yaw": -90.0,
+      "pitch": -0.0,
+      "fov": 75.0
+    },
+    {
+      "name": "weapons",
+      "type": "interior",
+      "x": 699988.0,
+      "y": -3.0,
+      "z": 700080.0,
+      "yaw": 83.29016,
+      "pitch": -0.0,
+      "fov": 75.0
+    },
+    {
+      "name": "laboratory",
+      "type": "interior",
+      "x": 700012.0,
+      "y": -3.0,
+      "z": 700090.0,
+      "yaw": -90.0,
+      "pitch": -0.0,
+      "fov": 75.0
+    },
+    {
+      "name": "lower_ramp",
+      "type": "interior",
+      "x": 700000.0,
+      "y": -3.0,
+      "z": 700099.0,
+      "yaw": -0.0,
+      "pitch": 31.328693,
+      "fov": 75.0
+    },
+    {
+      "name": "power_room",
+      "type": "interior",
+      "x": 700026.0,
+      "y": -16.0,
+      "z": 700125.0,
+      "yaw": -4.0856166,
+      "pitch": -4.075269,
+      "fov": 75.0
+    },
+    {
+      "name": "hangar_overlook",
+      "type": "interior",
+      "x": 699979.0,
+      "y": -13.0,
+      "z": 700149.0,
+      "yaw": -56.309933,
+      "pitch": 15.50136,
+      "fov": 75.0
+    },
+    {
+      "name": "hangar_floor",
+      "type": "interior",
+      "x": 700000.0,
+      "y": -22.0,
+      "z": 700148.0,
+      "yaw": -0.0,
+      "pitch": -6.709837,
+      "fov": 75.0
+    }
+  ],
+  "fov": 60,
+  "width": 854,
+  "height": 480,
+  "completed_images": [
+    "surface_oblique.png",
+    "surface_west.png",
+    "surface_top.png",
+    "entrance.png",
+    "surface_east.png",
+    "security_ramp.png",
+    "security_spine.png",
+    "detention.png",
+    "administration.png",
+    "weapons.png",
+    "laboratory.png",
+    "lower_ramp.png",
+    "power_room.png",
+    "hangar_overlook.png",
+    "hangar_floor.png"
+  ],
+  "player_position_unchanged": true,
+  "code_commit": "856836369413b9e1c5a023070d6712ca55151db1",
+  "preview_world": "ow04-base-draft-v1-evidence-final-20261018",
+  "draft_cell_count": 146734,
+  "validation": {
+    "compileJava": "PASS",
+    "targeted_test": "ArchitectureReviewTargetTest PASS",
+    "flat_world_copy_placement": "PASS",
+    "declared_bounds": "PASS",
+    "required_room_headroom": "PASS",
+    "model_floor_path_flood_fill": "PASS",
+    "png_sha256": "PASS_15_OF_15",
+    "screenshot_capture": "PASS_15_OF_15"
+  },
+  "unverified": [
+    "Human visual review",
+    "actual player walking and stair ergonomics",
+    "AI navigation",
+    "natural terrain blending",
+    "post-clear player base usability",
+    "worldgen and NBT"
+  ]
+}
