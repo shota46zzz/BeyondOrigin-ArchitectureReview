@@ -1,0 +1,650 @@
+{
+  "schema_version": 2,
+  "architecture_id": "ow06_black_castle_draft_v1",
+  "architecture_anchor": {
+    "x": 690000,
+    "y": 4,
+    "z": 690000
+  },
+  "architecture_bounds": {
+    "minX": -67,
+    "minY": -12,
+    "minZ": -25,
+    "maxX": 68,
+    "maxY": 55,
+    "maxZ": 241
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "views": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "camera_position": {
+        "x": 690000.5,
+        "y": 86.9633661709901,
+        "z": 690353.853464684
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": -180.0
+      },
+      "fov": 85.0,
+      "screenshot_filename": "south.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:22.333686500Z",
+      "sha256": "352a4a64ed4ff458595a1419fb7cc942b6b2ade6a960e8e1a9040c2ce2e564c6"
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "camera_position": {
+        "x": 690000.5,
+        "y": 86.9633661709901,
+        "z": 689862.146535316
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": -0.0
+      },
+      "fov": 85.0,
+      "screenshot_filename": "north.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:25.367269400Z",
+      "sha256": "3a8f12ab6eb64e513eb239760e6c163f05a27a60a0ba27a54339a96be2785e51"
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "camera_position": {
+        "x": 690246.353464684,
+        "y": 86.9633661709901,
+        "z": 690108.0
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": 90.0
+      },
+      "fov": 85.0,
+      "screenshot_filename": "east.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:28.397146600Z",
+      "sha256": "2048b8ab66fa5a1c3e7ac6611c1bfe343a03829c68e0b8f8d21eed811170fa75"
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "camera_position": {
+        "x": 689754.646535316,
+        "y": 86.9633661709901,
+        "z": 690108.0
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": -90.0
+      },
+      "fov": 85.0,
+      "screenshot_filename": "west.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:31.428413800Z",
+      "sha256": "25b28b0703d4c515798947d6bdf946b02437864f6ab87a3370cd49ac19325484"
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "camera_position": {
+        "x": 690000.5,
+        "y": 278.9199508290075,
+        "z": 690108.0
+      },
+      "camera_rotation": {
+        "pitch": 90.0,
+        "yaw": -0.0
+      },
+      "fov": 85.0,
+      "screenshot_filename": "top.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:34.452025200Z",
+      "sha256": "5062a5109fadea546420a958cdbd1fd04cfacb75276e1eb8a37a8300ff0966c7"
+    },
+    {
+      "name": "gate_entry",
+      "type": "interior",
+      "camera_position": {
+        "x": 690000.5,
+        "y": 9.0,
+        "z": 689975.0
+      },
+      "camera_rotation": {
+        "pitch": -6.5819445,
+        "yaw": -0.0
+      },
+      "fov": 85.0,
+      "screenshot_filename": "gate_entry.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:37.509247200Z",
+      "sha256": "7ec4229c3db62f736b56410ee406849dd22623c3847c8c0e6c76903490fa76b7"
+    },
+    {
+      "name": "court_statue",
+      "type": "interior",
+      "camera_position": {
+        "x": 690000.5,
+        "y": 9.0,
+        "z": 690005.0
+      },
+      "camera_rotation": {
+        "pitch": -9.462322,
+        "yaw": -0.0
+      },
+      "fov": 90.0,
+      "screenshot_filename": "court_statue.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:40.562794800Z",
+      "sha256": "6a712c23d503a1dff86b4681c6d23516df2cecd5790b61e30048f2d49eca2b86"
+    },
+    {
+      "name": "mirror_tower",
+      "type": "interior",
+      "camera_position": {
+        "x": 690022.0,
+        "y": 14.0,
+        "z": 690037.0
+      },
+      "camera_rotation": {
+        "pitch": -32.37237,
+        "yaw": -56.309933
+      },
+      "fov": 85.0,
+      "screenshot_filename": "mirror_tower.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:43.614071500Z",
+      "sha256": "4cd6a7bc5f3f961110c5e612d9334582acb38ef32c35a67ccd8448d32a88fe16"
+    },
+    {
+      "name": "hunter_tower",
+      "type": "interior",
+      "camera_position": {
+        "x": 689978.0,
+        "y": 14.0,
+        "z": 690037.0
+      },
+      "camera_rotation": {
+        "pitch": -29.017141,
+        "yaw": 56.309933
+      },
+      "fov": 85.0,
+      "screenshot_filename": "hunter_tower.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:46.664412100Z",
+      "sha256": "611ebc1ff99d618019c86d563eee615f8ecc3fc009f478c1444670c049cccfb9"
+    },
+    {
+      "name": "great_hall",
+      "type": "interior",
+      "camera_position": {
+        "x": 690000.5,
+        "y": 11.0,
+        "z": 690047.0
+      },
+      "camera_rotation": {
+        "pitch": -17.44719,
+        "yaw": -0.0
+      },
+      "fov": 95.0,
+      "screenshot_filename": "great_hall.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:49.734502400Z",
+      "sha256": "2214ae15db10dce9414938a0d0a1c7568f23b569f318c2caee3ced34817ba508"
+    },
+    {
+      "name": "cursed_corridor",
+      "type": "interior",
+      "camera_position": {
+        "x": 690000.5,
+        "y": 9.0,
+        "z": 690094.0
+      },
+      "camera_rotation": {
+        "pitch": 3.3664606,
+        "yaw": -0.0
+      },
+      "fov": 85.0,
+      "screenshot_filename": "cursed_corridor.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:52.790083400Z",
+      "sha256": "4fb3d7fe97d79ba0690f54aaa42946e07bba18405ac501a3280d0677c193e9e0"
+    },
+    {
+      "name": "underground_altar",
+      "type": "interior",
+      "camera_position": {
+        "x": 690000.5,
+        "y": -2.0,
+        "z": 690121.0
+      },
+      "camera_rotation": {
+        "pitch": -12.9946165,
+        "yaw": -0.0
+      },
+      "fov": 90.0,
+      "screenshot_filename": "underground_altar.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:55.918189500Z",
+      "sha256": "912a541f5f085c00793b8c417b4c1e489661100a6168681ac4aaa29c4571dbd8"
+    },
+    {
+      "name": "phantom_garden",
+      "type": "interior",
+      "camera_position": {
+        "x": 690000.5,
+        "y": 10.0,
+        "z": 690152.0
+      },
+      "camera_rotation": {
+        "pitch": -6.340192,
+        "yaw": -0.0
+      },
+      "fov": 90.0,
+      "screenshot_filename": "phantom_garden.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:51:59.027857Z",
+      "sha256": "0481ddb785bf264cc1d85854b6199ae1b973ef55126d1dfb2b3c352862df3437"
+    },
+    {
+      "name": "boss_arena",
+      "type": "interior",
+      "camera_position": {
+        "x": 690000.5,
+        "y": 11.0,
+        "z": 690172.0
+      },
+      "camera_rotation": {
+        "pitch": -3.3664606,
+        "yaw": -0.0
+      },
+      "fov": 100.0,
+      "screenshot_filename": "boss_arena.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-18T01:52:02.134427700Z",
+      "sha256": "70fe353a8940609b7aa9765b5b75aa8d4d35f0f3b86d66b1e9af59355d5e3af5"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-18T01:51:19.281304800Z",
+  "updated_at": "2026-10-18T01:52:02.135428Z",
+  "target": {
+    "id": "ow06_black_castle_draft_v1",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 690000,
+      "y": 4,
+      "z": 690000
+    },
+    "bounds": {
+      "minX": -67,
+      "minY": -12,
+      "minZ": -25,
+      "maxX": 68,
+      "maxY": 55,
+      "maxZ": 241
+    },
+    "rotation": "NONE",
+    "interiorViews": [
+      {
+        "name": "gate_entry",
+        "position": {
+          "x": 0.5,
+          "y": 5.0,
+          "z": -25.0
+        },
+        "lookTarget": {
+          "x": 0.5,
+          "y": 8.0,
+          "z": 1.0
+        },
+        "fov": 85
+      },
+      {
+        "name": "court_statue",
+        "position": {
+          "x": 0.5,
+          "y": 5.0,
+          "z": 5.0
+        },
+        "lookTarget": {
+          "x": 0.5,
+          "y": 9.0,
+          "z": 29.0
+        },
+        "fov": 90
+      },
+      {
+        "name": "mirror_tower",
+        "position": {
+          "x": 22.0,
+          "y": 10.0,
+          "z": 37.0
+        },
+        "lookTarget": {
+          "x": 43.0,
+          "y": 26.0,
+          "z": 51.0
+        },
+        "fov": 85
+      },
+      {
+        "name": "hunter_tower",
+        "position": {
+          "x": -22.0,
+          "y": 10.0,
+          "z": 37.0
+        },
+        "lookTarget": {
+          "x": -43.0,
+          "y": 24.0,
+          "z": 51.0
+        },
+        "fov": 85
+      },
+      {
+        "name": "great_hall",
+        "position": {
+          "x": 0.5,
+          "y": 7.0,
+          "z": 47.0
+        },
+        "lookTarget": {
+          "x": 0.5,
+          "y": 18.0,
+          "z": 82.0
+        },
+        "fov": 95
+      },
+      {
+        "name": "cursed_corridor",
+        "position": {
+          "x": 0.5,
+          "y": 5.0,
+          "z": 94.0
+        },
+        "lookTarget": {
+          "x": 0.5,
+          "y": 4.0,
+          "z": 111.0
+        },
+        "fov": 85
+      },
+      {
+        "name": "underground_altar",
+        "position": {
+          "x": 0.5,
+          "y": -6.0,
+          "z": 121.0
+        },
+        "lookTarget": {
+          "x": 0.5,
+          "y": -3.0,
+          "z": 134.0
+        },
+        "fov": 90
+      },
+      {
+        "name": "phantom_garden",
+        "position": {
+          "x": 0.5,
+          "y": 6.0,
+          "z": 152.0
+        },
+        "lookTarget": {
+          "x": 0.5,
+          "y": 8.0,
+          "z": 170.0
+        },
+        "fov": 90
+      },
+      {
+        "name": "boss_arena",
+        "position": {
+          "x": 0.5,
+          "y": 7.0,
+          "z": 172.0
+        },
+        "lookTarget": {
+          "x": 0.5,
+          "y": 10.0,
+          "z": 223.0
+        },
+        "fov": 100
+      }
+    ],
+    "architectureBounds": {
+      "minX": -67,
+      "minY": -12,
+      "minZ": -25,
+      "maxX": 68,
+      "maxY": 55,
+      "maxZ": 241
+    }
+  },
+  "viewpoints": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "x": 690000.5,
+      "y": 86.9633661709901,
+      "z": 690353.853464684,
+      "yaw": -180.0,
+      "pitch": 14.036243,
+      "fov": 85.0
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "x": 690000.5,
+      "y": 86.9633661709901,
+      "z": 689862.146535316,
+      "yaw": -0.0,
+      "pitch": 14.036243,
+      "fov": 85.0
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "x": 690246.353464684,
+      "y": 86.9633661709901,
+      "z": 690108.0,
+      "yaw": 90.0,
+      "pitch": 14.036243,
+      "fov": 85.0
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "x": 689754.646535316,
+      "y": 86.9633661709901,
+      "z": 690108.0,
+      "yaw": -90.0,
+      "pitch": 14.036243,
+      "fov": 85.0
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "x": 690000.5,
+      "y": 278.9199508290075,
+      "z": 690108.0,
+      "yaw": -0.0,
+      "pitch": 90.0,
+      "fov": 85.0
+    },
+    {
+      "name": "gate_entry",
+      "type": "interior",
+      "x": 690000.5,
+      "y": 9.0,
+      "z": 689975.0,
+      "yaw": -0.0,
+      "pitch": -6.5819445,
+      "fov": 85.0
+    },
+    {
+      "name": "court_statue",
+      "type": "interior",
+      "x": 690000.5,
+      "y": 9.0,
+      "z": 690005.0,
+      "yaw": -0.0,
+      "pitch": -9.462322,
+      "fov": 90.0
+    },
+    {
+      "name": "mirror_tower",
+      "type": "interior",
+      "x": 690022.0,
+      "y": 14.0,
+      "z": 690037.0,
+      "yaw": -56.309933,
+      "pitch": -32.37237,
+      "fov": 85.0
+    },
+    {
+      "name": "hunter_tower",
+      "type": "interior",
+      "x": 689978.0,
+      "y": 14.0,
+      "z": 690037.0,
+      "yaw": 56.309933,
+      "pitch": -29.017141,
+      "fov": 85.0
+    },
+    {
+      "name": "great_hall",
+      "type": "interior",
+      "x": 690000.5,
+      "y": 11.0,
+      "z": 690047.0,
+      "yaw": -0.0,
+      "pitch": -17.44719,
+      "fov": 95.0
+    },
+    {
+      "name": "cursed_corridor",
+      "type": "interior",
+      "x": 690000.5,
+      "y": 9.0,
+      "z": 690094.0,
+      "yaw": -0.0,
+      "pitch": 3.3664606,
+      "fov": 85.0
+    },
+    {
+      "name": "underground_altar",
+      "type": "interior",
+      "x": 690000.5,
+      "y": -2.0,
+      "z": 690121.0,
+      "yaw": -0.0,
+      "pitch": -12.9946165,
+      "fov": 90.0
+    },
+    {
+      "name": "phantom_garden",
+      "type": "interior",
+      "x": 690000.5,
+      "y": 10.0,
+      "z": 690152.0,
+      "yaw": -0.0,
+      "pitch": -6.340192,
+      "fov": 90.0
+    },
+    {
+      "name": "boss_arena",
+      "type": "interior",
+      "x": 690000.5,
+      "y": 11.0,
+      "z": 690172.0,
+      "yaw": -0.0,
+      "pitch": -3.3664606,
+      "fov": 100.0
+    }
+  ],
+  "fov": 85,
+  "width": 854,
+  "height": 480,
+  "completed_images": [
+    "south.png",
+    "north.png",
+    "east.png",
+    "west.png",
+    "top.png",
+    "gate_entry.png",
+    "court_statue.png",
+    "mirror_tower.png",
+    "hunter_tower.png",
+    "great_hall.png",
+    "cursed_corridor.png",
+    "underground_altar.png",
+    "phantom_garden.png",
+    "boss_arena.png"
+  ],
+  "player_position_unchanged": true,
+  "source_commit": "503940258bdfb100d2a684f4c2863af0ccf27290",
+  "generation_conditions": {
+    "minecraft": "26.2",
+    "official_nbt_created": false,
+    "world": "ow06-black-castle-draft-v1-evidence-capture4-20261018",
+    "neoforge": "26.2.0.88",
+    "screenshot_fov": 85,
+    "flat_world_copy": true,
+    "placement_block_writes": 95261,
+    "preview_anchor": "(690000,4,690000)"
+  },
+  "automated_validation": {
+    "architecture_review_target_test": "PASS prior code commit",
+    "compileJava": "PASS",
+    "worldgen": "NOT_TESTED",
+    "boss_arena_reservation": "64x64 per plan",
+    "sha256": "PASS",
+    "evidence_png_count": 14,
+    "walking": "NOT_TESTED"
+  },
+  "unverified": [
+    "Human visual approval",
+    "full physical walking",
+    "Boss arena combat suitability",
+    "Worldgen terrain integration",
+    "official NBT reproduction"
+  ]
+}
