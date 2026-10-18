@@ -1,0 +1,33 @@
+{
+  "status": "FAILED_PROTOTYPE_NOT_APPROVED",
+  "code_commit": "40ceb9a",
+  "baseline_evidence_commit": "2c3774ff09c83047529eee6092e45dafcf72edc6",
+  "architecture_id": "ow01_cave_geometry_probe",
+  "probe_world": "ow01-cave-geometry-probe-v4-preview-20261018",
+  "anchor": [
+    604000,
+    4,
+    604000
+  ],
+  "minecraft_png_count": 10,
+  "terrace_measure": {
+    "max_contiguous_same_height_before": 10,
+    "region": "west top surface x=-30..-10,z=22..56",
+    "runs_at_least_8_before": 3,
+    "max_contiguous_same_height_after": 10,
+    "runs_at_least_8_after": 4
+  },
+  "validation": {
+    "ArchitectureReviewTargetTest": "PASS",
+    "compileJava": "PASS",
+    "route_support_reward_validation": "PASS",
+    "actual_walk": "NOT_TESTED"
+  },
+  "findings": [
+    "West middle cliff has more vertical relief, but broad horizontal terraces remain.",
+    "Gallery right wall changed; shell guard removed visible daylight breach from prior discarded attempt.",
+    "Gallery still contains a large planar back wall and horizontal shelf.",
+    "This prototype does not satisfy visual acceptance and must not replace Fix Round 5."
+  ],
+  "scope": "DRAFT_BUILD_ONLY; no Gameplay/NBT/Worldgen/approval"
+}
