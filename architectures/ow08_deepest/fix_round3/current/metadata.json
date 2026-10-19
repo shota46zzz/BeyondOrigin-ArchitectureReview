@@ -1,0 +1,1028 @@
+{
+  "schema_version": 2,
+  "architecture_id": "ow08_deepest_draft_v1",
+  "architecture_anchor": {
+    "x": 730000,
+    "y": 4,
+    "z": 730000
+  },
+  "architecture_bounds": {
+    "minX": -132,
+    "minY": -48,
+    "minZ": -12,
+    "maxX": 133,
+    "maxY": 20,
+    "maxZ": 394
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "views": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "camera_position": {
+        "x": 730000.5,
+        "y": 32.87661404649948,
+        "z": 730089.006456186
+      },
+      "camera_rotation": {
+        "yaw": -180.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "south.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:44:43.413286100Z",
+      "sha256": "9e80e2989570ed2634a2a7b7d52f0e10e7f46c172ec445453e73d80288ca5142"
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "camera_position": {
+        "x": 730000.5,
+        "y": 32.87661404649948,
+        "z": 729925.993543814
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "north.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:44:46.453790900Z",
+      "sha256": "19d22d64beddc9c0e7646879120c59657cf4267a12e551e27572068a238e643f"
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "camera_position": {
+        "x": 730082.006456186,
+        "y": 32.87661404649948,
+        "z": 730007.5
+      },
+      "camera_rotation": {
+        "yaw": 90.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "east.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:44:49.490137600Z",
+      "sha256": "6249cb81742422fe886499b1fa2b34a388c780e804bca71e0729e7a3795b3b51"
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "camera_position": {
+        "x": 729918.993543814,
+        "y": 32.87661404649948,
+        "z": 730007.5
+      },
+      "camera_rotation": {
+        "yaw": -90.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "west.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:44:52.529123400Z",
+      "sha256": "9bd75c5d9638565c06a0c8547fa4e5272ab4834fa59ef03e705880b2711cefb7"
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "camera_position": {
+        "x": 730000.5,
+        "y": 96.51493200616187,
+        "z": 730007.5
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 90.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "top.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:44:55.555751Z",
+      "sha256": "c7492fc952c3df06d59326ca419a9e611119d8f311971f1091dd9bf27c2f53ee"
+    },
+    {
+      "name": "surface_entrance",
+      "type": "interior",
+      "camera_position": {
+        "x": 730000.0,
+        "y": 14.0,
+        "z": 729974.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 7.6960516
+      },
+      "fov": 70.0,
+      "screenshot_filename": "surface_entrance.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:44:58.606760300Z",
+      "sha256": "f30bce633c379b6f90c1f28efc5e07f020110fd6089a8f49075629c1161adc61"
+    },
+    {
+      "name": "temple_axis",
+      "type": "interior",
+      "camera_position": {
+        "x": 730000.0,
+        "y": -3.0,
+        "z": 730039.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -0.0
+      },
+      "fov": 70.0,
+      "screenshot_filename": "temple_axis.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:01.662299700Z",
+      "sha256": "7e6abb709cc7aab8e16e526f3eddfc46e59f7707a70555c1525b37801df9ae1b"
+    },
+    {
+      "name": "temple_columns",
+      "type": "interior",
+      "camera_position": {
+        "x": 729982.0,
+        "y": -3.0,
+        "z": 730054.0
+      },
+      "camera_rotation": {
+        "yaw": -72.55281,
+        "pitch": -0.0
+      },
+      "fov": 70.0,
+      "screenshot_filename": "temple_columns.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:04.717027500Z",
+      "sha256": "26363bb0bd9106753fb993d60abf787aeaebbddeea32e2444aaeb2e6a62a182c"
+    },
+    {
+      "name": "seal_corridor",
+      "type": "interior",
+      "camera_position": {
+        "x": 730000.0,
+        "y": -7.0,
+        "z": 730086.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -0.0
+      },
+      "fov": 70.0,
+      "screenshot_filename": "seal_corridor.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:07.774212Z",
+      "sha256": "41689fdc62ec1f1fbc70d05d60d9fb534d2622265a479b320745999b54c5f5da"
+    },
+    {
+      "name": "arsenal",
+      "type": "interior",
+      "camera_position": {
+        "x": 730043.0,
+        "y": -10.0,
+        "z": 730109.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 1.6846843
+      },
+      "fov": 70.0,
+      "screenshot_filename": "arsenal.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:10.835488500Z",
+      "sha256": "038e42dede27d3c8d7350365eef5b3bac9174090a68df252e0dcc6c3c76093ac"
+    },
+    {
+      "name": "deep_cavern",
+      "type": "interior",
+      "camera_position": {
+        "x": 729976.0,
+        "y": -15.0,
+        "z": 730169.0
+      },
+      "camera_rotation": {
+        "yaw": -42.70939,
+        "pitch": 6.449716
+      },
+      "fov": 70.0,
+      "screenshot_filename": "deep_cavern.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:13.984136800Z",
+      "sha256": "5988cebaece9bc183e8351afb87867ceb47bfbc864c4aa514126b19807a7ca90"
+    },
+    {
+      "name": "cavern_wall",
+      "type": "interior",
+      "camera_position": {
+        "x": 730003.0,
+        "y": -14.0,
+        "z": 730178.0
+      },
+      "camera_rotation": {
+        "yaw": -75.06858,
+        "pitch": -1.2300595
+      },
+      "fov": 70.0,
+      "screenshot_filename": "cavern_wall.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:17.129592900Z",
+      "sha256": "7c1e82f6a20d8c034b94e42cef08fa8cb23cb63475d41e1079df2e0059427d2a"
+    },
+    {
+      "name": "cavern_wall_oblique",
+      "type": "interior",
+      "camera_position": {
+        "x": 729982.0,
+        "y": -15.0,
+        "z": 730181.0
+      },
+      "camera_rotation": {
+        "yaw": -77.300415,
+        "pitch": -1.5740856
+      },
+      "fov": 70.0,
+      "screenshot_filename": "cavern_wall_oblique.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:20.271522Z",
+      "sha256": "2e3e203869c7ae084c2fbbf9ac4a3da3faf5441767bab8fcf697a227d4ba55d6"
+    },
+    {
+      "name": "city_plaza",
+      "type": "interior",
+      "camera_position": {
+        "x": 730000.0,
+        "y": -28.0,
+        "z": 730224.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -0.0
+      },
+      "fov": 70.0,
+      "screenshot_filename": "city_plaza.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:23.379220700Z",
+      "sha256": "2bc65a5287cc03d16437c42af4fd8b427da0c5a1ee9ab9972f6bc99b3ce3a17c"
+    },
+    {
+      "name": "city_plaza_side",
+      "type": "interior",
+      "camera_position": {
+        "x": 729977.0,
+        "y": -27.0,
+        "z": 730250.0
+      },
+      "camera_rotation": {
+        "yaw": -51.89242,
+        "pitch": 0.8839177
+      },
+      "fov": 70.0,
+      "screenshot_filename": "city_plaza_side.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:26.525585700Z",
+      "sha256": "d34090cb31fcd2405ecb802e8ff85535d9bca86ec65df4b31c31d10319aaf45c"
+    },
+    {
+      "name": "city_street",
+      "type": "interior",
+      "camera_position": {
+        "x": 730000.0,
+        "y": -29.0,
+        "z": 730239.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -4.8990927
+      },
+      "fov": 70.0,
+      "screenshot_filename": "city_street.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:29.632454900Z",
+      "sha256": "9f61841c3475dfb349472074c8992660407b5ea4919d078e2dd289b4fe583c29"
+    },
+    {
+      "name": "city_oblique",
+      "type": "interior",
+      "camera_position": {
+        "x": 729948.0,
+        "y": -17.0,
+        "z": 730225.0
+      },
+      "camera_rotation": {
+        "yaw": -59.620872,
+        "pitch": 6.2250276
+      },
+      "fov": 70.0,
+      "screenshot_filename": "city_oblique.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:32.774595Z",
+      "sha256": "fec52220da3241c63cb172b273a71bbd6cfe492acc7d22b3c8569206204fe8b3"
+    },
+    {
+      "name": "city_bridge",
+      "type": "interior",
+      "camera_position": {
+        "x": 730000.0,
+        "y": -30.0,
+        "z": 730264.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 2.29061
+      },
+      "fov": 70.0,
+      "screenshot_filename": "city_bridge.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:35.883731400Z",
+      "sha256": "81eedfa9508d5fb5eada9ad783dfce810090e26d905468e2e7ea61a511f90a67"
+    },
+    {
+      "name": "city_bridge_support",
+      "type": "interior",
+      "camera_position": {
+        "x": 730015.0,
+        "y": -31.0,
+        "z": 730279.0
+      },
+      "camera_rotation": {
+        "yaw": 104.93142,
+        "pitch": 17.852625
+      },
+      "fov": 70.0,
+      "screenshot_filename": "city_bridge_support.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:38.994705100Z",
+      "sha256": "a2656c21638c55bc3ba7f488f6033f355c1c76bd38875f46dc5cbfef6acd811f"
+    },
+    {
+      "name": "city_bridge_under",
+      "type": "interior",
+      "camera_position": {
+        "x": 730015.0,
+        "y": -36.0,
+        "z": 730275.0
+      },
+      "camera_rotation": {
+        "yaw": 90.0,
+        "pitch": -0.0
+      },
+      "fov": 70.0,
+      "screenshot_filename": "city_bridge_under.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:42.103795200Z",
+      "sha256": "9d8fa86980b967cb6bafaea9126e528b192e21d9108c73e56700a7266e0df60d"
+    },
+    {
+      "name": "world_core",
+      "type": "interior",
+      "camera_position": {
+        "x": 730000.0,
+        "y": -27.0,
+        "z": 730302.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -9.462322
+      },
+      "fov": 70.0,
+      "screenshot_filename": "world_core.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:45.213804300Z",
+      "sha256": "2a292e191e5cb32b739fc2fa8cdfbe786bc9b3f39779e3a051afaddd33f43b1a"
+    },
+    {
+      "name": "boss_arena",
+      "type": "interior",
+      "camera_position": {
+        "x": 730000.0,
+        "y": -31.0,
+        "z": 730346.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 4.3987055
+      },
+      "fov": 70.0,
+      "screenshot_filename": "boss_arena.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:48.324965600Z",
+      "sha256": "0c84492501f1a03ad7fd4347d5f102f082545bc25989b47242ac19cc43b7e027"
+    },
+    {
+      "name": "arena_rear",
+      "type": "interior",
+      "camera_position": {
+        "x": 730013.0,
+        "y": -29.0,
+        "z": 730373.0
+      },
+      "camera_rotation": {
+        "yaw": 37.405357,
+        "pitch": -10.586869
+      },
+      "fov": 70.0,
+      "screenshot_filename": "arena_rear.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-19T21:45:51.468648Z",
+      "sha256": "4df424f54096a11256c55ad329860bc4f4d5e753384ff88de239e819d132dd9e"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-19T21:44:40.324125400Z",
+  "updated_at": "2026-10-19T21:45:51.468648Z",
+  "target": {
+    "id": "ow08_deepest_draft_v1",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 730000,
+      "y": 4,
+      "z": 730000
+    },
+    "bounds": {
+      "minX": -25,
+      "minY": -4,
+      "minZ": -17,
+      "maxX": 26,
+      "maxY": 21,
+      "maxZ": 32
+    },
+    "rotation": "NONE",
+    "interiorViews": [
+      {
+        "name": "surface_entrance",
+        "position": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": -26.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 5.0,
+          "z": 11.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "temple_axis",
+        "position": {
+          "x": 0.0,
+          "y": -7.0,
+          "z": 39.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -7.0,
+          "z": 74.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "temple_columns",
+        "position": {
+          "x": -18.0,
+          "y": -7.0,
+          "z": 54.0
+        },
+        "lookTarget": {
+          "x": 17.0,
+          "y": -7.0,
+          "z": 65.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "seal_corridor",
+        "position": {
+          "x": 0.0,
+          "y": -11.0,
+          "z": 86.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -11.0,
+          "z": 124.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "arsenal",
+        "position": {
+          "x": 43.0,
+          "y": -14.0,
+          "z": 109.0
+        },
+        "lookTarget": {
+          "x": 43.0,
+          "y": -15.0,
+          "z": 143.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "deep_cavern",
+        "position": {
+          "x": -24.0,
+          "y": -19.0,
+          "z": 169.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -23.0,
+          "z": 195.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "cavern_wall",
+        "position": {
+          "x": 3.0,
+          "y": -18.0,
+          "z": 178.0
+        },
+        "lookTarget": {
+          "x": 48.0,
+          "y": -17.0,
+          "z": 190.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "cavern_wall_oblique",
+        "position": {
+          "x": -18.0,
+          "y": -19.0,
+          "z": 181.0
+        },
+        "lookTarget": {
+          "x": 53.0,
+          "y": -17.0,
+          "z": 197.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "city_plaza",
+        "position": {
+          "x": 0.0,
+          "y": -32.0,
+          "z": 224.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -32.0,
+          "z": 263.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "city_plaza_side",
+        "position": {
+          "x": -23.0,
+          "y": -31.0,
+          "z": 250.0
+        },
+        "lookTarget": {
+          "x": 28.0,
+          "y": -32.0,
+          "z": 290.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "city_street",
+        "position": {
+          "x": 0.0,
+          "y": -33.0,
+          "z": 239.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -30.0,
+          "z": 274.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "city_oblique",
+        "position": {
+          "x": -52.0,
+          "y": -21.0,
+          "z": 225.0
+        },
+        "lookTarget": {
+          "x": 35.0,
+          "y": -32.0,
+          "z": 276.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "city_bridge",
+        "position": {
+          "x": 0.0,
+          "y": -34.0,
+          "z": 264.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -35.0,
+          "z": 289.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "city_bridge_support",
+        "position": {
+          "x": 15.0,
+          "y": -35.0,
+          "z": 279.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -40.0,
+          "z": 275.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "city_bridge_under",
+        "position": {
+          "x": 15.0,
+          "y": -40.0,
+          "z": 275.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -40.0,
+          "z": 275.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "world_core",
+        "position": {
+          "x": 0.0,
+          "y": -31.0,
+          "z": 302.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -28.0,
+          "z": 320.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "boss_arena",
+        "position": {
+          "x": 0.0,
+          "y": -35.0,
+          "z": 346.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -37.0,
+          "z": 372.0
+        },
+        "fov": 70
+      },
+      {
+        "name": "arena_rear",
+        "position": {
+          "x": 13.0,
+          "y": -33.0,
+          "z": 373.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -29.0,
+          "z": 390.0
+        },
+        "fov": 70
+      }
+    ],
+    "architectureBounds": {
+      "minX": -132,
+      "minY": -48,
+      "minZ": -12,
+      "maxX": 133,
+      "maxY": 20,
+      "maxZ": 394
+    }
+  },
+  "viewpoints": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "x": 730000.5,
+      "y": 32.87661404649948,
+      "z": 730089.006456186,
+      "yaw": -180.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "x": 730000.5,
+      "y": 32.87661404649948,
+      "z": 729925.993543814,
+      "yaw": -0.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "x": 730082.006456186,
+      "y": 32.87661404649948,
+      "z": 730007.5,
+      "yaw": 90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "x": 729918.993543814,
+      "y": 32.87661404649948,
+      "z": 730007.5,
+      "yaw": -90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "x": 730000.5,
+      "y": 96.51493200616187,
+      "z": 730007.5,
+      "yaw": -0.0,
+      "pitch": 90.0,
+      "fov": 60.0
+    },
+    {
+      "name": "surface_entrance",
+      "type": "interior",
+      "x": 730000.0,
+      "y": 14.0,
+      "z": 729974.0,
+      "yaw": -0.0,
+      "pitch": 7.6960516,
+      "fov": 70.0
+    },
+    {
+      "name": "temple_axis",
+      "type": "interior",
+      "x": 730000.0,
+      "y": -3.0,
+      "z": 730039.0,
+      "yaw": -0.0,
+      "pitch": -0.0,
+      "fov": 70.0
+    },
+    {
+      "name": "temple_columns",
+      "type": "interior",
+      "x": 729982.0,
+      "y": -3.0,
+      "z": 730054.0,
+      "yaw": -72.55281,
+      "pitch": -0.0,
+      "fov": 70.0
+    },
+    {
+      "name": "seal_corridor",
+      "type": "interior",
+      "x": 730000.0,
+      "y": -7.0,
+      "z": 730086.0,
+      "yaw": -0.0,
+      "pitch": -0.0,
+      "fov": 70.0
+    },
+    {
+      "name": "arsenal",
+      "type": "interior",
+      "x": 730043.0,
+      "y": -10.0,
+      "z": 730109.0,
+      "yaw": -0.0,
+      "pitch": 1.6846843,
+      "fov": 70.0
+    },
+    {
+      "name": "deep_cavern",
+      "type": "interior",
+      "x": 729976.0,
+      "y": -15.0,
+      "z": 730169.0,
+      "yaw": -42.70939,
+      "pitch": 6.449716,
+      "fov": 70.0
+    },
+    {
+      "name": "cavern_wall",
+      "type": "interior",
+      "x": 730003.0,
+      "y": -14.0,
+      "z": 730178.0,
+      "yaw": -75.06858,
+      "pitch": -1.2300595,
+      "fov": 70.0
+    },
+    {
+      "name": "cavern_wall_oblique",
+      "type": "interior",
+      "x": 729982.0,
+      "y": -15.0,
+      "z": 730181.0,
+      "yaw": -77.300415,
+      "pitch": -1.5740856,
+      "fov": 70.0
+    },
+    {
+      "name": "city_plaza",
+      "type": "interior",
+      "x": 730000.0,
+      "y": -28.0,
+      "z": 730224.0,
+      "yaw": -0.0,
+      "pitch": -0.0,
+      "fov": 70.0
+    },
+    {
+      "name": "city_plaza_side",
+      "type": "interior",
+      "x": 729977.0,
+      "y": -27.0,
+      "z": 730250.0,
+      "yaw": -51.89242,
+      "pitch": 0.8839177,
+      "fov": 70.0
+    },
+    {
+      "name": "city_street",
+      "type": "interior",
+      "x": 730000.0,
+      "y": -29.0,
+      "z": 730239.0,
+      "yaw": -0.0,
+      "pitch": -4.8990927,
+      "fov": 70.0
+    },
+    {
+      "name": "city_oblique",
+      "type": "interior",
+      "x": 729948.0,
+      "y": -17.0,
+      "z": 730225.0,
+      "yaw": -59.620872,
+      "pitch": 6.2250276,
+      "fov": 70.0
+    },
+    {
+      "name": "city_bridge",
+      "type": "interior",
+      "x": 730000.0,
+      "y": -30.0,
+      "z": 730264.0,
+      "yaw": -0.0,
+      "pitch": 2.29061,
+      "fov": 70.0
+    },
+    {
+      "name": "city_bridge_support",
+      "type": "interior",
+      "x": 730015.0,
+      "y": -31.0,
+      "z": 730279.0,
+      "yaw": 104.93142,
+      "pitch": 17.852625,
+      "fov": 70.0
+    },
+    {
+      "name": "city_bridge_under",
+      "type": "interior",
+      "x": 730015.0,
+      "y": -36.0,
+      "z": 730275.0,
+      "yaw": 90.0,
+      "pitch": -0.0,
+      "fov": 70.0
+    },
+    {
+      "name": "world_core",
+      "type": "interior",
+      "x": 730000.0,
+      "y": -27.0,
+      "z": 730302.0,
+      "yaw": -0.0,
+      "pitch": -9.462322,
+      "fov": 70.0
+    },
+    {
+      "name": "boss_arena",
+      "type": "interior",
+      "x": 730000.0,
+      "y": -31.0,
+      "z": 730346.0,
+      "yaw": -0.0,
+      "pitch": 4.3987055,
+      "fov": 70.0
+    },
+    {
+      "name": "arena_rear",
+      "type": "interior",
+      "x": 730013.0,
+      "y": -29.0,
+      "z": 730373.0,
+      "yaw": 37.405357,
+      "pitch": -10.586869,
+      "fov": 70.0
+    }
+  ],
+  "fov": 60,
+  "width": 854,
+  "height": 480,
+  "completed_images": [
+    "south.png",
+    "north.png",
+    "east.png",
+    "west.png",
+    "top.png",
+    "surface_entrance.png",
+    "temple_axis.png",
+    "temple_columns.png",
+    "seal_corridor.png",
+    "arsenal.png",
+    "deep_cavern.png",
+    "cavern_wall.png",
+    "cavern_wall_oblique.png",
+    "city_plaza.png",
+    "city_plaza_side.png",
+    "city_street.png",
+    "city_oblique.png",
+    "city_bridge.png",
+    "city_bridge_support.png",
+    "city_bridge_under.png",
+    "world_core.png",
+    "boss_arena.png",
+    "arena_rear.png"
+  ],
+  "player_position_unchanged": true
+}
