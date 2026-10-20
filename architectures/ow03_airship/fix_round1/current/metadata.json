@@ -1,0 +1,758 @@
+{
+  "schema_version": 2,
+  "architecture_id": "ow03_airship_fix_round1",
+  "architecture_anchor": {
+    "x": 640000,
+    "y": 100,
+    "z": 640000
+  },
+  "architecture_bounds": {
+    "minX": -19,
+    "minY": 0,
+    "minZ": -51,
+    "maxX": 20,
+    "maxY": 64,
+    "maxZ": 50
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "views": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "camera_position": {
+        "x": 640000.5,
+        "z": 640136.1561996184,
+        "y": 166.1640499045759
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": -180.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "south.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:01:54.438893300Z",
+      "sha256": "7e49a9a5d756f7f148c7374f2af439873c24ef444be2872cbe9f957b6d3414cb"
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "camera_position": {
+        "x": 640000.5,
+        "z": 639862.8438003816,
+        "y": 166.1640499045759
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": -0.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "north.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:01:57.465486Z",
+      "sha256": "eef4890507ac75e663d54f95f31cd29c70e361010956a6bf52fc3b56880483e5"
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "camera_position": {
+        "x": 640137.1561996184,
+        "z": 639999.5,
+        "y": 166.1640499045759
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": 90.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "east.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:00.492718Z",
+      "sha256": "3531c3b0f87f670f23d0af17cebc378b84116a764099698100fe20f9cd83109e"
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "camera_position": {
+        "x": 639863.8438003816,
+        "z": 639999.5,
+        "y": 166.1640499045759
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": -90.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "west.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:03.520767500Z",
+      "sha256": "8edb6a9a3d97c3775520a5eff335bd744bb4e09694ea36f6111a0e688551e2ff"
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "camera_position": {
+        "x": 640000.5,
+        "z": 639999.5,
+        "y": 272.86198635543946
+      },
+      "camera_rotation": {
+        "pitch": 90.0,
+        "yaw": -0.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "top.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:06.546116100Z",
+      "sha256": "7c15be18edd622d577eb68dffa55c72eef2b783c17274d06a540a271ed1acb2a"
+    },
+    {
+      "name": "stern_boarding",
+      "type": "interior",
+      "camera_position": {
+        "x": 640000.0,
+        "z": 639943.0,
+        "y": 118.0
+      },
+      "camera_rotation": {
+        "pitch": 8.530766,
+        "yaw": -0.0
+      },
+      "fov": 80.0,
+      "screenshot_filename": "stern_boarding.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:09.582686600Z",
+      "sha256": "304640ee60ad1d84c23880dd49eb9e86cd1097a76d8051f3970addf305b558d7"
+    },
+    {
+      "name": "main_deck",
+      "type": "interior",
+      "camera_position": {
+        "x": 639992.0,
+        "z": 639985.0,
+        "y": 118.0
+      },
+      "camera_rotation": {
+        "pitch": -5.5411663,
+        "yaw": -22.833654
+      },
+      "fov": 82.0,
+      "screenshot_filename": "main_deck.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:12.630337400Z",
+      "sha256": "b2bbd190ae1a50593c44e3be0dd934ca2e43aebe8e6f4974b51ad105aacd3b7c"
+    },
+    {
+      "name": "envelope_side_detail",
+      "type": "interior",
+      "camera_position": {
+        "x": 640052.0,
+        "z": 640010.0,
+        "y": 135.0
+      },
+      "camera_rotation": {
+        "pitch": 1.0888983,
+        "yaw": 98.74616
+      },
+      "fov": 75.0,
+      "screenshot_filename": "envelope_side_detail.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:15.675507500Z",
+      "sha256": "6d515eb955964f4b43fe4524d3c3fd0db6a3845b4ecdff4038532f587ab7d7d6"
+    },
+    {
+      "name": "deck_equipment",
+      "type": "interior",
+      "camera_position": {
+        "x": 639990.0,
+        "z": 640008.0,
+        "y": 117.0
+      },
+      "camera_rotation": {
+        "pitch": 6.330509,
+        "yaw": -33.690067
+      },
+      "fov": 82.0,
+      "screenshot_filename": "deck_equipment.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:18.720891Z",
+      "sha256": "bcd7220a644edad70b0f75234031f666a394782ea9020305f3c369d97c18793e"
+    },
+    {
+      "name": "crew_quarters",
+      "type": "interior",
+      "camera_position": {
+        "x": 640000.0,
+        "z": 639971.0,
+        "y": 110.0
+      },
+      "camera_rotation": {
+        "pitch": 5.194429,
+        "yaw": -0.0
+      },
+      "fov": 80.0,
+      "screenshot_filename": "crew_quarters.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:21.775192500Z",
+      "sha256": "6a26d298d611e6d9febbf2797fd3ff990a5fee63b4122b324934c4ea53f2332e"
+    },
+    {
+      "name": "cargo_hold",
+      "type": "interior",
+      "camera_position": {
+        "x": 640000.0,
+        "z": 639992.0,
+        "y": 110.0
+      },
+      "camera_rotation": {
+        "pitch": 4.763642,
+        "yaw": -0.0
+      },
+      "fov": 82.0,
+      "screenshot_filename": "cargo_hold.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:24.829894300Z",
+      "sha256": "a2d8a43ac5fe1e03386986cfe844521b09d714ee5c13c421494538681c55afe9"
+    },
+    {
+      "name": "engine_room",
+      "type": "interior",
+      "camera_position": {
+        "x": 640000.0,
+        "z": 640015.0,
+        "y": 110.0
+      },
+      "camera_rotation": {
+        "pitch": 9.462322,
+        "yaw": -0.0
+      },
+      "fov": 86.0,
+      "screenshot_filename": "engine_room.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:27.940775900Z",
+      "sha256": "ba0d51f5f086b9263b45d0e56eacb6c439c13487dd330290b46c29709fe31c25"
+    },
+    {
+      "name": "outer_deck",
+      "type": "interior",
+      "camera_position": {
+        "x": 640013.0,
+        "z": 640014.0,
+        "y": 118.0
+      },
+      "camera_rotation": {
+        "pitch": 8.130102,
+        "yaw": -0.0
+      },
+      "fov": 80.0,
+      "screenshot_filename": "outer_deck.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:31.047489100Z",
+      "sha256": "720c2c55529e148f2c4c5e1a96fe737f858ec13aee121e464d63c717ff284441"
+    },
+    {
+      "name": "phantom_platform",
+      "type": "interior",
+      "camera_position": {
+        "x": 640019.0,
+        "z": 640022.0,
+        "y": 119.0
+      },
+      "camera_rotation": {
+        "pitch": 33.690067,
+        "yaw": 90.0
+      },
+      "fov": 76.0,
+      "screenshot_filename": "phantom_platform.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:34.153670Z",
+      "sha256": "58c0fe41bc0db3dabc736e0cde9e3e5ea27a145c3dcb6e7c6026c572152c4ce9"
+    },
+    {
+      "name": "lookout",
+      "type": "interior",
+      "camera_position": {
+        "x": 640003.0,
+        "z": 640000.0,
+        "y": 129.0
+      },
+      "camera_rotation": {
+        "pitch": 13.262676,
+        "yaw": 45.0
+      },
+      "fov": 80.0,
+      "screenshot_filename": "lookout.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:37.263082600Z",
+      "sha256": "c2bf633a5245e8603681d6d247a9f13101b07bb59c8dc8c3e7cb2b7c2b770536"
+    },
+    {
+      "name": "helm",
+      "type": "interior",
+      "camera_position": {
+        "x": 640000.0,
+        "z": 639973.0,
+        "y": 117.0
+      },
+      "camera_rotation": {
+        "pitch": 6.340192,
+        "yaw": -180.0
+      },
+      "fov": 80.0,
+      "screenshot_filename": "helm.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:40.374469100Z",
+      "sha256": "fcad2e21c66c53b03ff57272b4ed867acc6a2b752cd66ba03730daed08dd1b9d"
+    },
+    {
+      "name": "reward_room",
+      "type": "interior",
+      "camera_position": {
+        "x": 639995.0,
+        "z": 639972.0,
+        "y": 117.0
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": -180.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "reward_room.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T15:02:43.484763200Z",
+      "sha256": "3dcb2a824491e276efdd4c44bf8baa097b8a466d6379c09e1f3823e90c6f7229"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-20T15:01:51.387858800Z",
+  "updated_at": "2026-10-20T15:02:43.485763700Z",
+  "target": {
+    "id": "ow03_airship_fix_round1",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 640000,
+      "y": 100,
+      "z": 640000
+    },
+    "bounds": {
+      "minX": -19,
+      "minY": 0,
+      "minZ": -51,
+      "maxX": 20,
+      "maxY": 64,
+      "maxZ": 50
+    },
+    "rotation": "NONE",
+    "interiorViews": [
+      {
+        "name": "stern_boarding",
+        "position": {
+          "x": 0.0,
+          "y": 18.0,
+          "z": -57.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 15.0,
+          "z": -37.0
+        },
+        "fov": 80
+      },
+      {
+        "name": "main_deck",
+        "position": {
+          "x": -8.0,
+          "y": 18.0,
+          "z": -15.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 20.0,
+          "z": 4.0
+        },
+        "fov": 82
+      },
+      {
+        "name": "envelope_side_detail",
+        "position": {
+          "x": 52.0,
+          "y": 35.0,
+          "z": 10.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 34.0,
+          "z": 2.0
+        },
+        "fov": 75
+      },
+      {
+        "name": "deck_equipment",
+        "position": {
+          "x": -10.0,
+          "y": 17.0,
+          "z": 8.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 15.0,
+          "z": 23.0
+        },
+        "fov": 82
+      },
+      {
+        "name": "crew_quarters",
+        "position": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": -29.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 9.0,
+          "z": -18.0
+        },
+        "fov": 80
+      },
+      {
+        "name": "cargo_hold",
+        "position": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": -8.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 9.0,
+          "z": 4.0
+        },
+        "fov": 82
+      },
+      {
+        "name": "engine_room",
+        "position": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": 15.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 9.0,
+          "z": 21.0
+        },
+        "fov": 86
+      },
+      {
+        "name": "outer_deck",
+        "position": {
+          "x": 13.0,
+          "y": 18.0,
+          "z": 14.0
+        },
+        "lookTarget": {
+          "x": 13.0,
+          "y": 16.0,
+          "z": 28.0
+        },
+        "fov": 80
+      },
+      {
+        "name": "phantom_platform",
+        "position": {
+          "x": 19.0,
+          "y": 19.0,
+          "z": 22.0
+        },
+        "lookTarget": {
+          "x": 13.0,
+          "y": 15.0,
+          "z": 22.0
+        },
+        "fov": 76
+      },
+      {
+        "name": "lookout",
+        "position": {
+          "x": 3.0,
+          "y": 29.0,
+          "z": 0.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 28.0,
+          "z": 3.0
+        },
+        "fov": 80
+      },
+      {
+        "name": "helm",
+        "position": {
+          "x": 0.0,
+          "y": 17.0,
+          "z": -27.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 16.0,
+          "z": -36.0
+        },
+        "fov": 80
+      },
+      {
+        "name": "reward_room",
+        "position": {
+          "x": -5.0,
+          "y": 17.0,
+          "z": -28.0
+        },
+        "lookTarget": {
+          "x": -5.0,
+          "y": 16.0,
+          "z": -32.0
+        },
+        "fov": 75
+      }
+    ],
+    "architectureBounds": {
+      "minX": -19,
+      "minY": 0,
+      "minZ": -51,
+      "maxX": 20,
+      "maxY": 64,
+      "maxZ": 50
+    }
+  },
+  "viewpoints": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "x": 640000.5,
+      "y": 166.1640499045759,
+      "z": 640136.1561996184,
+      "yaw": -180.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "x": 640000.5,
+      "y": 166.1640499045759,
+      "z": 639862.8438003816,
+      "yaw": -0.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "x": 640137.1561996184,
+      "y": 166.1640499045759,
+      "z": 639999.5,
+      "yaw": 90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "x": 639863.8438003816,
+      "y": 166.1640499045759,
+      "z": 639999.5,
+      "yaw": -90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "x": 640000.5,
+      "y": 272.86198635543946,
+      "z": 639999.5,
+      "yaw": -0.0,
+      "pitch": 90.0,
+      "fov": 60.0
+    },
+    {
+      "name": "stern_boarding",
+      "type": "interior",
+      "x": 640000.0,
+      "y": 118.0,
+      "z": 639943.0,
+      "yaw": -0.0,
+      "pitch": 8.530766,
+      "fov": 80.0
+    },
+    {
+      "name": "main_deck",
+      "type": "interior",
+      "x": 639992.0,
+      "y": 118.0,
+      "z": 639985.0,
+      "yaw": -22.833654,
+      "pitch": -5.5411663,
+      "fov": 82.0
+    },
+    {
+      "name": "envelope_side_detail",
+      "type": "interior",
+      "x": 640052.0,
+      "y": 135.0,
+      "z": 640010.0,
+      "yaw": 98.74616,
+      "pitch": 1.0888983,
+      "fov": 75.0
+    },
+    {
+      "name": "deck_equipment",
+      "type": "interior",
+      "x": 639990.0,
+      "y": 117.0,
+      "z": 640008.0,
+      "yaw": -33.690067,
+      "pitch": 6.330509,
+      "fov": 82.0
+    },
+    {
+      "name": "crew_quarters",
+      "type": "interior",
+      "x": 640000.0,
+      "y": 110.0,
+      "z": 639971.0,
+      "yaw": -0.0,
+      "pitch": 5.194429,
+      "fov": 80.0
+    },
+    {
+      "name": "cargo_hold",
+      "type": "interior",
+      "x": 640000.0,
+      "y": 110.0,
+      "z": 639992.0,
+      "yaw": -0.0,
+      "pitch": 4.763642,
+      "fov": 82.0
+    },
+    {
+      "name": "engine_room",
+      "type": "interior",
+      "x": 640000.0,
+      "y": 110.0,
+      "z": 640015.0,
+      "yaw": -0.0,
+      "pitch": 9.462322,
+      "fov": 86.0
+    },
+    {
+      "name": "outer_deck",
+      "type": "interior",
+      "x": 640013.0,
+      "y": 118.0,
+      "z": 640014.0,
+      "yaw": -0.0,
+      "pitch": 8.130102,
+      "fov": 80.0
+    },
+    {
+      "name": "phantom_platform",
+      "type": "interior",
+      "x": 640019.0,
+      "y": 119.0,
+      "z": 640022.0,
+      "yaw": 90.0,
+      "pitch": 33.690067,
+      "fov": 76.0
+    },
+    {
+      "name": "lookout",
+      "type": "interior",
+      "x": 640003.0,
+      "y": 129.0,
+      "z": 640000.0,
+      "yaw": 45.0,
+      "pitch": 13.262676,
+      "fov": 80.0
+    },
+    {
+      "name": "helm",
+      "type": "interior",
+      "x": 640000.0,
+      "y": 117.0,
+      "z": 639973.0,
+      "yaw": -180.0,
+      "pitch": 6.340192,
+      "fov": 80.0
+    },
+    {
+      "name": "reward_room",
+      "type": "interior",
+      "x": 639995.0,
+      "y": 117.0,
+      "z": 639972.0,
+      "yaw": -180.0,
+      "pitch": 14.036243,
+      "fov": 75.0
+    }
+  ],
+  "fov": 60,
+  "width": 854,
+  "height": 480,
+  "completed_images": [
+    "south.png",
+    "north.png",
+    "east.png",
+    "west.png",
+    "top.png",
+    "stern_boarding.png",
+    "main_deck.png",
+    "envelope_side_detail.png",
+    "deck_equipment.png",
+    "crew_quarters.png",
+    "cargo_hold.png",
+    "engine_room.png",
+    "outer_deck.png",
+    "phantom_platform.png",
+    "lookout.png",
+    "helm.png",
+    "reward_room.png"
+  ],
+  "player_position_unchanged": true
+}
