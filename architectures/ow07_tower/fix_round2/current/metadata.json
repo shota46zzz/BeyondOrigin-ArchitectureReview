@@ -1,0 +1,867 @@
+{
+  "schema_version": 2,
+  "architecture_id": "ow07_tower_fix_round2",
+  "architecture_anchor": {
+    "x": 670000,
+    "y": 4,
+    "z": 670000
+  },
+  "architecture_bounds": {
+    "minX": -22,
+    "minY": 0,
+    "minZ": -25,
+    "maxX": 23,
+    "maxY": 43,
+    "maxZ": 23
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "night_vision": true,
+  "source_evidence": {
+    "source": "OverworldTowerDraftPlan",
+    "state": "DRAFT_BUILD_ONLY",
+    "architecture_id": "overworld/ow07_tower/draft_v1"
+  },
+  "visual_settings": {
+    "night_vision_forced_off": false,
+    "weather_rendering_suppressed": true,
+    "camera_fov_default": 60,
+    "gamma": 1.0,
+    "lightmap_brightening": true,
+    "hud_hidden": true
+  },
+  "world_game_time": 41401,
+  "world_rain_level": 0.0,
+  "views": [
+    {
+      "name": "overall_oblique",
+      "type": "exterior",
+      "camera_position": {
+        "z": 669925.0,
+        "y": 69.0,
+        "x": 669930.0
+      },
+      "camera_rotation": {
+        "pitch": 23.68385,
+        "yaw": -43.025066
+      },
+      "fov": 78.0,
+      "screenshot_filename": "overall_oblique.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:14.555968900Z",
+      "sha256": "312c5a5b27edbd86a1899b87f2051c5c7a462d5ac636b7aaca543bc89c47bd48"
+    },
+    {
+      "name": "entry_front",
+      "type": "exterior",
+      "camera_position": {
+        "z": 669942.0,
+        "y": 16.0,
+        "x": 670000.0
+      },
+      "camera_rotation": {
+        "pitch": 0.9877604,
+        "yaw": -0.0
+      },
+      "fov": 72.0,
+      "screenshot_filename": "entry_front.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:17.602371300Z",
+      "sha256": "5225ceae50d728a3117c63982ac6d8698758e0b7f7f1d72df4f67d00cf7c7591"
+    },
+    {
+      "name": "east_silhouette",
+      "type": "exterior",
+      "camera_position": {
+        "z": 670005.0,
+        "y": 40.0,
+        "x": 670068.0
+      },
+      "camera_rotation": {
+        "pitch": 11.603163,
+        "yaw": 94.20536
+      },
+      "fov": 75.0,
+      "screenshot_filename": "east_silhouette.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:20.653199900Z",
+      "sha256": "8f52eafd1222640e85ee6792b103dcdda9c72435540d83d0a4110c8f73a3a378"
+    },
+    {
+      "name": "west_silhouette",
+      "type": "exterior",
+      "camera_position": {
+        "z": 670005.0,
+        "y": 40.0,
+        "x": 669932.0
+      },
+      "camera_rotation": {
+        "pitch": 11.603163,
+        "yaw": -94.20536
+      },
+      "fov": 75.0,
+      "screenshot_filename": "west_silhouette.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:23.699736800Z",
+      "sha256": "f99388009c42dc0760ce33a2af9109b336d4efd3b559880b52f0c87657d5a7f4"
+    },
+    {
+      "name": "vault_facade",
+      "type": "exterior",
+      "camera_position": {
+        "z": 670042.0,
+        "y": 29.0,
+        "x": 670044.0
+      },
+      "camera_rotation": {
+        "pitch": 6.9087844,
+        "yaw": 136.63658
+      },
+      "fov": 70.0,
+      "screenshot_filename": "vault_facade.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:26.749457500Z",
+      "sha256": "a960049505d9e222c17f868d3fde277f48dbf9a107e678951e202f8c6f8728f8"
+    },
+    {
+      "name": "upper_arena_oblique",
+      "type": "exterior",
+      "camera_position": {
+        "z": 669963.0,
+        "y": 59.0,
+        "x": 669962.0
+      },
+      "camera_rotation": {
+        "pitch": 23.444141,
+        "yaw": -45.763897
+      },
+      "fov": 73.0,
+      "screenshot_filename": "upper_arena_oblique.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:29.798387200Z",
+      "sha256": "ddae23cd622ca5db6401986f840c1d97f86a49c0ac0dcd3166bdb9c7527c2f48"
+    },
+    {
+      "name": "crown_detail",
+      "type": "exterior",
+      "camera_position": {
+        "z": 669960.0,
+        "y": 51.0,
+        "x": 670040.0
+      },
+      "camera_rotation": {
+        "pitch": 10.397226,
+        "yaw": 36.607075
+      },
+      "fov": 70.0,
+      "screenshot_filename": "crown_detail.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:32.844113300Z",
+      "sha256": "4449a64d5fde1e3250ab8ef06504d62bc1ce6bb7b29e8559a2cdf76b83d2d31b"
+    },
+    {
+      "name": "entry_hall",
+      "type": "interior",
+      "camera_position": {
+        "z": 669986.0,
+        "y": 8.0,
+        "x": 670000.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": -0.0
+      },
+      "fov": 84.0,
+      "screenshot_filename": "entry_hall.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:35.901125400Z",
+      "sha256": "63733dbd4c3c1e302b984066310e0cd6280f99ae5948badb9f6c3e59dd1b71e5"
+    },
+    {
+      "name": "first_gallery",
+      "type": "interior",
+      "camera_position": {
+        "z": 669992.0,
+        "y": 15.0,
+        "x": 669998.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": -9.462322
+      },
+      "fov": 92.0,
+      "screenshot_filename": "first_gallery.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:38.967697800Z",
+      "sha256": "6bfde83faf599e9909482e600915811b8dbbe13d0c61390eeefeb80fa0fc8c72"
+    },
+    {
+      "name": "trial_bay",
+      "type": "interior",
+      "camera_position": {
+        "z": 670001.0,
+        "y": 15.0,
+        "x": 670000.0
+      },
+      "camera_rotation": {
+        "pitch": 6.1903996,
+        "yaw": -49.398705
+      },
+      "fov": 77.0,
+      "screenshot_filename": "trial_bay.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:42.033595600Z",
+      "sha256": "9ba5afb6ad144396d371416a39fd9eafafa919811b0124d7e359f6f557c19ccd"
+    },
+    {
+      "name": "split_gallery",
+      "type": "interior",
+      "camera_position": {
+        "z": 669989.0,
+        "y": 22.0,
+        "x": 670000.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": -0.0
+      },
+      "fov": 90.0,
+      "screenshot_filename": "split_gallery.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:45.083675400Z",
+      "sha256": "4fd517d7a4de175f7ff369b7a3ec98116d8ec2eac065a79869ea61cc37e9782f"
+    },
+    {
+      "name": "vault_alcove",
+      "type": "interior",
+      "camera_position": {
+        "z": 670001.0,
+        "y": 22.0,
+        "x": 669996.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": 48.36646
+      },
+      "fov": 72.0,
+      "screenshot_filename": "vault_alcove.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:48.188994400Z",
+      "sha256": "d1baf01bc107ba92f24a21c18040458000acb814cc9b90df418f52bbd985100b"
+    },
+    {
+      "name": "vault_reservation_detail",
+      "type": "interior",
+      "camera_position": {
+        "z": 670009.0,
+        "y": 22.0,
+        "x": 669995.0
+      },
+      "camera_rotation": {
+        "pitch": 7.125016,
+        "yaw": 90.0
+      },
+      "fov": 76.0,
+      "screenshot_filename": "vault_reservation_detail.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:51.296944600Z",
+      "sha256": "0585353a2aed99a38c04ccb85828ad77bc7fbf6ae2e61b37b34be630eec89504"
+    },
+    {
+      "name": "upper_gallery",
+      "type": "interior",
+      "camera_position": {
+        "z": 669992.0,
+        "y": 29.0,
+        "x": 669994.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": -26.565052
+      },
+      "fov": 90.0,
+      "screenshot_filename": "upper_gallery.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:54.406962200Z",
+      "sha256": "b3113fa8d9d16f45678bbb217bb224a071f37aa3617e7799b98079ff6da21c36"
+    },
+    {
+      "name": "lookout_prospect",
+      "type": "interior",
+      "camera_position": {
+        "z": 670002.0,
+        "y": 29.0,
+        "x": 670000.0
+      },
+      "camera_rotation": {
+        "pitch": 6.340192,
+        "yaw": -0.0
+      },
+      "fov": 80.0,
+      "screenshot_filename": "lookout_prospect.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:46:57.515158200Z",
+      "sha256": "caef3c47d57c0e138cb66ce2df86aa72959527302cb10d831adc95ee2b1a2af0"
+    },
+    {
+      "name": "stair_connection",
+      "type": "interior",
+      "camera_position": {
+        "z": 669987.0,
+        "y": 17.0,
+        "x": 670008.0
+      },
+      "camera_rotation": {
+        "pitch": -13.174712,
+        "yaw": -20.556046
+      },
+      "fov": 90.0,
+      "screenshot_filename": "stair_connection.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:47:00.627210800Z",
+      "sha256": "11b118f3cf5f1e51e276a75824686b21ec16e5da55e1591aca8672d40ca3d75d"
+    },
+    {
+      "name": "ravager_arena",
+      "type": "interior",
+      "camera_position": {
+        "z": 669990.0,
+        "y": 36.0,
+        "x": 670000.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": -0.0
+      },
+      "fov": 100.0,
+      "screenshot_filename": "ravager_arena.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:47:03.735876500Z",
+      "sha256": "0e02a05a4567d8dfd621fb1a7d310bcb39c854978d957e508fbf4b70ec431405"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-20T14:46:11.481455600Z",
+  "updated_at": "2026-10-20T14:47:03.737382700Z",
+  "target": {
+    "id": "ow07_tower_fix_round2",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 670000,
+      "y": 4,
+      "z": 670000
+    },
+    "bounds": {
+      "minX": -22,
+      "minY": 0,
+      "minZ": -25,
+      "maxX": 23,
+      "maxY": 43,
+      "maxZ": 23
+    },
+    "rotation": "NONE",
+    "interiorViews": [
+      {
+        "name": "overall_oblique",
+        "position": {
+          "x": -70.0,
+          "y": 65.0,
+          "z": -75.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 20.0,
+          "z": 0.0
+        },
+        "fov": 78,
+        "type": "exterior"
+      },
+      {
+        "name": "entry_front",
+        "position": {
+          "x": 0.0,
+          "y": 12.0,
+          "z": -58.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 11.0,
+          "z": 0.0
+        },
+        "fov": 72,
+        "type": "exterior"
+      },
+      {
+        "name": "east_silhouette",
+        "position": {
+          "x": 68.0,
+          "y": 36.0,
+          "z": 5.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 22.0,
+          "z": 0.0
+        },
+        "fov": 75,
+        "type": "exterior"
+      },
+      {
+        "name": "west_silhouette",
+        "position": {
+          "x": -68.0,
+          "y": 36.0,
+          "z": 5.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 22.0,
+          "z": 0.0
+        },
+        "fov": 75,
+        "type": "exterior"
+      },
+      {
+        "name": "vault_facade",
+        "position": {
+          "x": 44.0,
+          "y": 25.0,
+          "z": 42.0
+        },
+        "lookTarget": {
+          "x": 10.0,
+          "y": 19.0,
+          "z": 6.0
+        },
+        "fov": 70,
+        "type": "exterior"
+      },
+      {
+        "name": "upper_arena_oblique",
+        "position": {
+          "x": -38.0,
+          "y": 55.0,
+          "z": -37.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 32.0,
+          "z": 0.0
+        },
+        "fov": 73,
+        "type": "exterior"
+      },
+      {
+        "name": "crown_detail",
+        "position": {
+          "x": 40.0,
+          "y": 47.0,
+          "z": -40.0
+        },
+        "lookTarget": {
+          "x": 14.0,
+          "y": 39.0,
+          "z": -5.0
+        },
+        "fov": 70,
+        "type": "exterior"
+      },
+      {
+        "name": "entry_hall",
+        "position": {
+          "x": 0.0,
+          "y": 4.0,
+          "z": -14.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 4.0,
+          "z": 6.0
+        },
+        "fov": 84,
+        "type": "interior"
+      },
+      {
+        "name": "first_gallery",
+        "position": {
+          "x": -2.0,
+          "y": 11.0,
+          "z": -8.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 11.0,
+          "z": 4.0
+        },
+        "fov": 92,
+        "type": "interior"
+      },
+      {
+        "name": "trial_bay",
+        "position": {
+          "x": 0.0,
+          "y": 11.0,
+          "z": 1.0
+        },
+        "lookTarget": {
+          "x": 7.0,
+          "y": 10.0,
+          "z": 7.0
+        },
+        "fov": 77,
+        "type": "interior"
+      },
+      {
+        "name": "split_gallery",
+        "position": {
+          "x": 0.0,
+          "y": 18.0,
+          "z": -11.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 18.0,
+          "z": 0.0
+        },
+        "fov": 90,
+        "type": "interior"
+      },
+      {
+        "name": "vault_alcove",
+        "position": {
+          "x": -4.0,
+          "y": 18.0,
+          "z": 1.0
+        },
+        "lookTarget": {
+          "x": -13.0,
+          "y": 18.0,
+          "z": 9.0
+        },
+        "fov": 72,
+        "type": "interior"
+      },
+      {
+        "name": "vault_reservation_detail",
+        "position": {
+          "x": -5.0,
+          "y": 18.0,
+          "z": 9.0
+        },
+        "lookTarget": {
+          "x": -13.0,
+          "y": 17.0,
+          "z": 9.0
+        },
+        "fov": 76,
+        "type": "interior"
+      },
+      {
+        "name": "upper_gallery",
+        "position": {
+          "x": -6.0,
+          "y": 25.0,
+          "z": -8.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 25.0,
+          "z": 4.0
+        },
+        "fov": 90,
+        "type": "interior"
+      },
+      {
+        "name": "lookout_prospect",
+        "position": {
+          "x": 0.0,
+          "y": 25.0,
+          "z": 2.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 24.0,
+          "z": 11.0
+        },
+        "fov": 80,
+        "type": "interior"
+      },
+      {
+        "name": "stair_connection",
+        "position": {
+          "x": 8.0,
+          "y": 13.0,
+          "z": -13.0
+        },
+        "lookTarget": {
+          "x": 11.0,
+          "y": 15.0,
+          "z": -5.0
+        },
+        "fov": 90,
+        "type": "interior"
+      },
+      {
+        "name": "ravager_arena",
+        "position": {
+          "x": 0.0,
+          "y": 32.0,
+          "z": -10.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 32.0,
+          "z": 6.0
+        },
+        "fov": 100,
+        "type": "interior"
+      }
+    ],
+    "architectureBounds": {
+      "minX": -22,
+      "minY": 0,
+      "minZ": -25,
+      "maxX": 23,
+      "maxY": 43,
+      "maxZ": 23
+    },
+    "evidence": {
+      "source": "OverworldTowerDraftPlan",
+      "state": "DRAFT_BUILD_ONLY",
+      "architecture_id": "overworld/ow07_tower/draft_v1"
+    },
+    "autoExteriorViews": false
+  },
+  "viewpoints": [
+    {
+      "name": "overall_oblique",
+      "type": "exterior",
+      "x": 669930.0,
+      "y": 69.0,
+      "z": 669925.0,
+      "yaw": -43.025066,
+      "pitch": 23.68385,
+      "fov": 78.0
+    },
+    {
+      "name": "entry_front",
+      "type": "exterior",
+      "x": 670000.0,
+      "y": 16.0,
+      "z": 669942.0,
+      "yaw": -0.0,
+      "pitch": 0.9877604,
+      "fov": 72.0
+    },
+    {
+      "name": "east_silhouette",
+      "type": "exterior",
+      "x": 670068.0,
+      "y": 40.0,
+      "z": 670005.0,
+      "yaw": 94.20536,
+      "pitch": 11.603163,
+      "fov": 75.0
+    },
+    {
+      "name": "west_silhouette",
+      "type": "exterior",
+      "x": 669932.0,
+      "y": 40.0,
+      "z": 670005.0,
+      "yaw": -94.20536,
+      "pitch": 11.603163,
+      "fov": 75.0
+    },
+    {
+      "name": "vault_facade",
+      "type": "exterior",
+      "x": 670044.0,
+      "y": 29.0,
+      "z": 670042.0,
+      "yaw": 136.63658,
+      "pitch": 6.9087844,
+      "fov": 70.0
+    },
+    {
+      "name": "upper_arena_oblique",
+      "type": "exterior",
+      "x": 669962.0,
+      "y": 59.0,
+      "z": 669963.0,
+      "yaw": -45.763897,
+      "pitch": 23.444141,
+      "fov": 73.0
+    },
+    {
+      "name": "crown_detail",
+      "type": "exterior",
+      "x": 670040.0,
+      "y": 51.0,
+      "z": 669960.0,
+      "yaw": 36.607075,
+      "pitch": 10.397226,
+      "fov": 70.0
+    },
+    {
+      "name": "entry_hall",
+      "type": "interior",
+      "x": 670000.0,
+      "y": 8.0,
+      "z": 669986.0,
+      "yaw": -0.0,
+      "pitch": -0.0,
+      "fov": 84.0
+    },
+    {
+      "name": "first_gallery",
+      "type": "interior",
+      "x": 669998.0,
+      "y": 15.0,
+      "z": 669992.0,
+      "yaw": -9.462322,
+      "pitch": -0.0,
+      "fov": 92.0
+    },
+    {
+      "name": "trial_bay",
+      "type": "interior",
+      "x": 670000.0,
+      "y": 15.0,
+      "z": 670001.0,
+      "yaw": -49.398705,
+      "pitch": 6.1903996,
+      "fov": 77.0
+    },
+    {
+      "name": "split_gallery",
+      "type": "interior",
+      "x": 670000.0,
+      "y": 22.0,
+      "z": 669989.0,
+      "yaw": -0.0,
+      "pitch": -0.0,
+      "fov": 90.0
+    },
+    {
+      "name": "vault_alcove",
+      "type": "interior",
+      "x": 669996.0,
+      "y": 22.0,
+      "z": 670001.0,
+      "yaw": 48.36646,
+      "pitch": -0.0,
+      "fov": 72.0
+    },
+    {
+      "name": "vault_reservation_detail",
+      "type": "interior",
+      "x": 669995.0,
+      "y": 22.0,
+      "z": 670009.0,
+      "yaw": 90.0,
+      "pitch": 7.125016,
+      "fov": 76.0
+    },
+    {
+      "name": "upper_gallery",
+      "type": "interior",
+      "x": 669994.0,
+      "y": 29.0,
+      "z": 669992.0,
+      "yaw": -26.565052,
+      "pitch": -0.0,
+      "fov": 90.0
+    },
+    {
+      "name": "lookout_prospect",
+      "type": "interior",
+      "x": 670000.0,
+      "y": 29.0,
+      "z": 670002.0,
+      "yaw": -0.0,
+      "pitch": 6.340192,
+      "fov": 80.0
+    },
+    {
+      "name": "stair_connection",
+      "type": "interior",
+      "x": 670008.0,
+      "y": 17.0,
+      "z": 669987.0,
+      "yaw": -20.556046,
+      "pitch": -13.174712,
+      "fov": 90.0
+    },
+    {
+      "name": "ravager_arena",
+      "type": "interior",
+      "x": 670000.0,
+      "y": 36.0,
+      "z": 669990.0,
+      "yaw": -0.0,
+      "pitch": -0.0,
+      "fov": 100.0
+    }
+  ],
+  "fov": 60,
+  "width": 854,
+  "height": 480,
+  "completed_images": [
+    "overall_oblique.png",
+    "entry_front.png",
+    "east_silhouette.png",
+    "west_silhouette.png",
+    "vault_facade.png",
+    "upper_arena_oblique.png",
+    "crown_detail.png",
+    "entry_hall.png",
+    "first_gallery.png",
+    "trial_bay.png",
+    "split_gallery.png",
+    "vault_alcove.png",
+    "vault_reservation_detail.png",
+    "upper_gallery.png",
+    "lookout_prospect.png",
+    "stair_connection.png",
+    "ravager_arena.png"
+  ],
+  "player_position_unchanged": true
+}
