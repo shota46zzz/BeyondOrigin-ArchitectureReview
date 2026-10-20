@@ -1,0 +1,591 @@
+{
+  "schema_version": 2,
+  "architecture_id": "ow01_cave_fix_round6",
+  "architecture_anchor": {
+    "x": 600000,
+    "y": 4,
+    "z": 600000
+  },
+  "architecture_bounds": {
+    "minX": -32,
+    "minY": 0,
+    "minZ": -4,
+    "maxX": 33,
+    "maxY": 26,
+    "maxZ": 90
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "night_vision": true,
+  "source_evidence": {
+    "architecture_id": "overworld/ow01_cave/fix_round5",
+    "source": "OverworldCaveDraftPlan",
+    "state": "DRAFT_BUILD_ONLY"
+  },
+  "visual_settings": {
+    "lightmap_brightening": true,
+    "hud_hidden": true,
+    "night_vision_forced_off": false,
+    "weather_rendering_suppressed": true,
+    "camera_fov_default": 60,
+    "gamma": 1.0
+  },
+  "world_game_time": 24611,
+  "world_rain_level": 0.0,
+  "views": [
+    {
+      "name": "overall_oblique",
+      "type": "exterior",
+      "camera_position": {
+        "z": 599958.0,
+        "y": 64.0,
+        "x": 599935.0
+      },
+      "camera_rotation": {
+        "pitch": 24.993366,
+        "yaw": -36.450924
+      },
+      "fov": 83.0,
+      "screenshot_filename": "overall_oblique.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:12:23.985947800Z",
+      "sha256": "ef476ed7965ec6e99cbb4a93fe41bd10221d8f43e2aa99a3df853eb191c607aa"
+    },
+    {
+      "name": "entrance_front",
+      "type": "exterior",
+      "camera_position": {
+        "z": 599973.0,
+        "y": 12.0,
+        "x": 600000.0
+      },
+      "camera_rotation": {
+        "pitch": 4.3987055,
+        "yaw": -0.0
+      },
+      "fov": 75.0,
+      "screenshot_filename": "entrance_front.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:12:27.086043900Z",
+      "sha256": "be17f93ae5fb010438c5675706daf4b96386b167075abb5d5132dd30eb7403d0"
+    },
+    {
+      "name": "west_side",
+      "type": "exterior",
+      "camera_position": {
+        "z": 600040.0,
+        "y": 42.0,
+        "x": 599935.0
+      },
+      "camera_rotation": {
+        "pitch": 23.921545,
+        "yaw": -83.85337
+      },
+      "fov": 84.0,
+      "screenshot_filename": "west_side.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:12:30.169155400Z",
+      "sha256": "f594a959c320ed46cfbeeb7644dd1fc61b24f960ff572e243f10a55d184e0e0c"
+    },
+    {
+      "name": "east_side",
+      "type": "exterior",
+      "camera_position": {
+        "z": 600038.0,
+        "y": 42.0,
+        "x": 600065.0
+      },
+      "camera_rotation": {
+        "pitch": 23.921545,
+        "yaw": 83.85337
+      },
+      "fov": 84.0,
+      "screenshot_filename": "east_side.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:12:33.252964700Z",
+      "sha256": "9d361cd2ac9448dd715629b9d84b8f85ae43f4f476cb4d5d4fd0389d82647d29"
+    },
+    {
+      "name": "west_cliff_close",
+      "type": "exterior",
+      "camera_position": {
+        "z": 600040.0,
+        "y": 25.0,
+        "x": 599957.0
+      },
+      "camera_rotation": {
+        "pitch": 26.565052,
+        "yaw": -90.0
+      },
+      "fov": 78.0,
+      "screenshot_filename": "west_cliff_close.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:12:36.352870Z",
+      "sha256": "512d39400ca6c91220c7d0be3fe9afee9680ab9845f4476753afb02e8d886e79"
+    },
+    {
+      "name": "east_cliff_close",
+      "type": "exterior",
+      "camera_position": {
+        "z": 600055.0,
+        "y": 25.0,
+        "x": 600043.0
+      },
+      "camera_rotation": {
+        "pitch": 26.565052,
+        "yaw": 90.0
+      },
+      "fov": 78.0,
+      "screenshot_filename": "east_cliff_close.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:12:39.452911400Z",
+      "sha256": "6e834b3feb21ec92816ec3d00173915446036c4d36b64104d854409316421e8c"
+    },
+    {
+      "name": "reward_roof_top",
+      "type": "exterior",
+      "camera_position": {
+        "z": 600080.0,
+        "y": 47.0,
+        "x": 600000.0
+      },
+      "camera_rotation": {
+        "pitch": 90.0,
+        "yaw": -0.0
+      },
+      "fov": 65.0,
+      "screenshot_filename": "reward_roof_top.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:12:42.570378200Z",
+      "sha256": "a39e75de0714cbb4ac413e24edc65968df9095e3dc8ae9057ad8664407abc0e6"
+    },
+    {
+      "name": "main_gallery",
+      "type": "interior",
+      "camera_position": {
+        "z": 600010.0,
+        "y": 8.0,
+        "x": 600000.0
+      },
+      "camera_rotation": {
+        "pitch": -3.1134117,
+        "yaw": 22.380135
+      },
+      "fov": 90.0,
+      "screenshot_filename": "main_gallery.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:12:45.670103900Z",
+      "sha256": "a2422b7260f0b834e009b5c91b1231a740e2a909e38dfc643d895587419db110"
+    },
+    {
+      "name": "branch",
+      "type": "interior",
+      "camera_position": {
+        "z": 600029.0,
+        "y": 9.0,
+        "x": 599989.0
+      },
+      "camera_rotation": {
+        "pitch": -0.0,
+        "yaw": 24.443954
+      },
+      "fov": 88.0,
+      "screenshot_filename": "branch.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:12:48.752725700Z",
+      "sha256": "00dd0bc340a8b6a15d68cccf9b57abcbb3e9ff50911b567fa773bbadae2493e9"
+    },
+    {
+      "name": "great_cavern",
+      "type": "interior",
+      "camera_position": {
+        "z": 600045.0,
+        "y": 9.0,
+        "x": 600001.0
+      },
+      "camera_rotation": {
+        "pitch": -6.1903996,
+        "yaw": -12.528808
+      },
+      "fov": 100.0,
+      "screenshot_filename": "great_cavern.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:12:51.869864400Z",
+      "sha256": "2244591751d62611194ae7541300c5a6c1f6a1ffd7fe14bed20f0a1bbe8c1230"
+    },
+    {
+      "name": "deep_reward",
+      "type": "interior",
+      "camera_position": {
+        "z": 600075.0,
+        "y": 9.0,
+        "x": 600002.0
+      },
+      "camera_rotation": {
+        "pitch": 10.519735,
+        "yaw": 21.801409
+      },
+      "fov": 90.0,
+      "screenshot_filename": "deep_reward.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-20T14:12:54.969737400Z",
+      "sha256": "327a3bfed6edc33d3a4d45ba5e73131785311933e7ee2111ab840c2863b587b2"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-20T14:12:20.862664400Z",
+  "updated_at": "2026-10-20T14:12:54.970737500Z",
+  "target": {
+    "id": "ow01_cave_fix_round6",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 600000,
+      "y": 4,
+      "z": 600000
+    },
+    "bounds": {
+      "minX": -32,
+      "minY": 0,
+      "minZ": -4,
+      "maxX": 33,
+      "maxY": 26,
+      "maxZ": 90
+    },
+    "rotation": "NONE",
+    "interiorViews": [
+      {
+        "name": "overall_oblique",
+        "position": {
+          "x": -65.0,
+          "y": 60.0,
+          "z": -42.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 9.0,
+          "z": 46.0
+        },
+        "fov": 83,
+        "type": "exterior"
+      },
+      {
+        "name": "entrance_front",
+        "position": {
+          "x": 0.0,
+          "y": 8.0,
+          "z": -27.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 5.0,
+          "z": 12.0
+        },
+        "fov": 75,
+        "type": "exterior"
+      },
+      {
+        "name": "west_side",
+        "position": {
+          "x": -65.0,
+          "y": 38.0,
+          "z": 40.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 9.0,
+          "z": 47.0
+        },
+        "fov": 84,
+        "type": "exterior"
+      },
+      {
+        "name": "east_side",
+        "position": {
+          "x": 65.0,
+          "y": 38.0,
+          "z": 38.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 9.0,
+          "z": 45.0
+        },
+        "fov": 84,
+        "type": "exterior"
+      },
+      {
+        "name": "west_cliff_close",
+        "position": {
+          "x": -43.0,
+          "y": 21.0,
+          "z": 40.0
+        },
+        "lookTarget": {
+          "x": -19.0,
+          "y": 9.0,
+          "z": 40.0
+        },
+        "fov": 78,
+        "type": "exterior"
+      },
+      {
+        "name": "east_cliff_close",
+        "position": {
+          "x": 43.0,
+          "y": 21.0,
+          "z": 55.0
+        },
+        "lookTarget": {
+          "x": 19.0,
+          "y": 9.0,
+          "z": 55.0
+        },
+        "fov": 78,
+        "type": "exterior"
+      },
+      {
+        "name": "reward_roof_top",
+        "position": {
+          "x": 0.0,
+          "y": 43.0,
+          "z": 80.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 17.0,
+          "z": 80.0
+        },
+        "fov": 65,
+        "type": "exterior"
+      },
+      {
+        "name": "main_gallery",
+        "position": {
+          "x": 0.0,
+          "y": 4.0,
+          "z": 10.0
+        },
+        "lookTarget": {
+          "x": -7.0,
+          "y": 5.0,
+          "z": 27.0
+        },
+        "fov": 90,
+        "type": "interior"
+      },
+      {
+        "name": "branch",
+        "position": {
+          "x": -11.0,
+          "y": 5.0,
+          "z": 29.0
+        },
+        "lookTarget": {
+          "x": -16.0,
+          "y": 5.0,
+          "z": 40.0
+        },
+        "fov": 88,
+        "type": "interior"
+      },
+      {
+        "name": "great_cavern",
+        "position": {
+          "x": 1.0,
+          "y": 5.0,
+          "z": 45.0
+        },
+        "lookTarget": {
+          "x": 3.0,
+          "y": 6.0,
+          "z": 54.0
+        },
+        "fov": 100,
+        "type": "interior"
+      },
+      {
+        "name": "deep_reward",
+        "position": {
+          "x": 2.0,
+          "y": 5.0,
+          "z": 75.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 4.0,
+          "z": 80.0
+        },
+        "fov": 90,
+        "type": "interior"
+      }
+    ],
+    "architectureBounds": {
+      "minX": -32,
+      "minY": 0,
+      "minZ": -4,
+      "maxX": 33,
+      "maxY": 26,
+      "maxZ": 90
+    },
+    "evidence": {
+      "architecture_id": "overworld/ow01_cave/fix_round5",
+      "source": "OverworldCaveDraftPlan",
+      "state": "DRAFT_BUILD_ONLY"
+    },
+    "autoExteriorViews": false
+  },
+  "viewpoints": [
+    {
+      "name": "overall_oblique",
+      "type": "exterior",
+      "x": 599935.0,
+      "y": 64.0,
+      "z": 599958.0,
+      "yaw": -36.450924,
+      "pitch": 24.993366,
+      "fov": 83.0
+    },
+    {
+      "name": "entrance_front",
+      "type": "exterior",
+      "x": 600000.0,
+      "y": 12.0,
+      "z": 599973.0,
+      "yaw": -0.0,
+      "pitch": 4.3987055,
+      "fov": 75.0
+    },
+    {
+      "name": "west_side",
+      "type": "exterior",
+      "x": 599935.0,
+      "y": 42.0,
+      "z": 600040.0,
+      "yaw": -83.85337,
+      "pitch": 23.921545,
+      "fov": 84.0
+    },
+    {
+      "name": "east_side",
+      "type": "exterior",
+      "x": 600065.0,
+      "y": 42.0,
+      "z": 600038.0,
+      "yaw": 83.85337,
+      "pitch": 23.921545,
+      "fov": 84.0
+    },
+    {
+      "name": "west_cliff_close",
+      "type": "exterior",
+      "x": 599957.0,
+      "y": 25.0,
+      "z": 600040.0,
+      "yaw": -90.0,
+      "pitch": 26.565052,
+      "fov": 78.0
+    },
+    {
+      "name": "east_cliff_close",
+      "type": "exterior",
+      "x": 600043.0,
+      "y": 25.0,
+      "z": 600055.0,
+      "yaw": 90.0,
+      "pitch": 26.565052,
+      "fov": 78.0
+    },
+    {
+      "name": "reward_roof_top",
+      "type": "exterior",
+      "x": 600000.0,
+      "y": 47.0,
+      "z": 600080.0,
+      "yaw": -0.0,
+      "pitch": 90.0,
+      "fov": 65.0
+    },
+    {
+      "name": "main_gallery",
+      "type": "interior",
+      "x": 600000.0,
+      "y": 8.0,
+      "z": 600010.0,
+      "yaw": 22.380135,
+      "pitch": -3.1134117,
+      "fov": 90.0
+    },
+    {
+      "name": "branch",
+      "type": "interior",
+      "x": 599989.0,
+      "y": 9.0,
+      "z": 600029.0,
+      "yaw": 24.443954,
+      "pitch": -0.0,
+      "fov": 88.0
+    },
+    {
+      "name": "great_cavern",
+      "type": "interior",
+      "x": 600001.0,
+      "y": 9.0,
+      "z": 600045.0,
+      "yaw": -12.528808,
+      "pitch": -6.1903996,
+      "fov": 100.0
+    },
+    {
+      "name": "deep_reward",
+      "type": "interior",
+      "x": 600002.0,
+      "y": 9.0,
+      "z": 600075.0,
+      "yaw": 21.801409,
+      "pitch": 10.519735,
+      "fov": 90.0
+    }
+  ],
+  "fov": 60,
+  "width": 854,
+  "height": 480,
+  "completed_images": [
+    "overall_oblique.png",
+    "entrance_front.png",
+    "west_side.png",
+    "east_side.png",
+    "west_cliff_close.png",
+    "east_cliff_close.png",
+    "reward_roof_top.png",
+    "main_gallery.png",
+    "branch.png",
+    "great_cavern.png",
+    "deep_reward.png"
+  ],
+  "player_position_unchanged": true
+}
