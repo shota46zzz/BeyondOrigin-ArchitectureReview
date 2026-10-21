@@ -1,0 +1,822 @@
+{
+  "schema_version": 2,
+  "architecture_id": "nether_hell_abyss_draft_v1",
+  "architecture_anchor": {
+    "x": 950000,
+    "y": 4,
+    "z": 950000
+  },
+  "architecture_bounds": {
+    "minX": -92,
+    "minY": -24,
+    "minZ": -12,
+    "maxX": 93,
+    "maxY": 44,
+    "maxZ": 346
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "views": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "camera_position": {
+        "z": 950359.8472979987,
+        "y": 63.21182449968947,
+        "x": 950000.5
+      },
+      "camera_rotation": {
+        "yaw": -180.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "south.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:18.062933800Z",
+      "sha256": "9d82c65400a9ebf3a0b71c7949aeccd6e0024a8f8445a2c795751ef632ebfc13"
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "camera_position": {
+        "z": 949966.1527020013,
+        "y": 63.21182449968947,
+        "x": 950000.5
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "north.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:21.146924Z",
+      "sha256": "feb75b0ee3d506a958f9e2d261e09aa24f559c1275b19f2faa1e6e1a7587984f"
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "camera_position": {
+        "z": 950163.0,
+        "y": 63.21182449968947,
+        "x": 950197.3472979987
+      },
+      "camera_rotation": {
+        "yaw": 90.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "east.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:24.213307400Z",
+      "sha256": "7a15764ed74be4bc5fcdfa3ac8830c326ec7c419e1cdbbcb78fcb5df7a5f0155"
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "camera_position": {
+        "z": 950163.0,
+        "y": 63.21182449968947,
+        "x": 949803.6527020013
+      },
+      "camera_rotation": {
+        "yaw": -90.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "west.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:27.363112Z",
+      "sha256": "e37b2e1981486c8f71c5ba4a06c032cf21936d7d85c77538d69c0c33dc4a529e"
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "camera_position": {
+        "z": 950163.0,
+        "y": 216.90555044157867,
+        "x": 950000.5
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 90.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "top.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:30.913305800Z",
+      "sha256": "7a45433c340cf2a9993785d9ac616476afff4705fa548a9461803a5b178c61e6"
+    },
+    {
+      "name": "south_half",
+      "type": "interior",
+      "camera_position": {
+        "z": 949967.0,
+        "y": 64.0,
+        "x": 950000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 25.114836
+      },
+      "fov": 72.0,
+      "screenshot_filename": "south_half.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:34.329591Z",
+      "sha256": "ff3a3d41cb140ed778500f53710613941441519fef403518002e6cb65515bbdc"
+    },
+    {
+      "name": "north_half",
+      "type": "interior",
+      "camera_position": {
+        "z": 950185.0,
+        "y": 78.0,
+        "x": 950000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 32.7604
+      },
+      "fov": 72.0,
+      "screenshot_filename": "north_half.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:37.412905300Z",
+      "sha256": "78419c236fb51f04a2da13991996032e5b0fa7120ded4c538a8355c36fd87b35"
+    },
+    {
+      "name": "lava_cavern",
+      "type": "interior",
+      "camera_position": {
+        "z": 949995.0,
+        "y": 14.0,
+        "x": 950000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 8.972627
+      },
+      "fov": 72.0,
+      "screenshot_filename": "lava_cavern.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:40.513332400Z",
+      "sha256": "f727902d795d588508a9aadecf9279ba1529a989838831c0a1b0c28bb02ef382"
+    },
+    {
+      "name": "wastes",
+      "type": "interior",
+      "camera_position": {
+        "z": 950052.0,
+        "y": 17.0,
+        "x": 950000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 16.699244
+      },
+      "fov": 72.0,
+      "screenshot_filename": "wastes.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:43.896439800Z",
+      "sha256": "b387fbd86f9f54707983e4a86a454497d6db844b5b8fb03aac6fb6f9126c726d"
+    },
+    {
+      "name": "deep_cave",
+      "type": "interior",
+      "camera_position": {
+        "z": 950064.0,
+        "y": 9.0,
+        "x": 949990.0
+      },
+      "camera_rotation": {
+        "yaw": 90.0,
+        "pitch": 1.9091524
+      },
+      "fov": 72.0,
+      "screenshot_filename": "deep_cave.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:47.013563800Z",
+      "sha256": "4c2a00efc17085fd21f5c0513c000c49b8152326a266a791be3a86aae234cdcb"
+    },
+    {
+      "name": "soul_basin",
+      "type": "interior",
+      "camera_position": {
+        "z": 950092.0,
+        "y": 15.0,
+        "x": 950000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 25.346176
+      },
+      "fov": 72.0,
+      "screenshot_filename": "soul_basin.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:50.589403700Z",
+      "sha256": "3c08e4463d3c35ab128093662890ff04517d439a1bbfe19e56b082d7230d54ae"
+    },
+    {
+      "name": "fungal_forest",
+      "type": "interior",
+      "camera_position": {
+        "z": 950117.0,
+        "y": 16.0,
+        "x": 950000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 12.528808
+      },
+      "fov": 72.0,
+      "screenshot_filename": "fungal_forest.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:53.695368Z",
+      "sha256": "53eb24705a7dbbceb82abf0752fd7358d50f1a2a1a98031fe3d1803b309f388a"
+    },
+    {
+      "name": "basalt_delta",
+      "type": "interior",
+      "camera_position": {
+        "z": 950151.0,
+        "y": 17.0,
+        "x": 950000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 30.465546
+      },
+      "fov": 72.0,
+      "screenshot_filename": "basalt_delta.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:40:57.574730400Z",
+      "sha256": "d475bd7a521c755c02c695775d8d7d8f80cd553324d7d7db6842f35a318330c3"
+    },
+    {
+      "name": "ruined_civilizations",
+      "type": "interior",
+      "camera_position": {
+        "z": 950171.0,
+        "y": 18.0,
+        "x": 950000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 14.036243
+      },
+      "fov": 72.0,
+      "screenshot_filename": "ruined_civilizations.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:41:00.683019Z",
+      "sha256": "a3eb6e52652c37d89cf19d66cc572471d463f0369b649db3374f6765af85c598"
+    },
+    {
+      "name": "mining_approach",
+      "type": "interior",
+      "camera_position": {
+        "z": 950215.0,
+        "y": 16.0,
+        "x": 950000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 11.309933
+      },
+      "fov": 72.0,
+      "screenshot_filename": "mining_approach.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:41:03.790459800Z",
+      "sha256": "f75230a162819ca4ec86845623ba3a0ea9a828202582cd12877d103311736729"
+    },
+    {
+      "name": "arena_entrance",
+      "type": "interior",
+      "camera_position": {
+        "z": 950244.0,
+        "y": 14.0,
+        "x": 950000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 8.32565
+      },
+      "fov": 72.0,
+      "screenshot_filename": "arena_entrance.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:41:06.896939700Z",
+      "sha256": "6363dc6d96d938a9fe39d818227759978aaa55a07799d6e33b205503b3bc83d2"
+    },
+    {
+      "name": "arena_floor",
+      "type": "interior",
+      "camera_position": {
+        "z": 950266.0,
+        "y": 9.0,
+        "x": 950000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 2.0454085
+      },
+      "fov": 72.0,
+      "screenshot_filename": "arena_floor.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:41:10.003440100Z",
+      "sha256": "4fb73cad96810d0e775e0c0f3050f0dec9aefb3a79f7cfe8c0ef35fdb63d2ed2"
+    },
+    {
+      "name": "arena_oblique",
+      "type": "interior",
+      "camera_position": {
+        "z": 950225.0,
+        "y": 61.0,
+        "x": 950079.0
+      },
+      "camera_rotation": {
+        "yaw": 48.45662,
+        "pitch": 27.948166
+      },
+      "fov": 72.0,
+      "screenshot_filename": "arena_oblique.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:41:13.111494400Z",
+      "sha256": "c209717099502a499c50715528ad07a9c8d94e1f4b81294a26ba6948ba8128dc"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-21T06:40:14.718790600Z",
+  "updated_at": "2026-10-21T06:41:13.111494400Z",
+  "target": {
+    "id": "nether_hell_abyss_draft_v1",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 950000,
+      "y": 4,
+      "z": 950000
+    },
+    "bounds": {
+      "minX": -55,
+      "minY": -24,
+      "minZ": 100,
+      "maxX": 56,
+      "maxY": 44,
+      "maxZ": 226
+    },
+    "rotation": "NONE",
+    "interiorViews": [
+      {
+        "name": "south_half",
+        "position": {
+          "x": 0.0,
+          "y": 60.0,
+          "z": -33.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 95.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "north_half",
+        "position": {
+          "x": 0.0,
+          "y": 74.0,
+          "z": 185.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 300.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "lava_cavern",
+        "position": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": -5.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 4.0,
+          "z": 33.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "wastes",
+        "position": {
+          "x": 0.0,
+          "y": 13.0,
+          "z": 52.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 4.0,
+          "z": 82.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "deep_cave",
+        "position": {
+          "x": -10.0,
+          "y": 5.0,
+          "z": 64.0
+        },
+        "lookTarget": {
+          "x": -40.0,
+          "y": 4.0,
+          "z": 64.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "soul_basin",
+        "position": {
+          "x": 0.0,
+          "y": 11.0,
+          "z": 92.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 2.0,
+          "z": 111.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "fungal_forest",
+        "position": {
+          "x": 0.0,
+          "y": 12.0,
+          "z": 117.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 6.0,
+          "z": 144.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "basalt_delta",
+        "position": {
+          "x": 0.0,
+          "y": 13.0,
+          "z": 151.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 3.0,
+          "z": 168.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "ruined_civilizations",
+        "position": {
+          "x": 0.0,
+          "y": 14.0,
+          "z": 171.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 5.0,
+          "z": 207.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "mining_approach",
+        "position": {
+          "x": 0.0,
+          "y": 12.0,
+          "z": 215.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 6.0,
+          "z": 245.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "arena_entrance",
+        "position": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": 244.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 4.0,
+          "z": 285.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "arena_floor",
+        "position": {
+          "x": 0.0,
+          "y": 5.0,
+          "z": 266.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 3.0,
+          "z": 322.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "arena_oblique",
+        "position": {
+          "x": 79.0,
+          "y": 57.0,
+          "z": 225.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 295.0
+        },
+        "fov": 72
+      }
+    ],
+    "architectureBounds": {
+      "minX": -92,
+      "minY": -24,
+      "minZ": -12,
+      "maxX": 93,
+      "maxY": 44,
+      "maxZ": 346
+    }
+  },
+  "viewpoints": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "x": 950000.5,
+      "y": 63.21182449968947,
+      "z": 950359.8472979987,
+      "yaw": -180.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "x": 950000.5,
+      "y": 63.21182449968947,
+      "z": 949966.1527020013,
+      "yaw": -0.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "x": 950197.3472979987,
+      "y": 63.21182449968947,
+      "z": 950163.0,
+      "yaw": 90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "x": 949803.6527020013,
+      "y": 63.21182449968947,
+      "z": 950163.0,
+      "yaw": -90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "x": 950000.5,
+      "y": 216.90555044157867,
+      "z": 950163.0,
+      "yaw": -0.0,
+      "pitch": 90.0,
+      "fov": 60.0
+    },
+    {
+      "name": "south_half",
+      "type": "interior",
+      "x": 950000.0,
+      "y": 64.0,
+      "z": 949967.0,
+      "yaw": -0.0,
+      "pitch": 25.114836,
+      "fov": 72.0
+    },
+    {
+      "name": "north_half",
+      "type": "interior",
+      "x": 950000.0,
+      "y": 78.0,
+      "z": 950185.0,
+      "yaw": -0.0,
+      "pitch": 32.7604,
+      "fov": 72.0
+    },
+    {
+      "name": "lava_cavern",
+      "type": "interior",
+      "x": 950000.0,
+      "y": 14.0,
+      "z": 949995.0,
+      "yaw": -0.0,
+      "pitch": 8.972627,
+      "fov": 72.0
+    },
+    {
+      "name": "wastes",
+      "type": "interior",
+      "x": 950000.0,
+      "y": 17.0,
+      "z": 950052.0,
+      "yaw": -0.0,
+      "pitch": 16.699244,
+      "fov": 72.0
+    },
+    {
+      "name": "deep_cave",
+      "type": "interior",
+      "x": 949990.0,
+      "y": 9.0,
+      "z": 950064.0,
+      "yaw": 90.0,
+      "pitch": 1.9091524,
+      "fov": 72.0
+    },
+    {
+      "name": "soul_basin",
+      "type": "interior",
+      "x": 950000.0,
+      "y": 15.0,
+      "z": 950092.0,
+      "yaw": -0.0,
+      "pitch": 25.346176,
+      "fov": 72.0
+    },
+    {
+      "name": "fungal_forest",
+      "type": "interior",
+      "x": 950000.0,
+      "y": 16.0,
+      "z": 950117.0,
+      "yaw": -0.0,
+      "pitch": 12.528808,
+      "fov": 72.0
+    },
+    {
+      "name": "basalt_delta",
+      "type": "interior",
+      "x": 950000.0,
+      "y": 17.0,
+      "z": 950151.0,
+      "yaw": -0.0,
+      "pitch": 30.465546,
+      "fov": 72.0
+    },
+    {
+      "name": "ruined_civilizations",
+      "type": "interior",
+      "x": 950000.0,
+      "y": 18.0,
+      "z": 950171.0,
+      "yaw": -0.0,
+      "pitch": 14.036243,
+      "fov": 72.0
+    },
+    {
+      "name": "mining_approach",
+      "type": "interior",
+      "x": 950000.0,
+      "y": 16.0,
+      "z": 950215.0,
+      "yaw": -0.0,
+      "pitch": 11.309933,
+      "fov": 72.0
+    },
+    {
+      "name": "arena_entrance",
+      "type": "interior",
+      "x": 950000.0,
+      "y": 14.0,
+      "z": 950244.0,
+      "yaw": -0.0,
+      "pitch": 8.32565,
+      "fov": 72.0
+    },
+    {
+      "name": "arena_floor",
+      "type": "interior",
+      "x": 950000.0,
+      "y": 9.0,
+      "z": 950266.0,
+      "yaw": -0.0,
+      "pitch": 2.0454085,
+      "fov": 72.0
+    },
+    {
+      "name": "arena_oblique",
+      "type": "interior",
+      "x": 950079.0,
+      "y": 61.0,
+      "z": 950225.0,
+      "yaw": 48.45662,
+      "pitch": 27.948166,
+      "fov": 72.0
+    }
+  ],
+  "fov": 60,
+  "width": 854,
+  "height": 480,
+  "completed_images": [
+    "south.png",
+    "north.png",
+    "east.png",
+    "west.png",
+    "top.png",
+    "south_half.png",
+    "north_half.png",
+    "lava_cavern.png",
+    "wastes.png",
+    "deep_cave.png",
+    "soul_basin.png",
+    "fungal_forest.png",
+    "basalt_delta.png",
+    "ruined_civilizations.png",
+    "mining_approach.png",
+    "arena_entrance.png",
+    "arena_floor.png",
+    "arena_oblique.png"
+  ],
+  "player_position_unchanged": true,
+  "source_repository": "shota46zzz/beyondorigin",
+  "source_commit": "5eda575",
+  "preview_world": "nether-hell-abyss-draft-preview-v2-20261021",
+  "capture_render_distance_chunks": 27,
+  "automatic_validation": [
+    "compileJava PASS",
+    "draft plan main-route clearance PASS at placement",
+    "Minecraft capture complete 18/18",
+    "PNG SHA-256 and resolution match 18/18"
+  ],
+  "unverified": [
+    "continuous player walking",
+    "natural Nether terrain integration",
+    "normal lighting",
+    "mob pathing and combat",
+    "NBT",
+    "gameplay",
+    "Worldgen"
+  ]
+}
