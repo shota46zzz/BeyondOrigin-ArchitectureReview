@@ -1,0 +1,691 @@
+{
+  "schema_version": 2,
+  "architecture_id": "nether_piglin_bastion_draft_v1",
+  "architecture_anchor": {
+    "x": 900000,
+    "y": 4,
+    "z": 900000
+  },
+  "architecture_bounds": {
+    "minX": -80,
+    "minY": -12,
+    "minZ": -12,
+    "maxX": 81,
+    "maxY": 39,
+    "maxZ": 183
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "views": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "camera_position": {
+        "x": 900000.5,
+        "y": 87.57414426247136,
+        "z": 900365.7965770499
+      },
+      "camera_rotation": {
+        "yaw": -180.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "south.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:25:38.676292800Z",
+      "sha256": "ed3152358c2c26414a87027342f267364e54085d7db5ef89db143377c8e11045"
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "camera_position": {
+        "x": 900000.5,
+        "y": 87.57414426247136,
+        "z": 899805.2034229501
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "north.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:25:41.754Z",
+      "sha256": "d58d803f8d193fb6ab7553c06a164bcb700f663a6cab3b56ae7690c6d0950c23"
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "camera_position": {
+        "x": 900280.7965770499,
+        "y": 87.57414426247136,
+        "z": 900085.5
+      },
+      "camera_rotation": {
+        "yaw": 90.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "east.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:25:44.829641800Z",
+      "sha256": "a63f689ab000d51469b4962225812f15513fbba58690a0f30970b3a8f27f2923"
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "camera_position": {
+        "x": 899720.2034229501,
+        "y": 87.57414426247136,
+        "z": 900085.5
+      },
+      "camera_rotation": {
+        "yaw": -90.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "west.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:25:47.904931900Z",
+      "sha256": "ef4100560f59bdd175cb1bc054eed3f157f8c431a0ed6152c1bc22955336faef"
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "camera_position": {
+        "x": 900000.5,
+        "y": 306.4230984189392,
+        "z": 900085.5
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 90.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "top.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:25:50.979162100Z",
+      "sha256": "9a08d993b9fee7c6780ef63561cea3528b63b2b849cf13ff77247ce8cd479b31"
+    },
+    {
+      "name": "gate",
+      "type": "interior",
+      "camera_position": {
+        "x": 900000.0,
+        "y": 10.0,
+        "z": 899994.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -3.17983
+      },
+      "fov": 72.0,
+      "screenshot_filename": "gate.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:25:54.085351Z",
+      "sha256": "cad99a0a42f2c0c6e4e617505de913c360aebfad60b5c6f1f27c9e89859068a2"
+    },
+    {
+      "name": "avenue",
+      "type": "interior",
+      "camera_position": {
+        "x": 900000.0,
+        "y": 13.0,
+        "z": 900026.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -4.184916
+      },
+      "fov": 72.0,
+      "screenshot_filename": "avenue.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:25:57.228577800Z",
+      "sha256": "0911ba108987caae7eaedcff251e56f1b37bd35bc30b5220059dfc12a2b4471e"
+    },
+    {
+      "name": "treasure_hall",
+      "type": "interior",
+      "camera_position": {
+        "x": 900000.0,
+        "y": 14.0,
+        "z": 900055.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 3.17983
+      },
+      "fov": 72.0,
+      "screenshot_filename": "treasure_hall.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:26:00.370679900Z",
+      "sha256": "b860b4c13b9654b7a4670f839e035ac454dceb1c724b4b044c54c11a57d33210"
+    },
+    {
+      "name": "left_quarter",
+      "type": "interior",
+      "camera_position": {
+        "x": 899946.0,
+        "y": 10.0,
+        "z": 900064.0
+      },
+      "camera_rotation": {
+        "yaw": 9.782407,
+        "pitch": 1.9462409
+      },
+      "fov": 72.0,
+      "screenshot_filename": "left_quarter.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:26:03.512943100Z",
+      "sha256": "87de37324603f3b57be00728ce33730857ea2251529a520a5c4e1fdcdeec3c68"
+    },
+    {
+      "name": "right_quarter",
+      "type": "interior",
+      "camera_position": {
+        "x": 900054.0,
+        "y": 10.0,
+        "z": 900064.0
+      },
+      "camera_rotation": {
+        "yaw": -9.782407,
+        "pitch": 1.9462409
+      },
+      "fov": 72.0,
+      "screenshot_filename": "right_quarter.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:26:06.654899Z",
+      "sha256": "bf4cfc3458d83431fc042dc9c11efa4e9efe14c9f86fa604208e5a4c7c556c83"
+    },
+    {
+      "name": "left_vault",
+      "type": "interior",
+      "camera_position": {
+        "x": 899940.0,
+        "y": 9.0,
+        "z": 900124.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 6.340192
+      },
+      "fov": 72.0,
+      "screenshot_filename": "left_vault.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:26:09.797274900Z",
+      "sha256": "2131d5eb77c2f883102923840311ae0951c9786be7f684af89718a9000ed226f"
+    },
+    {
+      "name": "right_vault",
+      "type": "interior",
+      "camera_position": {
+        "x": 900060.0,
+        "y": 9.0,
+        "z": 900124.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 6.340192
+      },
+      "fov": 72.0,
+      "screenshot_filename": "right_vault.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:26:12.938906Z",
+      "sha256": "135494659dc0d1c2288ced6b0a15bf1246dfcb6543c0b2391e4d133c0f05d734"
+    },
+    {
+      "name": "upper_vault",
+      "type": "interior",
+      "camera_position": {
+        "x": 900000.0,
+        "y": 14.0,
+        "z": 900118.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 8.130102
+      },
+      "fov": 72.0,
+      "screenshot_filename": "upper_vault.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:26:16.047135200Z",
+      "sha256": "945eb2841c37f73403eece4173c85dc65394b683fbf7949a1f0657bdd676a1b3"
+    },
+    {
+      "name": "secret_descent",
+      "type": "interior",
+      "camera_position": {
+        "x": 900000.0,
+        "y": 12.0,
+        "z": 900148.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 30.465546
+      },
+      "fov": 72.0,
+      "screenshot_filename": "secret_descent.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:26:19.155333200Z",
+      "sha256": "220e8841b3b585176202a63d4fa18556b727570c8662f75a33246c50db4dd30e"
+    },
+    {
+      "name": "secret_vault",
+      "type": "interior",
+      "camera_position": {
+        "x": 900000.0,
+        "y": 6.0,
+        "z": 900167.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 16.699244
+      },
+      "fov": 72.0,
+      "screenshot_filename": "secret_vault.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:26:22.262950200Z",
+      "sha256": "732bfaad74ca2adc33b6a267c16ad89eaef65f0723b3f3ba807dbff3e6777893"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-21T06:25:35.452589100Z",
+  "updated_at": "2026-10-21T06:26:22.262950200Z",
+  "target": {
+    "id": "nether_piglin_bastion_draft_v1",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 900000,
+      "y": 4,
+      "z": 900000
+    },
+    "bounds": {
+      "minX": -80,
+      "minY": -12,
+      "minZ": -12,
+      "maxX": 81,
+      "maxY": 39,
+      "maxZ": 183
+    },
+    "rotation": "NONE",
+    "interiorViews": [
+      {
+        "name": "gate",
+        "position": {
+          "x": 0.0,
+          "y": 6.0,
+          "z": -6.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 8.0,
+          "z": 30.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "avenue",
+        "position": {
+          "x": 0.0,
+          "y": 9.0,
+          "z": 26.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 12.0,
+          "z": 67.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "treasure_hall",
+        "position": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": 55.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 8.0,
+          "z": 91.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "left_quarter",
+        "position": {
+          "x": -54.0,
+          "y": 6.0,
+          "z": 64.0
+        },
+        "lookTarget": {
+          "x": -59.0,
+          "y": 5.0,
+          "z": 93.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "right_quarter",
+        "position": {
+          "x": 54.0,
+          "y": 6.0,
+          "z": 64.0
+        },
+        "lookTarget": {
+          "x": 59.0,
+          "y": 5.0,
+          "z": 93.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "left_vault",
+        "position": {
+          "x": -60.0,
+          "y": 5.0,
+          "z": 124.0
+        },
+        "lookTarget": {
+          "x": -60.0,
+          "y": 3.0,
+          "z": 142.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "right_vault",
+        "position": {
+          "x": 60.0,
+          "y": 5.0,
+          "z": 124.0
+        },
+        "lookTarget": {
+          "x": 60.0,
+          "y": 3.0,
+          "z": 142.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "upper_vault",
+        "position": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": 118.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 7.0,
+          "z": 139.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "secret_descent",
+        "position": {
+          "x": 0.0,
+          "y": 8.0,
+          "z": 148.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -2.0,
+          "z": 165.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "secret_vault",
+        "position": {
+          "x": 0.0,
+          "y": 2.0,
+          "z": 167.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 177.0
+        },
+        "fov": 72
+      }
+    ],
+    "architectureBounds": {
+      "minX": -80,
+      "minY": -12,
+      "minZ": -12,
+      "maxX": 81,
+      "maxY": 39,
+      "maxZ": 183
+    }
+  },
+  "viewpoints": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "x": 900000.5,
+      "y": 87.57414426247136,
+      "z": 900365.7965770499,
+      "yaw": -180.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "x": 900000.5,
+      "y": 87.57414426247136,
+      "z": 899805.2034229501,
+      "yaw": -0.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "x": 900280.7965770499,
+      "y": 87.57414426247136,
+      "z": 900085.5,
+      "yaw": 90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "x": 899720.2034229501,
+      "y": 87.57414426247136,
+      "z": 900085.5,
+      "yaw": -90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "x": 900000.5,
+      "y": 306.4230984189392,
+      "z": 900085.5,
+      "yaw": -0.0,
+      "pitch": 90.0,
+      "fov": 60.0
+    },
+    {
+      "name": "gate",
+      "type": "interior",
+      "x": 900000.0,
+      "y": 10.0,
+      "z": 899994.0,
+      "yaw": -0.0,
+      "pitch": -3.17983,
+      "fov": 72.0
+    },
+    {
+      "name": "avenue",
+      "type": "interior",
+      "x": 900000.0,
+      "y": 13.0,
+      "z": 900026.0,
+      "yaw": -0.0,
+      "pitch": -4.184916,
+      "fov": 72.0
+    },
+    {
+      "name": "treasure_hall",
+      "type": "interior",
+      "x": 900000.0,
+      "y": 14.0,
+      "z": 900055.0,
+      "yaw": -0.0,
+      "pitch": 3.17983,
+      "fov": 72.0
+    },
+    {
+      "name": "left_quarter",
+      "type": "interior",
+      "x": 899946.0,
+      "y": 10.0,
+      "z": 900064.0,
+      "yaw": 9.782407,
+      "pitch": 1.9462409,
+      "fov": 72.0
+    },
+    {
+      "name": "right_quarter",
+      "type": "interior",
+      "x": 900054.0,
+      "y": 10.0,
+      "z": 900064.0,
+      "yaw": -9.782407,
+      "pitch": 1.9462409,
+      "fov": 72.0
+    },
+    {
+      "name": "left_vault",
+      "type": "interior",
+      "x": 899940.0,
+      "y": 9.0,
+      "z": 900124.0,
+      "yaw": -0.0,
+      "pitch": 6.340192,
+      "fov": 72.0
+    },
+    {
+      "name": "right_vault",
+      "type": "interior",
+      "x": 900060.0,
+      "y": 9.0,
+      "z": 900124.0,
+      "yaw": -0.0,
+      "pitch": 6.340192,
+      "fov": 72.0
+    },
+    {
+      "name": "upper_vault",
+      "type": "interior",
+      "x": 900000.0,
+      "y": 14.0,
+      "z": 900118.0,
+      "yaw": -0.0,
+      "pitch": 8.130102,
+      "fov": 72.0
+    },
+    {
+      "name": "secret_descent",
+      "type": "interior",
+      "x": 900000.0,
+      "y": 12.0,
+      "z": 900148.0,
+      "yaw": -0.0,
+      "pitch": 30.465546,
+      "fov": 72.0
+    },
+    {
+      "name": "secret_vault",
+      "type": "interior",
+      "x": 900000.0,
+      "y": 6.0,
+      "z": 900167.0,
+      "yaw": -0.0,
+      "pitch": 16.699244,
+      "fov": 72.0
+    }
+  ],
+  "fov": 60,
+  "width": 854,
+  "height": 480,
+  "completed_images": [
+    "south.png",
+    "north.png",
+    "east.png",
+    "west.png",
+    "top.png",
+    "gate.png",
+    "avenue.png",
+    "treasure_hall.png",
+    "left_quarter.png",
+    "right_quarter.png",
+    "left_vault.png",
+    "right_vault.png",
+    "upper_vault.png",
+    "secret_descent.png",
+    "secret_vault.png"
+  ],
+  "player_position_unchanged": true,
+  "source_repository": "shota46zzz/beyondorigin",
+  "source_commit": "ebd9a28d34588bc6d88d71e5d9224c2487a6eb6f",
+  "preview_world": "nether-piglin-bastion-draft-preview-v2-20261021 (safe flat-world copy)",
+  "capture_render_distance_chunks": 27,
+  "automatic_validation": {
+    "compileJava": "PASS",
+    "geometry_plan": "PASS at placement",
+    "placed_cells": 271409,
+    "png_sha256": "15/15 match",
+    "png_resolution": "15/15 match; 854x480",
+    "ghast_entities": "none authored",
+    "guards_and_spawners": "not implemented",
+    "direct_treasure": "not implemented",
+    "nbt": "not generated",
+    "worldgen": "not integrated"
+  },
+  "unverified": [
+    "actual survival traversal",
+    "natural Nether terrain fit",
+    "normal lighting; interior review views use night vision",
+    "Hoglin circulation",
+    "NBT export and production Worldgen"
+  ]
+}
