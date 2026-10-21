@@ -1,0 +1,964 @@
+{
+  "schema_version": 2,
+  "architecture_id": "nether_demon_castle_draft_v1",
+  "architecture_anchor": {
+    "x": 1000000,
+    "y": 4,
+    "z": 1000000
+  },
+  "architecture_bounds": {
+    "minX": -108,
+    "minY": -12,
+    "minZ": -15,
+    "maxX": 109,
+    "maxY": 56,
+    "maxZ": 239
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "views": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "camera_position": {
+        "z": 1000358.7526190534,
+        "y": 83.68815476334808,
+        "x": 1000000.5
+      },
+      "camera_rotation": {
+        "yaw": -180.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "south.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:55:31.547908700Z",
+      "sha256": "2c2b4c79e5934a97fcc6a0c9579c9e568f0c4a0f1399d2ef5f5fc2ae51087c71"
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "camera_position": {
+        "z": 999897.2473809466,
+        "y": 83.68815476334808,
+        "x": 1000000.5
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "north.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:55:34.631440500Z",
+      "sha256": "b9b1d8e43a4dabeea06eff62ef969575dfb6eab9c5f65576b5be2d8bd9c55a6c"
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "camera_position": {
+        "z": 1000128.0,
+        "y": 83.68815476334808,
+        "x": 1000231.2526190534
+      },
+      "camera_rotation": {
+        "yaw": 90.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "east.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:55:37.714700800Z",
+      "sha256": "34b575861c9a34fe22e63d82b3f745093d0d05ec0f7532b6cc51c791a921d9c9"
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "camera_position": {
+        "z": 1000128.0,
+        "y": 83.68815476334808,
+        "x": 999769.7473809466
+      },
+      "camera_rotation": {
+        "yaw": -90.0,
+        "pitch": 14.036243
+      },
+      "fov": 60.0,
+      "screenshot_filename": "west.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:55:40.781219Z",
+      "sha256": "287ddca227c79b30b84b79505ea7a091de50ec2871ab0e506f1d32981a2857e3"
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "camera_position": {
+        "z": 1000128.0,
+        "y": 263.8543554362627,
+        "x": 1000000.5
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 90.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "top.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:55:43.848327600Z",
+      "sha256": "f8a4ab156c8e7455fcf7019dd00b9e7dca96aa48e92597b5a6d359872f90df18"
+    },
+    {
+      "name": "gate_facade",
+      "type": "interior",
+      "camera_position": {
+        "z": 999974.0,
+        "y": 24.0,
+        "x": 1000000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 8.972627
+      },
+      "fov": 72.0,
+      "screenshot_filename": "gate_facade.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:55:46.948230400Z",
+      "sha256": "9890ac42bc36c32c658da2a0436d85e71c6fb47fea10a2e38d7b89f0c788a8fb"
+    },
+    {
+      "name": "front_oblique",
+      "type": "interior",
+      "camera_position": {
+        "z": 999931.0,
+        "y": 69.0,
+        "x": 1000142.0
+      },
+      "camera_rotation": {
+        "yaw": 46.660282,
+        "pitch": 13.53501
+      },
+      "fov": 72.0,
+      "screenshot_filename": "front_oblique.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:55:50.031796100Z",
+      "sha256": "6a083afbbf66f3e981700cd6b01e452c192902c35babf6239d12837d40e4545b"
+    },
+    {
+      "name": "west_profile",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000100.0,
+        "y": 61.0,
+        "x": 999842.0
+      },
+      "camera_rotation": {
+        "yaw": -81.98291,
+        "pitch": 14.8417015
+      },
+      "fov": 72.0,
+      "screenshot_filename": "west_profile.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:55:53.115527200Z",
+      "sha256": "b0da6bc83888f8ca9151c58baa0e6411802d9622298a570648a230f08c5e51e7"
+    },
+    {
+      "name": "east_profile",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000106.0,
+        "y": 61.0,
+        "x": 1000158.0
+      },
+      "camera_rotation": {
+        "yaw": 82.37893,
+        "pitch": 14.855173
+      },
+      "fov": 72.0,
+      "screenshot_filename": "east_profile.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:55:56.197480300Z",
+      "sha256": "8c359319d0cfe0a506f0edfec4af7fc712da705f2e809c33752fa9c7830b2e60"
+    },
+    {
+      "name": "rear_oblique",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000261.0,
+        "y": 72.0,
+        "x": 999875.0
+      },
+      "camera_rotation": {
+        "yaw": -128.6598,
+        "pitch": 16.36259
+      },
+      "fov": 72.0,
+      "screenshot_filename": "rear_oblique.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:55:59.264626100Z",
+      "sha256": "9b61816a268d8727f49fe143ee97db5771444557ea3ccc431fbc6afbb07e48e7"
+    },
+    {
+      "name": "courtyard",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000022.0,
+        "y": 12.0,
+        "x": 1000000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 1.1457628
+      },
+      "fov": 72.0,
+      "screenshot_filename": "courtyard.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:56:02.387235Z",
+      "sha256": "38962d050e757027e93c8c49bb66d32c8223b875acd0850b2c421c584de9f25c"
+    },
+    {
+      "name": "west_aerial_reserve",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000032.0,
+        "y": 16.0,
+        "x": 999937.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 11.309933
+      },
+      "fov": 72.0,
+      "screenshot_filename": "west_aerial_reserve.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:56:05.531686300Z",
+      "sha256": "a756febff69eb0f2ba6cca3b73d264d4e0dd5bdb06e608244c3f36f09052334a"
+    },
+    {
+      "name": "east_aerial_reserve",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000032.0,
+        "y": 16.0,
+        "x": 1000063.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 11.309933
+      },
+      "fov": 72.0,
+      "screenshot_filename": "east_aerial_reserve.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:56:08.636349900Z",
+      "sha256": "39eeb6f717d11b2dc235c4f4448bd3d5e34f551a4e147430be9abe5342ae8350"
+    },
+    {
+      "name": "great_hall",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000088.0,
+        "y": 13.0,
+        "x": 1000000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -1.3019527
+      },
+      "fov": 72.0,
+      "screenshot_filename": "great_hall.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:56:11.743955700Z",
+      "sha256": "79353357989be046dc538a57878f3743f98656b2de6a88ddd5a6f8dcfae6b50f"
+    },
+    {
+      "name": "prison",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000101.0,
+        "y": 11.0,
+        "x": 999949.0
+      },
+      "camera_rotation": {
+        "yaw": 47.862404,
+        "pitch": 4.0396614
+      },
+      "fov": 72.0,
+      "screenshot_filename": "prison.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:56:14.88596Z",
+      "sha256": "9403f8f06d26bf2bbae85dde3cb35a17faceee3124f9de7be27f0997ab82e5ae"
+    },
+    {
+      "name": "armory",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000097.0,
+        "y": 11.0,
+        "x": 1000050.0
+      },
+      "camera_rotation": {
+        "yaw": -57.52881,
+        "pitch": 4.3857994
+      },
+      "fov": 72.0,
+      "screenshot_filename": "armory.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:56:18.026365700Z",
+      "sha256": "f436441addeec98150d557f752c4aa5f2af20f987995a9e52bcd659ac3022d58"
+    },
+    {
+      "name": "research",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000125.0,
+        "y": 11.0,
+        "x": 1000050.0
+      },
+      "camera_rotation": {
+        "yaw": -69.14554,
+        "pitch": 5.085858
+      },
+      "fov": 72.0,
+      "screenshot_filename": "research.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:56:21.170127800Z",
+      "sha256": "4ffb0f52cf0141803acfa81941578af709dc9a4ba69a7d717818c618d22dfd7b"
+    },
+    {
+      "name": "royal_quarter",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000157.0,
+        "y": 12.0,
+        "x": 999949.0
+      },
+      "camera_rotation": {
+        "yaw": 27.824097,
+        "pitch": 1.407259
+      },
+      "fov": 72.0,
+      "screenshot_filename": "royal_quarter.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:56:24.316219Z",
+      "sha256": "5a2309e0912e67058e2627679981f54f7c99805379f821d4d4b265a13786a8fc"
+    },
+    {
+      "name": "treasury",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000157.0,
+        "y": 12.0,
+        "x": 1000050.0
+      },
+      "camera_rotation": {
+        "yaw": -29.577839,
+        "pitch": 1.3464907
+      },
+      "fov": 72.0,
+      "screenshot_filename": "treasury.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:56:27.457252400Z",
+      "sha256": "044702dc145430ca7beda0751513f444b7da141a2e9ac42ffc7d0d43c0cf7aeb"
+    },
+    {
+      "name": "throne_room",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000160.0,
+        "y": 14.0,
+        "x": 1000000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": -0.0
+      },
+      "fov": 72.0,
+      "screenshot_filename": "throne_room.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:56:30.565946Z",
+      "sha256": "1469727bb013309f5c5434460c114bf5f976675c2b29e4f6879211b354c9ef32"
+    },
+    {
+      "name": "throne_roof",
+      "type": "interior",
+      "camera_position": {
+        "z": 1000130.0,
+        "y": 80.0,
+        "x": 1000000.0
+      },
+      "camera_rotation": {
+        "yaw": -0.0,
+        "pitch": 38.904137
+      },
+      "fov": 72.0,
+      "screenshot_filename": "throne_roof.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T06:56:33.675995600Z",
+      "sha256": "4a0f54cdec79ac9256b5fb3db06f23c9c5082fb9f2964eae4e5f5b7270d590d6"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-21T06:55:27.833847600Z",
+  "updated_at": "2026-10-21T06:56:33.675995600Z",
+  "target": {
+    "id": "nether_demon_castle_draft_v1",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 1000000,
+      "y": 4,
+      "z": 1000000
+    },
+    "bounds": {
+      "minX": -85,
+      "minY": -12,
+      "minZ": 75,
+      "maxX": 86,
+      "maxY": 56,
+      "maxZ": 181
+    },
+    "rotation": "NONE",
+    "interiorViews": [
+      {
+        "name": "gate_facade",
+        "position": {
+          "x": 0.0,
+          "y": 20.0,
+          "z": -26.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 14.0,
+          "z": 12.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "front_oblique",
+        "position": {
+          "x": 142.0,
+          "y": 65.0,
+          "z": -69.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 18.0,
+          "z": 65.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "west_profile",
+        "position": {
+          "x": -158.0,
+          "y": 57.0,
+          "z": 100.0
+        },
+        "lookTarget": {
+          "x": -16.0,
+          "y": 19.0,
+          "z": 120.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "east_profile",
+        "position": {
+          "x": 158.0,
+          "y": 57.0,
+          "z": 106.0
+        },
+        "lookTarget": {
+          "x": 16.0,
+          "y": 19.0,
+          "z": 125.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "rear_oblique",
+        "position": {
+          "x": -125.0,
+          "y": 68.0,
+          "z": 261.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 21.0,
+          "z": 161.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "courtyard",
+        "position": {
+          "x": 0.0,
+          "y": 8.0,
+          "z": 22.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 7.0,
+          "z": 72.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "west_aerial_reserve",
+        "position": {
+          "x": -63.0,
+          "y": 12.0,
+          "z": 32.0
+        },
+        "lookTarget": {
+          "x": -63.0,
+          "y": 5.0,
+          "z": 67.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "east_aerial_reserve",
+        "position": {
+          "x": 63.0,
+          "y": 12.0,
+          "z": 32.0
+        },
+        "lookTarget": {
+          "x": 63.0,
+          "y": 5.0,
+          "z": 67.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "great_hall",
+        "position": {
+          "x": 0.0,
+          "y": 9.0,
+          "z": 88.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": 132.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "prison",
+        "position": {
+          "x": -51.0,
+          "y": 7.0,
+          "z": 101.0
+        },
+        "lookTarget": {
+          "x": -72.0,
+          "y": 5.0,
+          "z": 120.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "armory",
+        "position": {
+          "x": 50.0,
+          "y": 7.0,
+          "z": 97.0
+        },
+        "lookTarget": {
+          "x": 72.0,
+          "y": 5.0,
+          "z": 111.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "research",
+        "position": {
+          "x": 50.0,
+          "y": 7.0,
+          "z": 125.0
+        },
+        "lookTarget": {
+          "x": 71.0,
+          "y": 5.0,
+          "z": 133.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "royal_quarter",
+        "position": {
+          "x": -51.0,
+          "y": 8.0,
+          "z": 157.0
+        },
+        "lookTarget": {
+          "x": -70.0,
+          "y": 7.0,
+          "z": 193.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "treasury",
+        "position": {
+          "x": 50.0,
+          "y": 8.0,
+          "z": 157.0
+        },
+        "lookTarget": {
+          "x": 71.0,
+          "y": 7.0,
+          "z": 194.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "throne_room",
+        "position": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": 160.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": 211.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "throne_roof",
+        "position": {
+          "x": 0.0,
+          "y": 76.0,
+          "z": 130.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": 30.0,
+          "z": 187.0
+        },
+        "fov": 72
+      }
+    ],
+    "architectureBounds": {
+      "minX": -108,
+      "minY": -12,
+      "minZ": -15,
+      "maxX": 109,
+      "maxY": 56,
+      "maxZ": 239
+    }
+  },
+  "viewpoints": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "x": 1000000.5,
+      "y": 83.68815476334808,
+      "z": 1000358.7526190534,
+      "yaw": -180.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "x": 1000000.5,
+      "y": 83.68815476334808,
+      "z": 999897.2473809466,
+      "yaw": -0.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "x": 1000231.2526190534,
+      "y": 83.68815476334808,
+      "z": 1000128.0,
+      "yaw": 90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "x": 999769.7473809466,
+      "y": 83.68815476334808,
+      "z": 1000128.0,
+      "yaw": -90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "x": 1000000.5,
+      "y": 263.8543554362627,
+      "z": 1000128.0,
+      "yaw": -0.0,
+      "pitch": 90.0,
+      "fov": 60.0
+    },
+    {
+      "name": "gate_facade",
+      "type": "interior",
+      "x": 1000000.0,
+      "y": 24.0,
+      "z": 999974.0,
+      "yaw": -0.0,
+      "pitch": 8.972627,
+      "fov": 72.0
+    },
+    {
+      "name": "front_oblique",
+      "type": "interior",
+      "x": 1000142.0,
+      "y": 69.0,
+      "z": 999931.0,
+      "yaw": 46.660282,
+      "pitch": 13.53501,
+      "fov": 72.0
+    },
+    {
+      "name": "west_profile",
+      "type": "interior",
+      "x": 999842.0,
+      "y": 61.0,
+      "z": 1000100.0,
+      "yaw": -81.98291,
+      "pitch": 14.8417015,
+      "fov": 72.0
+    },
+    {
+      "name": "east_profile",
+      "type": "interior",
+      "x": 1000158.0,
+      "y": 61.0,
+      "z": 1000106.0,
+      "yaw": 82.37893,
+      "pitch": 14.855173,
+      "fov": 72.0
+    },
+    {
+      "name": "rear_oblique",
+      "type": "interior",
+      "x": 999875.0,
+      "y": 72.0,
+      "z": 1000261.0,
+      "yaw": -128.6598,
+      "pitch": 16.36259,
+      "fov": 72.0
+    },
+    {
+      "name": "courtyard",
+      "type": "interior",
+      "x": 1000000.0,
+      "y": 12.0,
+      "z": 1000022.0,
+      "yaw": -0.0,
+      "pitch": 1.1457628,
+      "fov": 72.0
+    },
+    {
+      "name": "west_aerial_reserve",
+      "type": "interior",
+      "x": 999937.0,
+      "y": 16.0,
+      "z": 1000032.0,
+      "yaw": -0.0,
+      "pitch": 11.309933,
+      "fov": 72.0
+    },
+    {
+      "name": "east_aerial_reserve",
+      "type": "interior",
+      "x": 1000063.0,
+      "y": 16.0,
+      "z": 1000032.0,
+      "yaw": -0.0,
+      "pitch": 11.309933,
+      "fov": 72.0
+    },
+    {
+      "name": "great_hall",
+      "type": "interior",
+      "x": 1000000.0,
+      "y": 13.0,
+      "z": 1000088.0,
+      "yaw": -0.0,
+      "pitch": -1.3019527,
+      "fov": 72.0
+    },
+    {
+      "name": "prison",
+      "type": "interior",
+      "x": 999949.0,
+      "y": 11.0,
+      "z": 1000101.0,
+      "yaw": 47.862404,
+      "pitch": 4.0396614,
+      "fov": 72.0
+    },
+    {
+      "name": "armory",
+      "type": "interior",
+      "x": 1000050.0,
+      "y": 11.0,
+      "z": 1000097.0,
+      "yaw": -57.52881,
+      "pitch": 4.3857994,
+      "fov": 72.0
+    },
+    {
+      "name": "research",
+      "type": "interior",
+      "x": 1000050.0,
+      "y": 11.0,
+      "z": 1000125.0,
+      "yaw": -69.14554,
+      "pitch": 5.085858,
+      "fov": 72.0
+    },
+    {
+      "name": "royal_quarter",
+      "type": "interior",
+      "x": 999949.0,
+      "y": 12.0,
+      "z": 1000157.0,
+      "yaw": 27.824097,
+      "pitch": 1.407259,
+      "fov": 72.0
+    },
+    {
+      "name": "treasury",
+      "type": "interior",
+      "x": 1000050.0,
+      "y": 12.0,
+      "z": 1000157.0,
+      "yaw": -29.577839,
+      "pitch": 1.3464907,
+      "fov": 72.0
+    },
+    {
+      "name": "throne_room",
+      "type": "interior",
+      "x": 1000000.0,
+      "y": 14.0,
+      "z": 1000160.0,
+      "yaw": -0.0,
+      "pitch": -0.0,
+      "fov": 72.0
+    },
+    {
+      "name": "throne_roof",
+      "type": "interior",
+      "x": 1000000.0,
+      "y": 80.0,
+      "z": 1000130.0,
+      "yaw": -0.0,
+      "pitch": 38.904137,
+      "fov": 72.0
+    }
+  ],
+  "fov": 60,
+  "width": 854,
+  "height": 480,
+  "completed_images": [
+    "south.png",
+    "north.png",
+    "east.png",
+    "west.png",
+    "top.png",
+    "gate_facade.png",
+    "front_oblique.png",
+    "west_profile.png",
+    "east_profile.png",
+    "rear_oblique.png",
+    "courtyard.png",
+    "west_aerial_reserve.png",
+    "east_aerial_reserve.png",
+    "great_hall.png",
+    "prison.png",
+    "armory.png",
+    "research.png",
+    "royal_quarter.png",
+    "treasury.png",
+    "throne_room.png",
+    "throne_roof.png"
+  ],
+  "player_position_unchanged": true,
+  "source_repository": "shota46zzz/beyondorigin",
+  "source_commit": "991e6c4ba98087b9f99d09b3aa130a04a2a9aa26",
+  "preview_world": "nether-demon-castle-draft-preview-v3-20261021",
+  "capture_render_distance_chunks": 27,
+  "automatic_validation": [
+    "compileJava PASS",
+    "draft plan processional-route clearance PASS at placement",
+    "reserved aerial volumes clear at sampled cells",
+    "Minecraft capture complete 21/21",
+    "PNG SHA-256 and resolution match 21/21"
+  ],
+  "human_decision_pending": [
+    "final 217x254 footprint and castle height",
+    "Ghast adoption and candidate volume adequacy",
+    "final boss room size"
+  ],
+  "unverified": [
+    "continuous player walking",
+    "Ghast flight and combat",
+    "natural Nether terrain integration",
+    "normal lighting",
+    "mob pathing",
+    "NBT",
+    "gameplay",
+    "Worldgen"
+  ]
+}
