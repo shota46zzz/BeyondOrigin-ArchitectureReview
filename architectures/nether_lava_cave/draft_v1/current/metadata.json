@@ -1,0 +1,599 @@
+{
+  "schema_version": 2,
+  "architecture_id": "nether_lava_cave_draft_v1",
+  "architecture_anchor": {
+    "x": 760000,
+    "y": 4,
+    "z": 760000
+  },
+  "architecture_bounds": {
+    "minX": -42,
+    "minY": -36,
+    "minZ": -8,
+    "maxX": 43,
+    "maxY": 29,
+    "maxZ": 105
+  },
+  "bounds_coordinate_space": "rotated local block bounds; add architecture_anchor; max exclusive",
+  "camera_coordinate_space": "world coordinates; Minecraft yaw/pitch in degrees; pitch positive downward",
+  "view_name_convention": "exterior: world compass; interior: unrotated architecture entrance/rear semantics",
+  "presentation_profile": "neutral_day_clear_v1",
+  "interior_visibility": "render-state night vision intensity 1; not original lighting",
+  "views": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "camera_position": {
+        "x": 760000.5,
+        "y": 42.773836714784196,
+        "z": 760217.5953468592
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": -180.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "south.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:11.520327300Z",
+      "sha256": "e164734654373e673c326111a4adfa771f4fe07514261446ad1dd44777978c15"
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "camera_position": {
+        "x": 760000.5,
+        "y": 42.773836714784196,
+        "z": 759879.4046531408
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": -0.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "north.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:14.626814300Z",
+      "sha256": "2a2f257f3629fd062855a442c2587a0e27eabb56ca8662062e1f671b2235685e"
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "camera_position": {
+        "x": 760169.5953468592,
+        "y": 42.773836714784196,
+        "z": 760048.5
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": 90.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "east.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:17.736691800Z",
+      "sha256": "c90009e9924a5b89778d359238a30c3169814ab9c7dc9d90bb385bc9fa3d0d39"
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "camera_position": {
+        "x": 759831.4046531408,
+        "y": 42.773836714784196,
+        "z": 760048.5
+      },
+      "camera_rotation": {
+        "pitch": 14.036243,
+        "yaw": -90.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "west.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:20.845227300Z",
+      "sha256": "0ab69ed3f19d69c0ad7b6eb1b2b25600fd1d2f198bc1db8f762b2d8a4a01ecd0"
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "camera_position": {
+        "x": 760000.5,
+        "y": 174.79949397516913,
+        "z": 760048.5
+      },
+      "camera_rotation": {
+        "pitch": 90.0,
+        "yaw": -0.0
+      },
+      "fov": 60.0,
+      "screenshot_filename": "top.png",
+      "visibility": "review_daylight",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:23.953268200Z",
+      "sha256": "970c07a163cc974fb886351107b476a658f5c9a9c2f8a05b1ab0b4f04f155447"
+    },
+    {
+      "name": "entrance",
+      "type": "interior",
+      "camera_position": {
+        "x": 760000.0,
+        "y": 9.0,
+        "z": 759994.0
+      },
+      "camera_rotation": {
+        "pitch": 14.931417,
+        "yaw": -0.0
+      },
+      "fov": 72.0,
+      "screenshot_filename": "entrance.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:27.097249300Z",
+      "sha256": "878773ac4f8e56ce99db72b62264a10b1bdf1ebd17cfce0836cf7741ec94a5f2"
+    },
+    {
+      "name": "vertical_cavern",
+      "type": "interior",
+      "camera_position": {
+        "x": 759998.0,
+        "y": 17.0,
+        "z": 760020.0
+      },
+      "camera_rotation": {
+        "pitch": 63.232487,
+        "yaw": -7.5946436
+      },
+      "fov": 72.0,
+      "screenshot_filename": "vertical_cavern.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:30.239741900Z",
+      "sha256": "8fb22d2d95d891c6adfa5b983bc270c3f0e9c5348ac0d3cf516f5ef0f640ee20"
+    },
+    {
+      "name": "cavern_west",
+      "type": "interior",
+      "camera_position": {
+        "x": 759982.0,
+        "y": 2.0,
+        "z": 760039.0
+      },
+      "camera_rotation": {
+        "pitch": 22.58854,
+        "yaw": -56.309933
+      },
+      "fov": 72.0,
+      "screenshot_filename": "cavern_west.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:33.382741900Z",
+      "sha256": "f4d923ef72428aeea5fed024628806100487e3a02e332e2d11dadd12442c4b46"
+    },
+    {
+      "name": "lake_overview",
+      "type": "interior",
+      "camera_position": {
+        "x": 759996.0,
+        "y": -1.0,
+        "z": 760054.0
+      },
+      "camera_rotation": {
+        "pitch": 53.94497,
+        "yaw": -15.945395
+      },
+      "fov": 72.0,
+      "screenshot_filename": "lake_overview.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:36.526051100Z",
+      "sha256": "216911d76fc6c421fb9d74a21054f499b5cf25d2ee0883f69bb2c162997a81bb"
+    },
+    {
+      "name": "main_bridge",
+      "type": "interior",
+      "camera_position": {
+        "x": 760000.0,
+        "y": -4.0,
+        "z": 760050.0
+      },
+      "camera_rotation": {
+        "pitch": 16.699244,
+        "yaw": -0.0
+      },
+      "fov": 72.0,
+      "screenshot_filename": "main_bridge.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:39.634836400Z",
+      "sha256": "fdd99a0ca625e9617be216bc1b7954dcfef8cda5dd2a7ce7c5eb166870c9bcfe"
+    },
+    {
+      "name": "side_gallery",
+      "type": "interior",
+      "camera_position": {
+        "x": 760018.0,
+        "y": -5.0,
+        "z": 760048.0
+      },
+      "camera_rotation": {
+        "pitch": 14.413728,
+        "yaw": 9.865807
+      },
+      "fov": 72.0,
+      "screenshot_filename": "side_gallery.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:42.778215900Z",
+      "sha256": "70058f6581a6dc63c9e84b06e6ac34304bbb2036dbd9adc155413b1a33d76baf"
+    },
+    {
+      "name": "return_route",
+      "type": "interior",
+      "camera_position": {
+        "x": 760000.0,
+        "y": -11.0,
+        "z": 760080.0
+      },
+      "camera_rotation": {
+        "pitch": -13.134023,
+        "yaw": -180.0
+      },
+      "fov": 72.0,
+      "screenshot_filename": "return_route.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:45.885604200Z",
+      "sha256": "ed791e025ca5840b4b34fb351eb06aeeb590838f3219cfcd945636ff78d25da3"
+    },
+    {
+      "name": "reward_chamber",
+      "type": "interior",
+      "camera_position": {
+        "x": 760000.0,
+        "y": -12.0,
+        "z": 760089.0
+      },
+      "camera_rotation": {
+        "pitch": 15.255118,
+        "yaw": -0.0
+      },
+      "fov": 72.0,
+      "screenshot_filename": "reward_chamber.png",
+      "visibility": "review_night_vision",
+      "width": 854,
+      "height": 480,
+      "captured_at": "2026-10-21T05:50:48.995524600Z",
+      "sha256": "09dc89d908859d66283542aaededa0cfa156e1659b2e7e8d8590fc99f2aa7565"
+    }
+  ],
+  "status": "complete",
+  "started_at": "2026-10-21T05:50:08.265971Z",
+  "updated_at": "2026-10-21T05:50:48.995524600Z",
+  "target": {
+    "id": "nether_lava_cave_draft_v1",
+    "dimension": "minecraft:overworld",
+    "origin": {
+      "x": 760000,
+      "y": 4,
+      "z": 760000
+    },
+    "bounds": {
+      "minX": -42,
+      "minY": -36,
+      "minZ": -8,
+      "maxX": 43,
+      "maxY": 29,
+      "maxZ": 105
+    },
+    "rotation": "NONE",
+    "interiorViews": [
+      {
+        "name": "entrance",
+        "position": {
+          "x": 0.0,
+          "y": 5.0,
+          "z": -6.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -3.0,
+          "z": 24.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "vertical_cavern",
+        "position": {
+          "x": -2.0,
+          "y": 13.0,
+          "z": 20.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -17.0,
+          "z": 35.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "cavern_west",
+        "position": {
+          "x": -18.0,
+          "y": -2.0,
+          "z": 39.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -11.0,
+          "z": 51.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "lake_overview",
+        "position": {
+          "x": -4.0,
+          "y": -5.0,
+          "z": 54.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -25.0,
+          "z": 68.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "main_bridge",
+        "position": {
+          "x": 0.0,
+          "y": -8.0,
+          "z": 50.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -17.0,
+          "z": 80.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "side_gallery",
+        "position": {
+          "x": 18.0,
+          "y": -9.0,
+          "z": 48.0
+        },
+        "lookTarget": {
+          "x": 14.0,
+          "y": -15.0,
+          "z": 71.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "return_route",
+        "position": {
+          "x": 0.0,
+          "y": -15.0,
+          "z": 80.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -8.0,
+          "z": 50.0
+        },
+        "fov": 72
+      },
+      {
+        "name": "reward_chamber",
+        "position": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 89.0
+        },
+        "lookTarget": {
+          "x": 0.0,
+          "y": -19.0,
+          "z": 100.0
+        },
+        "fov": 72
+      }
+    ],
+    "architectureBounds": {
+      "minX": -42,
+      "minY": -36,
+      "minZ": -8,
+      "maxX": 43,
+      "maxY": 29,
+      "maxZ": 105
+    }
+  },
+  "viewpoints": [
+    {
+      "name": "south",
+      "type": "exterior",
+      "x": 760000.5,
+      "y": 42.773836714784196,
+      "z": 760217.5953468592,
+      "yaw": -180.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "north",
+      "type": "exterior",
+      "x": 760000.5,
+      "y": 42.773836714784196,
+      "z": 759879.4046531408,
+      "yaw": -0.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "east",
+      "type": "exterior",
+      "x": 760169.5953468592,
+      "y": 42.773836714784196,
+      "z": 760048.5,
+      "yaw": 90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "west",
+      "type": "exterior",
+      "x": 759831.4046531408,
+      "y": 42.773836714784196,
+      "z": 760048.5,
+      "yaw": -90.0,
+      "pitch": 14.036243,
+      "fov": 60.0
+    },
+    {
+      "name": "top",
+      "type": "exterior",
+      "x": 760000.5,
+      "y": 174.79949397516913,
+      "z": 760048.5,
+      "yaw": -0.0,
+      "pitch": 90.0,
+      "fov": 60.0
+    },
+    {
+      "name": "entrance",
+      "type": "interior",
+      "x": 760000.0,
+      "y": 9.0,
+      "z": 759994.0,
+      "yaw": -0.0,
+      "pitch": 14.931417,
+      "fov": 72.0
+    },
+    {
+      "name": "vertical_cavern",
+      "type": "interior",
+      "x": 759998.0,
+      "y": 17.0,
+      "z": 760020.0,
+      "yaw": -7.5946436,
+      "pitch": 63.232487,
+      "fov": 72.0
+    },
+    {
+      "name": "cavern_west",
+      "type": "interior",
+      "x": 759982.0,
+      "y": 2.0,
+      "z": 760039.0,
+      "yaw": -56.309933,
+      "pitch": 22.58854,
+      "fov": 72.0
+    },
+    {
+      "name": "lake_overview",
+      "type": "interior",
+      "x": 759996.0,
+      "y": -1.0,
+      "z": 760054.0,
+      "yaw": -15.945395,
+      "pitch": 53.94497,
+      "fov": 72.0
+    },
+    {
+      "name": "main_bridge",
+      "type": "interior",
+      "x": 760000.0,
+      "y": -4.0,
+      "z": 760050.0,
+      "yaw": -0.0,
+      "pitch": 16.699244,
+      "fov": 72.0
+    },
+    {
+      "name": "side_gallery",
+      "type": "interior",
+      "x": 760018.0,
+      "y": -5.0,
+      "z": 760048.0,
+      "yaw": 9.865807,
+      "pitch": 14.413728,
+      "fov": 72.0
+    },
+    {
+      "name": "return_route",
+      "type": "interior",
+      "x": 760000.0,
+      "y": -11.0,
+      "z": 760080.0,
+      "yaw": -180.0,
+      "pitch": -13.134023,
+      "fov": 72.0
+    },
+    {
+      "name": "reward_chamber",
+      "type": "interior",
+      "x": 760000.0,
+      "y": -12.0,
+      "z": 760089.0,
+      "yaw": -0.0,
+      "pitch": 15.255118,
+      "fov": 72.0
+    }
+  ],
+  "fov": 60,
+  "width": 854,
+  "height": 480,
+  "completed_images": [
+    "south.png",
+    "north.png",
+    "east.png",
+    "west.png",
+    "top.png",
+    "entrance.png",
+    "vertical_cavern.png",
+    "cavern_west.png",
+    "lake_overview.png",
+    "main_bridge.png",
+    "side_gallery.png",
+    "return_route.png",
+    "reward_chamber.png"
+  ],
+  "player_position_unchanged": true,
+  "source_repository": "shota46zzz/beyondorigin",
+  "source_commit": "066f56e8886920c4d4700623e3fc7116bc0369c3",
+  "preview_world": "nether-lava-cave-draft-preview-v3-20261021 (safe flat-world copy)",
+  "automatic_validation": {
+    "compileJava": "PASS",
+    "geometry_plan": "PASS at placement",
+    "placed_cells": 337547,
+    "png_sha256": "13/13 match",
+    "png_resolution": "13/13 match; 854x480",
+    "ghast_entities": "none authored",
+    "gameplay": "not implemented",
+    "nbt": "not generated",
+    "worldgen": "not integrated"
+  },
+  "unverified": [
+    "actual survival traversal",
+    "natural Nether terrain fit",
+    "mob pathing",
+    "normal lighting; interior review views use night vision",
+    "NBT export and production Worldgen"
+  ]
+}
